@@ -16887,12 +16887,23 @@
         "✅ Enhanced TTS loaded - Click any Japanese text to hear it",
       );
     </script>
-    <script
-    // Register Service Worker if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/MCL-N5-app/sw.js') .then(registration =>
-    { console.log('Service Worker registered:', registration); }) .catch(error
-    => { console.log('Service Worker registration failed:', error); }); }); }
+    <script>
+      // Register Service Worker
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("/MCL-N5-app/sw.js")
+            .then(function (registration) {
+              console.log(
+                "✅ Service Worker registered successfully:",
+                registration,
+              );
+            })
+            .catch(function (error) {
+              console.log("❌ Service Worker registration failed:", error);
+            });
+        });
+      }
     </script>
   </body>
 </html>
