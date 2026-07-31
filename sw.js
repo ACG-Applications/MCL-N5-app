@@ -62,9 +62,3 @@ self.addEventListener("fetch", (event) => {
       }),
   );
 });
-const ASSETS = [
-  "/MCL-N5-app/",
-  "/MCL-N5-app/index.html",
-  "/MCL-N5-app/manifest.json", // ← Add this line
-  // Add other assets as needed
-];
