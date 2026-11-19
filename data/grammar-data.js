@@ -1,0 +1,418 @@
+/* Grammar reference per part of speech. */
+const GRAMMAR_DATA = [
+        {
+          id: "i-adj",
+          label: "い-Adjectives",
+          icon: "形",
+          intro:
+            "How い-adjectives change across present/past and connect to nouns and verbs.",
+          patterns: [
+            {
+              form: "Present affirmative — 〜い + です",
+              jp: "このラーメンは からいです。",
+              furigana: "このらーめんはからいです。",
+              en: "This ramen is spicy.",
+            },
+            {
+              form: "Present negative — stem + くない + です",
+              jp: "このコーヒーは あつくないです。",
+              furigana: "このこーひーはあつくないです。",
+              en: "This coffee is not hot.",
+            },
+            {
+              form: "Past affirmative — stem + かった + です",
+              jp: "きのうの テストは むずかしかったです。",
+              furigana: "きのうのてすとはむずかしかったです。",
+              en: "Yesterday's test was difficult.",
+            },
+            {
+              form: "Past negative — stem + くなかった + です",
+              jp: "そのえいがは おもしろくなかったです。",
+              furigana: "そのえいがはおもしろくなかったです。",
+              en: "That movie was not interesting.",
+            },
+            {
+              form: "Connective — stem + くて (and)",
+              jp: "この へやは ひろくて あかるいです。",
+              furigana: "このへやはひろくてあかるいです。",
+              en: "This room is spacious and bright.",
+            },
+            {
+              form: "Adverb — stem + く + Verb",
+              jp: "こどもは たのしく あそびました。",
+              furigana: "こどもはたのしくあそびました。",
+              en: "The child played happily.",
+            },
+            {
+              form: "Modifying a noun — Adjective + Noun",
+              jp: "あかい かさを かいました。",
+              furigana: "あかいかさをかいました。",
+              en: "I bought a red umbrella.",
+            },
+            {
+              form: "Nominalizer — Adjective + の",
+              jp: "あおいのを ください。",
+              furigana: "あおいのをください。",
+              en: "The blue one, please.",
+            },
+          ],
+        },
+        {
+          id: "na-adj",
+          label: "な-Adjectives",
+          icon: "形",
+          intro:
+            "な-adjectives behave like nouns and use だ/です rather than い-endings for tense.",
+          patterns: [
+            {
+              form: "Present affirmative — Noun/な-adj + です",
+              jp: "この まちは にぎやかです。",
+              furigana: "このまちはにぎやかです。",
+              en: "This town is lively.",
+            },
+            {
+              form: "Present negative — + ではありません",
+              jp: "この もんだいは かんたんでは ありません。",
+              furigana: "このもんだいはかんたんではありません。",
+              en: "This question is not simple.",
+            },
+            {
+              form: "Past affirmative — + でした",
+              jp: "きのうの パーティーは にぎやかでした。",
+              furigana: "きのうのぱーてぃーはにぎやかでした。",
+              en: "Yesterday's party was lively.",
+            },
+            {
+              form: "Past negative — + ではありませんでした",
+              jp: "そのホテルは しずかでは ありませんでした。",
+              furigana: "そのほてるはしずかではありませんでした。",
+              en: "That hotel was not quiet.",
+            },
+            {
+              form: "Plain negative — + ではない",
+              jp: "かれは ひまでは ないです。",
+              furigana: "かれはひまではないです。",
+              en: "He is not free.",
+            },
+            {
+              form: "Plain past negative — + ではなかった",
+              jp: "そこは べんりでは なかったです。",
+              furigana: "そこはべんりではなかったです。",
+              en: "That place was not convenient.",
+            },
+            {
+              form: "Connective — + で (and)",
+              jp: "あのひとは しんせつで まじめです。",
+              furigana: "あのひとはしんせつでまじめです。",
+              en: "That person is kind and serious.",
+            },
+            {
+              form: "Adverb — + に + Verb",
+              jp: "かんじを じょうずに かきます。",
+              furigana: "かんじをじょうずにかきます。",
+              en: "I write kanji skillfully.",
+            },
+            {
+              form: "Modifying a noun — + な + Noun",
+              jp: "げんきな こどもですね。",
+              furigana: "げんきなこどもですね。",
+              en: "What an energetic child.",
+            },
+            {
+              form: "Nominalizer — + な + の",
+              jp: "きれいなのを えらびました。",
+              furigana: "きれいなのをえらびました。",
+              en: "I chose the pretty one.",
+            },
+          ],
+        },
+        {
+          id: "verbs",
+          label: "Verbs",
+          icon: "動",
+          intro:
+            "The ます-form system used in most conversation, plus the plain forms and te-form family behind them.",
+          patterns: [
+            {
+              form: "Present/future affirmative — 〜ます",
+              jp: "まいあさ しんぶんを よみます。",
+              furigana: "まいあさしんぶんをよみます。",
+              en: "I read the newspaper every morning.",
+            },
+            {
+              form: "Present/future negative — 〜ません",
+              jp: "ちちは さけを のみません。",
+              furigana: "ちちはさけをのみません。",
+              en: "My father does not drink alcohol.",
+            },
+            {
+              form: "Past affirmative — 〜ました",
+              jp: "きのう ほんを かいました。",
+              furigana: "きのうほんをかいました。",
+              en: "I bought a book yesterday.",
+            },
+            {
+              form: "Past negative — 〜ませんでした",
+              jp: "けさは まだ なにも たべませんでした。",
+              furigana: "けさはまだなにもたべませんでした。",
+              en: "I still haven't eaten anything this morning.",
+            },
+            {
+              form: "Plain / dictionary form",
+              jp: "にほんじんは まいにち ごはんを たべる。",
+              furigana: "にほんじんはまいにちごはんをたべる。",
+              en: "Japanese people eat rice every day.",
+            },
+            {
+              form: "Plain negative — ない form",
+              jp: "ちちは テレビを みない。",
+              furigana: "ちちはてれびをみない。",
+              en: "My father does not watch TV.",
+            },
+            {
+              form: "Plain past — た form",
+              jp: "わたしは しんぶんを よんだ。",
+              furigana: "わたしはしんぶんをよんだ。",
+              en: "I read a newspaper.",
+            },
+            {
+              form: "Plain past negative — なかった form",
+              jp: "わたしは まだ たべなかった。",
+              furigana: "わたしはまだたべなかった。",
+              en: "I had not eaten yet.",
+            },
+            {
+              form: "Te-form — connecting actions",
+              jp: "あさごはんを たべて がっこうに いきました。",
+              furigana: "あさごはんをたべてがっこうにいきました。",
+              en: "I went to school after eating breakfast.",
+            },
+            {
+              form: "〜てある — resulting state (transitive)",
+              jp: "ノートに かんじが かいて あります。",
+              furigana: "のーとにかんじがかいてあります。",
+              en: "Kanji is written in the notebook.",
+            },
+            {
+              form: "〜ている — ongoing action / state",
+              jp: "いま しんぶんを よんで います。",
+              furigana: "いましんぶんをよんでいます。",
+              en: "I am reading a newspaper right now.",
+            },
+            {
+              form: "〜ないで — without doing",
+              jp: "あさごはんを たべないで がっこうに いきました。",
+              furigana: "あさごはんをたべないでがっこうにいきました。",
+              en: "I went to school without eating breakfast.",
+            },
+          ],
+        },
+        {
+          id: "nouns",
+          label: "Nouns",
+          icon: "名",
+          intro:
+            "Noun sentences follow the same です/だ copula pattern as な-adjectives.",
+          patterns: [
+            {
+              form: "Present affirmative — Noun + です",
+              jp: "わたしは がくせいです。",
+              furigana: "わたしはがくせいです。",
+              en: "I am a student.",
+            },
+            {
+              form: "Present negative — + ではありません",
+              jp: "かれは せんせいでは ありません。",
+              furigana: "かれはせんせいではありません。",
+              en: "He is not a teacher.",
+            },
+            {
+              form: "Past affirmative — + でした",
+              jp: "きのうは にちようびでした。",
+              furigana: "きのうはにちようびでした。",
+              en: "Yesterday was Sunday.",
+            },
+            {
+              form: "Past negative — + ではありませんでした",
+              jp: "きのうは やすみでは ありませんでした。",
+              furigana: "きのうはやすみではありませんでした。",
+              en: "Yesterday was not a day off.",
+            },
+            {
+              form: "Plain — + だ",
+              jp: "これは わたしの かさだ。",
+              furigana: "これはわたしのかさだ。",
+              en: "This is my umbrella.",
+            },
+            {
+              form: "Plain negative — + ではない",
+              jp: "あしたは やすみでは ないです。",
+              furigana: "あしたはやすみではないです。",
+              en: "Tomorrow is not a day off.",
+            },
+            {
+              form: "Plain past — + だった",
+              jp: "きのうは やすみだった。",
+              furigana: "きのうはやすみだった。",
+              en: "Yesterday was a day off.",
+            },
+            {
+              form: "Plain past negative — + ではなかった",
+              jp: "そこは としょかんでは なかった。",
+              furigana: "そこはとしょかんではなかった。",
+              en: "That place was not a library.",
+            },
+            {
+              form: "Connective — + で (and)",
+              jp: "わたしは がくせいで、あには かいしゃいんです。",
+              furigana: "わたしはがくせいで、あにはかいしゃいんです。",
+              en: "I am a student, and my brother is an office worker.",
+            },
+            {
+              form: "Possessive — Noun + の + Noun",
+              jp: "これは せんせいの ほんです。",
+              furigana: "これはせんせいのほんです。",
+              en: "This is the teacher's book.",
+            },
+            {
+              form: "Nominalizer — Noun + の",
+              jp: "その ほんは わたしのです。",
+              furigana: "そのほんはわたしのです。",
+              en: "That book is mine.",
+            },
+          ],
+        },
+        {
+          id: "place",
+          label: "Place & Location",
+          icon: "所",
+          intro:
+            "How to say what exists somewhere, or where something is, using あります/います.",
+          patterns: [
+            {
+              form: "Place + に + Noun + が + あります/います",
+              jp: "つくえの うえに ほんが あります。",
+              furigana: "つくえのうえにほんがあります。",
+              en: "There is a book on the desk.",
+            },
+            {
+              form: "Place + に + Noun + counter + あります/います",
+              jp: "つくえの うえに ほんが 三さつ あります。",
+              furigana: "つくえのうえにほんがさんさつあります。",
+              en: "There are three books on the desk.",
+            },
+            {
+              form: "Noun + は + Place + に + あります/います",
+              jp: "ほんは つくえの うえに あります。",
+              furigana: "ほんはつくえのうえにあります。",
+              en: "The book is on the desk.",
+            },
+          ],
+        },
+        {
+          id: "particles",
+          label: "Particles",
+          icon: "助",
+          intro:
+            "The small words that mark the role of each noun in a sentence. Getting these right matters as much as vocabulary for the N5 reading and grammar sections.",
+          patterns: [
+            {
+              form: "は — topic marker",
+              jp: "わたしは がくせいです。",
+              furigana: "わたしはがくせいです。",
+              en: "As for me, I am a student. (marks the topic)",
+            },
+            {
+              form: "が — subject marker",
+              jp: "あそこに ねこが います。",
+              furigana: "あそこにねこがいます。",
+              en: "There is a cat over there. (marks who/what does or exists)",
+            },
+            {
+              form: "を — direct object marker",
+              jp: "パンを たべます。",
+              furigana: "ぱんをたべます。",
+              en: "I eat bread. (marks the thing acted upon)",
+            },
+            {
+              form: "に — time / destination / indirect object",
+              jp: "7じに おきます。がっこうに いきます。ともだちに あげます。",
+              furigana:
+                "しちじにおきます。がっこうにいきます。ともだちにあげます。",
+              en: "I get up at 7. I go to school. I give it to my friend.",
+            },
+            {
+              form: "で — location of action / means",
+              jp: "としょかんで べんきょうします。でんしゃで いきます。",
+              furigana: "としょかんでべんきょうします。でんしゃでいきます。",
+              en: "I study at the library. I go by train.",
+            },
+            {
+              form: "へ — direction (interchangeable with に for movement)",
+              jp: "とうきょうへ いきます。",
+              furigana: "とうきょうへいきます。",
+              en: "I am going to (in the direction of) Tokyo.",
+            },
+            {
+              form: "と — with / and (for a closed list)",
+              jp: "ともだちと いきます。パンと ぎゅうにゅう。",
+              furigana: "ともだちといきます。ぱんとぎゅうにゅう。",
+              en: "I go with my friend. Bread and milk.",
+            },
+            {
+              form: "や — and (among other things, an open list)",
+              jp: "つくえの うえに ほんや ペンが あります。",
+              furigana: "つくえのうえにほんやぺんがあります。",
+              en: "There are things like books and pens (and others) on the desk.",
+            },
+            {
+              form: "も — also, too",
+              jp: "わたしも がくせいです。",
+              furigana: "わたしもがくせいです。",
+              en: "I am also a student.",
+            },
+            {
+              form: "の — possessive / connecting nouns",
+              jp: "これは わたしの ほんです。",
+              furigana: "これはわたしのほんです。",
+              en: "This is my book.",
+            },
+            {
+              form: "から〜まで — from〜to (time or place)",
+              jp: "9じから 5じまで はたらきます。",
+              furigana: "くじからごじまではたらきます。",
+              en: "I work from 9 to 5.",
+            },
+            {
+              form: "か — question marker",
+              jp: "これは あなたの かさですか。",
+              furigana: "これはあなたのかさですか。",
+              en: "Is this your umbrella?",
+            },
+            {
+              form: "ね — seeking agreement",
+              jp: "きょうは あついですね。",
+              furigana: "きょうはあついですね。",
+              en: "It's hot today, isn't it?",
+            },
+            {
+              form: "よ — giving new information emphatically",
+              jp: "あしたは あめですよ。",
+              furigana: "あしたはあめですよ。",
+              en: "It's going to rain tomorrow, you know.",
+            },
+            {
+              form: "ぐらい／くらい — approximately",
+              jp: "2じかんぐらい かかります。",
+              furigana: "にじかんぐらいかかります。",
+              en: "It takes about 2 hours.",
+            },
+            {
+              form: "だけ — only, just",
+              jp: "これだけ ください。",
+              furigana: "これだけください。",
+              en: "Please give me just this.",
+            },
+          ],
+        },
+      ];
