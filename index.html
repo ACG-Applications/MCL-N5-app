@@ -647,6 +647,29 @@
         grid-template-columns: repeat(auto-fill, minmax(78px, 1fr));
         gap: 10px;
       }
+      .modal-learn {
+        margin-top: 8px;
+        font-size: 0.72rem;
+        padding: 5px 12px;
+        border-radius: 100px;
+        border: 1px solid var(--line);
+        background: var(--card);
+        color: var(--ink2);
+        cursor: pointer;
+        font-family: inherit;
+      }
+
+      .modal-learn:hover {
+        border-color: var(--shu);
+        color: var(--shu);
+      }
+
+      .modal-learn.active {
+        background: var(--shu);
+        border-color: var(--shu);
+        color: #fff;
+      }
+
       .ktile {
         aspect-ratio: 1;
         background: var(--card);
@@ -1682,7 +1705,25 @@
         opacity: 0.6;
         pointer-events: none;
       }
-          /* Short landscape (phone on its side): the header alone filled the viewport, so
+          /* Small tablets / large phones: .mode-btn has min-width 110px, so the five tabs
+         need ~550px and used to wrap with Grammar orphaned on its own row. */
+      @media (min-width: 521px) and (max-width: 767px) {
+        .mode-switch {
+          max-width: 100%;
+          gap: 4px;
+          padding: 4px;
+        }
+
+        .mode-btn {
+          min-width: 0;
+          flex: 1 1 0;
+          padding: 9px 6px;
+          font-size: 13px;
+          letter-spacing: 0;
+        }
+      }
+
+      /* Short landscape (phone on its side): the header alone filled the viewport, so
          the tabs and every section started below the fold. Compact it there. */
       @media (orientation: landscape) and (max-height: 560px) {
         .top {
@@ -1896,6 +1937,7 @@
           <div class="modal-head-text">
             <h3>Kanji</h3>
             <p id="modalKanjiSub">Used in — words</p>
+            <button class="modal-learn" id="modalLearnBtn">✓ Mark as learned</button>
           </div>
           <button class="modal-close" id="modalClose">✕</button>
         </div>
@@ -1941,6 +1983,36 @@
 
       const items = DATA.items;
       const kanjiList = DATA.kanji;
+
+      // ---- saved progress (localStorage) ----
+      const PROGRESS_KEY = "mcl-n5-progress-v1";
+
+      function loadProgress() {
+        try {
+          return JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}") || {};
+        } catch (e) {
+          return {};
+        }
+      }
+
+      function saveProgress(patch) {
+        try {
+          const next = Object.assign(loadProgress(), patch);
+          localStorage.setItem(PROGRESS_KEY, JSON.stringify(next));
+        } catch (e) {
+          /* storage disabled / quota - progress just will not persist */
+        }
+      }
+
+      // Apply the persisted "learned" marks to the kanji index before the grid renders.
+      (function restoreKanjiProgress() {
+        const saved = loadProgress();
+        if (!Array.isArray(saved.kanjiDone)) return;
+        const done = new Set(saved.kanjiDone);
+        kanjiList.forEach((k) => {
+          k.done = done.has(k.char);
+        });
+      })();
       
 
       const CATEGORY_ORDER = [
@@ -2208,12 +2280,19 @@
 
       // ---- kanji grid ----
       const kanjiGrid = document.getElementById("kanjiGrid");
-      kanjiList.forEach((k) => {
-        const tile = document.createElement("div");
+      const kanjiTileEls = new Map();
+
+      function paintKanjiTile(k) {
+        const tile = kanjiTileEls.get(k.char);
+        if (!tile) return;
         tile.className = "ktile jp" + (k.done ? " done" : "");
-        tile.tabIndex = 0;
         tile.title = k.done ? "Already learned" : "";
         tile.innerHTML = `${escapeHtml(k.char)}<span class="kcount">${k.itemIdxs.length}</span>${k.done ? '<span class="kdone-badge">✓</span>' : ""}`;
+      }
+
+      kanjiList.forEach((k) => {
+        const tile = document.createElement("div");
+        tile.tabIndex = 0;
         tile.addEventListener("click", () => openKanjiModal(k));
         tile.addEventListener("keydown", (e) => {
           if (e.key === "Enter" || e.key === " ") {
@@ -2221,6 +2300,8 @@
             openKanjiModal(k);
           }
         });
+        kanjiTileEls.set(k.char, tile);
+        paintKanjiTile(k);
         kanjiGrid.appendChild(tile);
       });
 
@@ -2348,11 +2429,23 @@
       });
       strokeSpeedNormalBtn.classList.add("active");
 
-      function openKanjiModal(k) {
-        modalKanjiChar.textContent = k.char;
+      let currentModalKanji = null;
+
+      function updateModalLearnBtn() {
+        if (!currentModalKanji) return;
+        modalLearnBtn.textContent = currentModalKanji.done
+          ? "✓ Learned — tap to undo"
+          : "✓ Mark as learned";
+        modalLearnBtn.classList.toggle("active", !!currentModalKanji.done);
         modalKanjiSub.textContent =
-          `Appears in ${k.itemIdxs.length} word${k.itemIdxs.length === 1 ? "" : "s"} from the N5 list` +
-          (k.done ? " — ✓ already learned" : "");
+          `Appears in ${currentModalKanji.itemIdxs.length} word${currentModalKanji.itemIdxs.length === 1 ? "" : "s"} from the N5 list` +
+          (currentModalKanji.done ? " — ✓ already learned" : "");
+      }
+
+      function openKanjiModal(k) {
+        currentModalKanji = k;
+        modalKanjiChar.textContent = k.char;
+        updateModalLearnBtn();
         setStrokeChar(k.char);
         modalBody.innerHTML = "";
         const frag = document.createDocumentFragment();
@@ -2374,6 +2467,18 @@
         modalOverlay.classList.add("open");
         setupSpeakableElements();
       }
+
+      const modalLearnBtn = document.getElementById("modalLearnBtn");
+
+      modalLearnBtn.addEventListener("click", () => {
+        if (!currentModalKanji) return;
+        currentModalKanji.done = !currentModalKanji.done;
+        saveProgress({
+          kanjiDone: kanjiList.filter((x) => x.done).map((x) => x.char),
+        });
+        paintKanjiTile(currentModalKanji);
+        updateModalLearnBtn();
+      });
 
       document.getElementById("modalClose").addEventListener("click", () => {
         modalOverlay.classList.remove("open");
@@ -2480,9 +2585,20 @@
         document.getElementById("fcRestart").addEventListener("click", () => {
           fcState.known.clear();
           fcState.learning.clear();
+          saveProgress({ fcKnown: [], fcLearning: [] });
           fcBuildDeck(true);
         });
-        fcBuildDeck(true);
+
+        // restore what the learner had marked before reloading, then build the deck
+        // without resetting it
+        const savedFc = loadProgress();
+        if (Array.isArray(savedFc.fcKnown)) {
+          savedFc.fcKnown.forEach((key) => fcState.known.add(key));
+        }
+        if (Array.isArray(savedFc.fcLearning)) {
+          savedFc.fcLearning.forEach((key) => fcState.learning.add(key));
+        }
+        fcBuildDeck(false);
       }
 
       function fcBuildDeck(reset) {
@@ -2493,6 +2609,7 @@
         if (reset) {
           fcState.known.clear();
           fcState.learning.clear();
+          saveProgress({ fcKnown: [], fcLearning: [] });
         }
         fcRenderStage();
       }
@@ -2626,6 +2743,10 @@
           fcState.learning.add(key);
           fcState.known.delete(key);
         }
+        saveProgress({
+          fcKnown: [...fcState.known],
+          fcLearning: [...fcState.learning],
+        });
         fcNext();
       }
 

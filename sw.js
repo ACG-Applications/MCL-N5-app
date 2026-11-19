@@ -1,6 +1,6 @@
 // Service Worker for MCL-N5-app
 // Relative paths so the app works at a domain root or in a subdirectory.
-const CACHE_NAME = "mcl-n5-v3";
+const CACHE_NAME = "mcl-n5-v4";
 const ASSETS = [
   "./",
   "./index.html",
