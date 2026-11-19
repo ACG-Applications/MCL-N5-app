@@ -6,7 +6,7 @@ const DATA = {
             vocab: "～えき",
             kanji: "～駅",
             meaning:
-              "... station\nめぐろ駅から あるいて ３ぷんぐらいです。It's about 3 minutes walk from Meguro station.",
+              "... station\nめぐろ駅から あるいて ３ぷんぐらいです。 It's about 3 minutes walk from Meguro station.",
             freq: "1",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -17,7 +17,7 @@ const DATA = {
             no: 2,
             vocab: "～えん",
             kanji: "～円",
-            meaning: "... yen\nこれは 10,000円です。This is 10,000 yen.",
+            meaning: "... yen\nこれは 10,000円です。 This is 10,000 yen.",
             freq: "3",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -29,7 +29,7 @@ const DATA = {
             vocab: "～かい",
             kanji: "",
             meaning:
-              "... floor\nわたしの へやは 2かいです。My room is on the second floor.",
+              "... floor\nわたしの へやは 2かいです。 My room is on the second floor.",
             freq: "2",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -41,7 +41,7 @@ const DATA = {
             vocab: "～かい",
             kanji: "",
             meaning:
-              "... times\nこのえいがを 2かい みました。I watched this movie twice.",
+              "... times\nこのえいがを 2かい みました。 I watched this movie twice.",
             freq: "1",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -77,7 +77,7 @@ const DATA = {
             vocab: "～かた",
             kanji: "",
             meaning:
-              "how to ...\nつかいかたを おしえてください。Please teach me how to use it.",
+              "how to ...\nつかいかたを おしえてください。 Please teach me how to use it.",
             freq: "2",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -113,7 +113,7 @@ const DATA = {
             vocab: "～がわ",
             kanji: "",
             meaning:
-              "... side\nひだりがわを あるきます。Walk on the left side.",
+              "... side\nひだりがわを あるきます。 Walk on the left side.",
             freq: "",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -136,7 +136,7 @@ const DATA = {
             vocab: "～キロ",
             kanji: "",
             meaning:
-              "... km = キロメートル\n10キロぐらい はしりました。I ran about 10 km.",
+              "... km = キロメートル\n10キロぐらい はしりました。 I ran about 10 km.",
             freq: "",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -148,7 +148,7 @@ const DATA = {
             vocab: "～くらい/ぐらい",
             kanji: "",
             meaning:
-              "about ...\n2じかんぐらい べんきょうしました。I studied for about 2 hours.",
+              "about ...\n2じかんぐらい べんきょうしました。 I studied for about 2 hours.",
             freq: "3",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -196,7 +196,7 @@ const DATA = {
             vocab: "～ごろ",
             kanji: "",
             meaning:
-              "around ... (for time)\n2じごろに そちらに いきます。I will go there around 2 o'clock.",
+              "around ... (for time)\n2じごろに そちらに いきます。 I will go there around 2 o'clock.",
             freq: "1",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -243,7 +243,7 @@ const DATA = {
             no: 21,
             vocab: "～じ",
             kanji: "～時",
-            meaning: "... o'clock\nいま 3時です。It's 3 o'clock now.",
+            meaning: "... o'clock\nいま 3時です。 It's 3 o'clock now.",
             freq: "7",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -291,7 +291,7 @@ const DATA = {
             vocab: "～すぎ",
             kanji: "",
             meaning:
-              "past, over\n2じすぎに とうきょうに つきます。I will arrive in Tokyo after 2 o'clock.",
+              "past, over\n2じすぎに とうきょうに つきます。 I will arrive in Tokyo after 2 o'clock.",
             freq: "",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -303,7 +303,7 @@ const DATA = {
             vocab: "～ずつ",
             kanji: "",
             meaning:
-              "... each\nこれと これを ２つずつ ください。Please give me two of this and two of this.",
+              "... each\nこれと これを ２つずつ ください。 Please give me two of this and two of this.",
             freq: "",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -315,7 +315,7 @@ const DATA = {
             vocab: "～せんせい",
             kanji: "～先生",
             meaning:
-              "teacher\nすずき先生は どこに いますか。Where is Teacher Suzuki?",
+              "teacher\nすずき先生は どこに いますか。 Where is Teacher Suzuki?",
             freq: "2",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -339,7 +339,7 @@ const DATA = {
             vocab: "～たち",
             kanji: "",
             meaning:
-              "...s, ... and others\nわたしたち、こどもたち、あのひとたち。We, Children, Those people",
+              "...s, ... and others\nわたしたち、こどもたち、あのひとたち。 We, Children, Those people",
             freq: "",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -351,7 +351,7 @@ const DATA = {
             vocab: "～ちゅう",
             kanji: "～中",
             meaning:
-              "be in middle of ..., (during) in ...\nいま かいぎ中です。I'm in a meeting now.",
+              "be in middle of ..., (during) in ...\nいま かいぎ中です。 I'm in a meeting now.",
             freq: "",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -363,7 +363,7 @@ const DATA = {
             vocab: "～つ",
             kanji: "",
             meaning:
-              "counter for object\nコーヒーを 3つ ください。Please give me three coffees.",
+              "counter for object\nコーヒーを 3つ ください。 Please give me three coffees.",
             freq: "3",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -375,7 +375,7 @@ const DATA = {
             vocab: "～ど",
             kanji: "",
             meaning:
-              "... time(s)\nもういちど いってください。Please say that again.",
+              "... time(s)\nもういちど いってください。 Please say that again.",
             freq: "2",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -387,7 +387,7 @@ const DATA = {
             vocab: "～にち",
             kanji: "～日",
             meaning:
-              "...st, ...nd, ...th\nきょうは 12日です。Today is the 12th.",
+              "...st, ...nd, ...th\nきょうは 12日です。 Today is the 12th.",
             freq: "4",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -433,7 +433,7 @@ const DATA = {
             no: 37,
             vocab: "～はん",
             kanji: "～半",
-            meaning: "half\nいま 9じ半です。It's 9:30 now.",
+            meaning: "half\nいま 9じ半です。 It's 9:30 now.",
             freq: "1",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -481,7 +481,7 @@ const DATA = {
             vocab: "～ページ",
             kanji: "",
             meaning:
-              "... page\n13ページを みてください。Please look at page 13.",
+              "... page\n13ページを みてください。 Please look at page 13.",
             freq: "3",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -493,7 +493,7 @@ const DATA = {
             vocab: "～ほん/ぼん/ぽん",
             kanji: "～本",
             meaning:
-              "counter for long object\nかさが 3本 あります。I have three umbrellas.",
+              "counter for long object\nかさが 3本 あります。 I have three umbrellas.",
             freq: "2",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -505,7 +505,7 @@ const DATA = {
             vocab: "～まい",
             kanji: "",
             meaning:
-              "counter for thin object\nかみを １まい ください。Please give me a piece of paper.",
+              "counter for thin object\nかみを １まい ください。 Please give me a piece of paper.",
             freq: "",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -517,7 +517,7 @@ const DATA = {
             vocab: "～まえ",
             kanji: "～前",
             meaning:
-              "... ago\n2ねん前に にほんに きました。I came to Japan two years ago.\nbefore ...\nレッスンの 前に トイレに いきます。Go to the bathroom before the lesson.",
+              "... ago\n2ねん前に にほんに きました。 I came to Japan two years ago.\nbefore ...\nレッスンの 前に トイレに いきます。 Go to the bathroom before the lesson.",
             freq: "2",
             category: "Counters, Prefixes & Suffixes",
             topic: "Numbers & Counters",
@@ -553,7 +553,7 @@ const DATA = {
             vocab: "あいます",
             kanji: "会います",
             meaning:
-              "see (a person), meet\nともだちに/と 会います。I will see my friend.",
+              "see (a person), meet\nともだちに/と 会います。 I will see my friend.",
             freq: "1",
             category: "Verbs",
             topic: "Family & People",
@@ -564,7 +564,7 @@ const DATA = {
             no: 48,
             vocab: "あおい",
             kanji: "",
-            meaning: "blue [i-adj.]\nあおいボールペン。Blue ballpoint pen",
+            meaning: "blue [i-adj.]\nあおいボールペン。 Blue ballpoint pen",
             freq: "",
             category: "い-Adjectives",
             topic: "Colors & Shapes",
@@ -575,7 +575,7 @@ const DATA = {
             no: 49,
             vocab: "あか",
             kanji: "赤",
-            meaning: "red [noun]\n赤で かきます。Write in red.",
+            meaning: "red [noun]\n赤で かきます。 Write in red.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Colors & Shapes",
@@ -598,7 +598,7 @@ const DATA = {
             vocab: "あがります",
             kanji: "",
             meaning:
-              "go up\nエレベーターで 15かいに あがります。Take the elevator to the 15th floor.",
+              "go up\nエレベーターで 15かいに あがります。 Take the elevator to the 15th floor.",
             freq: "1",
             category: "Verbs",
             topic: "Transportation",
@@ -610,7 +610,7 @@ const DATA = {
             vocab: "あかるい",
             kanji: "",
             meaning:
-              "bright, light [i-adj.]\nこのへやは あかるいです。The room is bright.",
+              "bright, light [i-adj.]\nこのへやは あかるいです。 The room is bright.",
             freq: "1",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -621,7 +621,7 @@ const DATA = {
             no: 53,
             vocab: "あき",
             kanji: "",
-            meaning: "autumn, fall\nあきが すきです。I like autumn.",
+            meaning: "autumn, fall\nあきが すきです。 I like autumn.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -632,7 +632,7 @@ const DATA = {
             no: 54,
             vocab: "あきます",
             kanji: "",
-            meaning: "open\nドアが あきます。The door opens.",
+            meaning: "open\nドアが あきます。 The door opens.",
             freq: "",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -643,7 +643,7 @@ const DATA = {
             no: 55,
             vocab: "あけます",
             kanji: "",
-            meaning: "open\nわたしは ドアをあけます。I open the door.",
+            meaning: "open\nわたしは ドアをあけます。 I open the door.",
             freq: "1",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -655,7 +655,7 @@ const DATA = {
             vocab: "あげます",
             kanji: "",
             meaning:
-              "give\nははの たんじょうびに プレゼントを あげました。I gave a present on my mother's birthday.",
+              "give\nははの たんじょうびに プレゼントを あげました。 I gave a present on my mother's birthday.",
             freq: "1",
             category: "Verbs",
             topic: "Family & People",
@@ -691,7 +691,7 @@ const DATA = {
             vocab: "あさって",
             kanji: "",
             meaning:
-              "the day after tomorrow\nあさっては にほんごの テストです。The day after tomorrow will be a Japanese test.",
+              "the day after tomorrow\nあさっては にほんごの テストです。 The day after tomorrow will be a Japanese test.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -714,7 +714,7 @@ const DATA = {
             no: 61,
             vocab: "あした",
             kanji: "",
-            meaning: "tomorrow\nでは、また あした。See you tomorrow.",
+            meaning: "tomorrow\nでは、また あした。 See you tomorrow.",
             freq: "6",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -726,7 +726,7 @@ const DATA = {
             vocab: "あそこ",
             kanji: "",
             meaning:
-              "over there\nあそこで バスに のります。Get on the bus over there.",
+              "over there\nあそこで バスに のります。 Get on the bus over there.",
             freq: "2",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -738,7 +738,7 @@ const DATA = {
             vocab: "あそびます",
             kanji: "",
             meaning:
-              "play\nこどもは よく こうえんで あそびます。Children often play in the park.",
+              "play\nこどもは よく こうえんで あそびます。 Children often play in the park.",
             freq: "1",
             category: "Verbs",
             topic: "Family & People",
@@ -750,7 +750,7 @@ const DATA = {
             vocab: "あたたかい",
             kanji: "",
             meaning:
-              "warm [i-adj.]\nきょうは きのうより あたたかいです。Today is warmer than yesterday.",
+              "warm [i-adj.]\nきょうは きのうより あたたかいです。 Today is warmer than yesterday.",
             freq: "",
             category: "い-Adjectives",
             topic: "Weather & Nature",
@@ -761,7 +761,7 @@ const DATA = {
             no: 65,
             vocab: "あたま",
             kanji: "",
-            meaning: "head\nかれは とても あたまが いいです。He is very smart.",
+            meaning: "head\nかれは とても あたまが いいです。 He is very smart.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -773,7 +773,7 @@ const DATA = {
             vocab: "あたらしい",
             kanji: "新しい",
             meaning:
-              "new [i-adj.]\n新しい コンピュータを かいました。I bought a new computer.",
+              "new [i-adj.]\n新しい コンピュータを かいました。 I bought a new computer.",
             freq: "1",
             category: "い-Adjectives",
             topic: "Shopping & Money",
@@ -785,7 +785,7 @@ const DATA = {
             vocab: "あちら",
             kanji: "",
             meaning:
-              "over there 「あそこ」の more polite\nいりぐちは あちらです。The entrance is over there.",
+              "over there 「あそこ」の more polite\nいりぐちは あちらです。 The entrance is over there.",
             freq: "2",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -796,7 +796,7 @@ const DATA = {
             no: 68,
             vocab: "あつい",
             kanji: "",
-            meaning: "hot [i-adj.]\nきょうは あついですね。It's hot today.",
+            meaning: "hot [i-adj.]\nきょうは あついですね。 It's hot today.",
             freq: "",
             category: "い-Adjectives",
             topic: "Weather & Nature",
@@ -808,7 +808,7 @@ const DATA = {
             vocab: "あつい",
             kanji: "",
             meaning:
-              "thick [i-adj.]\nこのほんは あついです。This book is thick.",
+              "thick [i-adj.]\nこのほんは あついです。 This book is thick.",
             freq: "",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -820,7 +820,7 @@ const DATA = {
             vocab: "あと(で)",
             kanji: "後(で)",
             meaning:
-              "after\nあさごはんの 後で さんぽをします。I will take a walk after breakfast.",
+              "after\nあさごはんの 後で さんぽをします。 I will take a walk after breakfast.",
             freq: "7",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -832,7 +832,7 @@ const DATA = {
             vocab: "あに",
             kanji: "",
             meaning:
-              "(my) older brother\nあには イギリスに います。My brother is in England.",
+              "(my) older brother\nあには イギリスに います。 My brother is in England.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -844,7 +844,7 @@ const DATA = {
             vocab: "あね",
             kanji: "",
             meaning:
-              "(my) older sister\nあねは フランスに います。My sister is in France.",
+              "(my) older sister\nあねは フランスに います。 My sister is in France.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -855,7 +855,7 @@ const DATA = {
             no: 73,
             vocab: "あの～",
             kanji: "",
-            meaning: "that ...\nあのひとは だれですか。Who is that person?",
+            meaning: "that ...\nあのひとは だれですか。 Who is that person?",
             freq: "2",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -867,7 +867,7 @@ const DATA = {
             vocab: "アパート",
             kanji: "",
             meaning:
-              "apartment\nわたしは ふるいアパートに すんでいます。I live in an old apartment.",
+              "apartment\nわたしは ふるいアパートに すんでいます。 I live in an old apartment.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -891,7 +891,7 @@ const DATA = {
             vocab: "あぶない",
             kanji: "",
             meaning:
-              "dangerous [i-adj.]\nここは あぶないですよ。It's dangerous here.",
+              "dangerous [i-adj.]\nここは あぶないですよ。 It's dangerous here.",
             freq: "",
             category: "い-Adjectives",
             topic: "Places & Directions",
@@ -903,7 +903,7 @@ const DATA = {
             vocab: "あまい",
             kanji: "",
             meaning:
-              "sweet [i-adj.]\nこのケーキは とても あまいです。This cake is very sweet.",
+              "sweet [i-adj.]\nこのケーキは とても あまいです。 This cake is very sweet.",
             freq: "",
             category: "い-Adjectives",
             topic: "Food & Drink",
@@ -915,7 +915,7 @@ const DATA = {
             vocab: "あまり",
             kanji: "",
             meaning:
-              "not much ...\nあまり ほんを よみません。I don't read many books.",
+              "not much ...\nあまり ほんを よみません。 I don't read many books.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -927,7 +927,7 @@ const DATA = {
             vocab: "あめ",
             kanji: "雨",
             meaning:
-              "rain\nごごは たぶん 雨が ふります。It will probably rain in the afternoon.",
+              "rain\nごごは たぶん 雨が ふります。 It will probably rain in the afternoon.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -939,7 +939,7 @@ const DATA = {
             vocab: "アメリカ",
             kanji: "",
             meaning:
-              "The United States of America\nあには アメリカに いきました。My brother went to America.",
+              "The United States of America\nあには アメリカに いきました。 My brother went to America.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -962,7 +962,7 @@ const DATA = {
             vocab: "あります",
             kanji: "",
             meaning:
-              "be [existence]\nはこの なかに りんごが ななつ あります。There are seven apples in the box.",
+              "be [existence]\nはこの なかに りんごが ななつ あります。 There are seven apples in the box.",
             freq: "23",
             category: "Verbs",
             topic: "Places & Directions",
@@ -974,7 +974,7 @@ const DATA = {
             vocab: "あります",
             kanji: "",
             meaning:
-              "have [possession]\nわたしは きょう じかんが あります。I have time today.",
+              "have [possession]\nわたしは きょう じかんが あります。 I have time today.",
             freq: "",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -986,7 +986,7 @@ const DATA = {
             vocab: "あるきます",
             kanji: "歩きます",
             meaning:
-              "walk\nきのうは オフィスから うちまで あるきました。I walked from the office to my house yesterday.",
+              "walk\nきのうは オフィスから うちまで あるきました。 I walked from the office to my house yesterday.",
             freq: "1",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -997,7 +997,7 @@ const DATA = {
             no: 85,
             vocab: "あれ",
             kanji: "",
-            meaning: "that (one)\nあれは なんですか。What is that?",
+            meaning: "that (one)\nあれは なんですか。 What is that?",
             freq: "1",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -1009,7 +1009,7 @@ const DATA = {
             vocab: "いい",
             kanji: "",
             meaning:
-              "good [i-adj.]\nこの アプリは とても いいです。This app is very nice.",
+              "good [i-adj.]\nこの アプリは とても いいです。 This app is very nice.",
             freq: "19",
             category: "い-Adjectives",
             topic: "Descriptions & Qualities",
@@ -1020,7 +1020,7 @@ const DATA = {
             no: 87,
             vocab: "いいます",
             kanji: "言います",
-            meaning: "say, tell\nもういちど 言います。I will say it again.",
+            meaning: "say, tell\nもういちど 言います。 I will say it again.",
             freq: "9",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -1032,7 +1032,7 @@ const DATA = {
             vocab: "いえ",
             kanji: "家",
             meaning:
-              "house\n家の なかは あたたかいです。The inside of the house is warm.",
+              "house\n家の なかは あたたかいです。 The inside of the house is warm.",
             freq: "5",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -1044,7 +1044,7 @@ const DATA = {
             vocab: "いきます",
             kanji: "行きます",
             meaning:
-              "go\nじてんしゃで がっこうに 行きます。I go to school by bicycle.",
+              "go\nじてんしゃで がっこうに 行きます。 I go to school by bicycle.",
             freq: "14",
             category: "Verbs",
             topic: "Places & Directions",
@@ -1056,7 +1056,7 @@ const DATA = {
             vocab: "いくつ",
             kanji: "",
             meaning:
-              "how many, how old\nれいぞうこの なかに たまごが いくつ ありますか。How many eggs are there in the fridge?",
+              "how many, how old\nれいぞうこの なかに たまごが いくつ ありますか。 How many eggs are there in the fridge?",
             freq: "",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -1067,7 +1067,7 @@ const DATA = {
             no: 91,
             vocab: "いくら",
             kanji: "",
-            meaning: "how much\nこれは いくらですか。How much is this?",
+            meaning: "how much\nこれは いくらですか。 How much is this?",
             freq: "1",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -1079,7 +1079,7 @@ const DATA = {
             vocab: "いけ",
             kanji: "",
             meaning:
-              "pond\nいけの なかに きれいな さかなが います。There are beautiful fish in the pond.",
+              "pond\nいけの なかに きれいな さかなが います。 There are beautiful fish in the pond.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -1091,7 +1091,7 @@ const DATA = {
             vocab: "いしゃ",
             kanji: "",
             meaning:
-              "doctor = おいしゃさん。\nちちは いしゃです。My father is a doctor.",
+              "doctor = おいしゃさん。\nちちは いしゃです。 My father is a doctor.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -1103,7 +1103,7 @@ const DATA = {
             vocab: "いす",
             kanji: "",
             meaning:
-              "chair\nこのいすは たかかったです。This chair was expensive.",
+              "chair\nこのいすは たかかったです。 This chair was expensive.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -1115,7 +1115,7 @@ const DATA = {
             vocab: "いそがしい",
             kanji: "",
             meaning:
-              "busy [i-adj.]\nこのごろ まいにち いそがしいです。I'm busy these days.",
+              "busy [i-adj.]\nこのごろ まいにち いそがしいです。 I'm busy these days.",
             freq: "",
             category: "い-Adjectives",
             topic: "Time & Calendar",
@@ -1127,7 +1127,7 @@ const DATA = {
             vocab: "いたい",
             kanji: "",
             meaning:
-              "be painful [i-adj.]\nきょうは すこし あたまが いたいです。I have a slight headache today.",
+              "be painful [i-adj.]\nきょうは すこし あたまが いたいです。 I have a slight headache today.",
             freq: "",
             category: "い-Adjectives",
             topic: "Body & Health",
@@ -1151,7 +1151,7 @@ const DATA = {
             vocab: "いちど",
             kanji: "一ど",
             meaning:
-              "once\nもう一ど いってください。Say that once more please.",
+              "once\nもう一ど いってください。 Say that once more please.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -1163,7 +1163,7 @@ const DATA = {
             vocab: "いちにち",
             kanji: "一日",
             meaning:
-              "one day\nきのうは 一日 うちに いました。I was at home all day yesterday.",
+              "one day\nきのうは 一日 うちに いました。 I was at home all day yesterday.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -1175,7 +1175,7 @@ const DATA = {
             vocab: "いちばん",
             kanji: "一ばん",
             meaning:
-              "the best\n一ばん いいものを えらびます。Choose the best one.",
+              "the best\n一ばん いいものを えらびます。 Choose the best one.",
             freq: "13",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -1187,7 +1187,7 @@ const DATA = {
             vocab: "いつ",
             kanji: "",
             meaning:
-              "when\nいつ とうきょうに いきますか。When are you going to Tokyo?",
+              "when\nいつ とうきょうに いきますか。 When are you going to Tokyo?",
             freq: "1",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -1199,7 +1199,7 @@ const DATA = {
             vocab: "いつか",
             kanji: "五日",
             meaning:
-              "the fifth day of the month, five days\nきょうは 五日です。Today is the 5th.",
+              "the fifth day of the month, five days\nきょうは 五日です。 Today is the 5th.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -1211,7 +1211,7 @@ const DATA = {
             vocab: "いっしょ(に)",
             kanji: "",
             meaning:
-              "together\nともだちと いっしょに がっこうに いきます。I will go to school with my friends.",
+              "together\nともだちと いっしょに がっこうに いきます。 I will go to school with my friends.",
             freq: "5",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1223,7 +1223,7 @@ const DATA = {
             vocab: "いつつ",
             kanji: "五つ",
             meaning:
-              "five\nりんごは 五つ 400えんです。Five apples cost 400 yen.",
+              "five\nりんごは 五つ 400えんです。 Five apples cost 400 yen.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -1235,7 +1235,7 @@ const DATA = {
             vocab: "いつも",
             kanji: "",
             meaning:
-              "always\nいつも けいたいでんわを もっています。I always have a mobile phone.",
+              "always\nいつも けいたいでんわを もっています。 I always have a mobile phone.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -1246,7 +1246,7 @@ const DATA = {
             no: 106,
             vocab: "いま",
             kanji: "今",
-            meaning: "now\n今 なんじですか。What time is it now?",
+            meaning: "now\n今 なんじですか。 What time is it now?",
             freq: "6",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -1258,7 +1258,7 @@ const DATA = {
             vocab: "います",
             kanji: "",
             meaning:
-              "be (existence)\nわたしは いま いえに います。I'm at home now.\nhave (family)\nわたしは きょうだいが います。I have a sibling.",
+              "be (existence)\nわたしは いま いえに います。 I'm at home now.\nhave (family)\nわたしは きょうだいが います。 I have a sibling.",
             freq: "5",
             category: "Verbs",
             topic: "Family & People",
@@ -1270,7 +1270,7 @@ const DATA = {
             vocab: "いみ",
             kanji: "",
             meaning:
-              "meaning\nおなじ いみのぶんは どれですか。Which sentences have the same meaning?",
+              "meaning\nおなじ いみのぶんは どれですか。 Which sentences have the same meaning?",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -1282,7 +1282,7 @@ const DATA = {
             vocab: "いもうと",
             kanji: "",
             meaning:
-              "(my) younger sister\nいもうとは いま いえに いません。My sister isn't at home right now.",
+              "(my) younger sister\nいもうとは いま いえに いません。 My sister isn't at home right now.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1294,7 +1294,7 @@ const DATA = {
             vocab: "いもうとさん",
             kanji: "",
             meaning:
-              "(someone's) younger sister\nいもうとさんは どこに いますか。Where is your sister?",
+              "(someone's) younger sister\nいもうとさんは どこに いますか。 Where is your sister?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1306,7 +1306,7 @@ const DATA = {
             vocab: "いや",
             kanji: "",
             meaning:
-              "hateful, not likable, unpleasant [na-adj.]\nいやな しごとも あります。There are also unpleasant jobs.",
+              "hateful, not likable, unpleasant [na-adj.]\nいやな しごとも あります。 There are also unpleasant jobs.",
             freq: "",
             category: "な-Adjectives",
             topic: "Places & Directions",
@@ -1317,7 +1317,7 @@ const DATA = {
             no: 112,
             vocab: "いりぐち",
             kanji: "入口",
-            meaning: "entrance\n入口は どこですか。Where is the entrance?",
+            meaning: "entrance\n入口は どこですか。 Where is the entrance?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -1329,7 +1329,7 @@ const DATA = {
             vocab: "いります",
             kanji: "",
             meaning:
-              "be necessary, must have, need\nふくろは いりません。I do not need a bag.",
+              "be necessary, must have, need\nふくろは いりません。 I do not need a bag.",
             freq: "1",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -1341,7 +1341,7 @@ const DATA = {
             vocab: "いれます",
             kanji: "入れます",
             meaning:
-              "put in\nコーヒーに クリームを 入れますか。Would you like to add cream to your coffee?",
+              "put in\nコーヒーに クリームを 入れますか。 Would you like to add cream to your coffee?",
             freq: "5",
             category: "Verbs",
             topic: "Food & Drink",
@@ -1353,7 +1353,7 @@ const DATA = {
             vocab: "いろ",
             kanji: "",
             meaning:
-              "color\nどんな いろが すきですか。What kind of color do you like?",
+              "color\nどんな いろが すきですか。 What kind of color do you like?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Colors & Shapes",
@@ -1365,7 +1365,7 @@ const DATA = {
             vocab: "いろいろ",
             kanji: "",
             meaning:
-              "various [na-adj.]\nこの ビルの なかには いろいろな みせが あります。There are various shops in this building.",
+              "various [na-adj.]\nこの ビルの なかには いろいろな みせが あります。 There are various shops in this building.",
             freq: "1",
             category: "な-Adjectives",
             topic: "Places & Directions",
@@ -1377,7 +1377,7 @@ const DATA = {
             vocab: "うえ",
             kanji: "上",
             meaning:
-              "on, above, top\nめがねは つくえの 上に あります。The glasses are on the desk.",
+              "on, above, top\nめがねは つくえの 上に あります。 The glasses are on the desk.",
             freq: "5",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -1389,7 +1389,7 @@ const DATA = {
             vocab: "うしろ",
             kanji: "後ろ",
             meaning:
-              "back, behind\nモニターの 後ろに スイッチが あります。There is a switch on the back of the monitor.",
+              "back, behind\nモニターの 後ろに スイッチが あります。 There is a switch on the back of the monitor.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -1400,7 +1400,7 @@ const DATA = {
             no: 119,
             vocab: "うすい",
             kanji: "",
-            meaning: "thin [i-adj.]\nこのほんは うすいです。This book is thin.",
+            meaning: "thin [i-adj.]\nこのほんは うすいです。 This book is thin.",
             freq: "",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -1423,7 +1423,7 @@ const DATA = {
             vocab: "うたいます",
             kanji: "",
             meaning:
-              "sing\nカラオケで にほんごの うたを うたいました。I sang a Japanese song at karaoke.",
+              "sing\nカラオケで にほんごの うたを うたいました。 I sang a Japanese song at karaoke.",
             freq: "1",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -1434,7 +1434,7 @@ const DATA = {
             no: 122,
             vocab: "うち",
             kanji: "",
-            meaning: "home\nうちは どこですか。Where is your home?",
+            meaning: "home\nうちは どこですか。 Where is your home?",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -1446,7 +1446,7 @@ const DATA = {
             vocab: "うまれます",
             kanji: "生まれます",
             meaning:
-              "be born\nせんげつ あかちゃんが 生まれました。Last month, a baby was born.",
+              "be born\nせんげつ あかちゃんが 生まれました。 Last month, a baby was born.",
             freq: "1",
             category: "Verbs",
             topic: "Family & People",
@@ -1458,7 +1458,7 @@ const DATA = {
             vocab: "うみ",
             kanji: "",
             meaning:
-              "sea\nやまより うみが すきです。I like the sea better than the mountains.",
+              "sea\nやまより うみが すきです。 I like the sea better than the mountains.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -1469,7 +1469,7 @@ const DATA = {
             no: 125,
             vocab: "うります",
             kanji: "",
-            meaning: "sell\nAmazonで うっています。It is sold on Amazon.",
+            meaning: "sell\nAmazonで うっています。 It is sold on Amazon.",
             freq: "2",
             category: "Verbs",
             topic: "Shopping & Money",
@@ -1481,7 +1481,7 @@ const DATA = {
             vocab: "うるさい",
             kanji: "",
             meaning:
-              "loud [i-adj.]\nちかてつの なかは うるさいです。It's noisy in the subway.",
+              "loud [i-adj.]\nちかてつの なかは うるさいです。 It's noisy in the subway.",
             freq: "1",
             category: "い-Adjectives",
             topic: "Transportation",
@@ -1493,7 +1493,7 @@ const DATA = {
             vocab: "うれしい",
             kanji: "",
             meaning:
-              "happy, pleased [i-adj.]\nとても うれしいです。I am very happy.",
+              "happy, pleased [i-adj.]\nとても うれしいです。 I am very happy.",
             freq: "1",
             category: "い-Adjectives",
             topic: "Descriptions & Qualities",
@@ -1505,7 +1505,7 @@ const DATA = {
             vocab: "うわぎ",
             kanji: "",
             meaning:
-              "coat, jacket, outerwear\nみせに うわぎを わすれました。I forgot my jacket at the store.",
+              "coat, jacket, outerwear\nみせに うわぎを わすれました。 I forgot my jacket at the store.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -1517,7 +1517,7 @@ const DATA = {
             vocab: "え",
             kanji: "",
             meaning:
-              "drawing, picture, painting\nかのじょは えが じょうずです。She is good at painting.",
+              "drawing, picture, painting\nかのじょは えが じょうずです。 She is good at painting.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -1529,7 +1529,7 @@ const DATA = {
             vocab: "エアコン",
             kanji: "",
             meaning:
-              "air conditioner\nわたしの うちには エアコンが ５だい あります。There are 5 air conditioners in my house.",
+              "air conditioner\nわたしの うちには エアコンが ５だい あります。 There are 5 air conditioners in my house.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -1541,7 +1541,7 @@ const DATA = {
             vocab: "えいが",
             kanji: "",
             meaning:
-              "movie\nきのう ともだちと えいがを みました。I watched a movie with my friends yesterday.",
+              "movie\nきのう ともだちと えいがを みました。 I watched a movie with my friends yesterday.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1553,7 +1553,7 @@ const DATA = {
             vocab: "えいがかん",
             kanji: "",
             meaning:
-              "movie theater\nあたらしい えいがかんに いきました。I went to a new movie theater.",
+              "movie theater\nあたらしい えいがかんに いきました。 I went to a new movie theater.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -1565,7 +1565,7 @@ const DATA = {
             vocab: "えいご",
             kanji: "",
             meaning:
-              "English\nえいごで はなしても いいですか。May I speak in English?",
+              "English\nえいごで はなしても いいですか。 May I speak in English?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -1577,7 +1577,7 @@ const DATA = {
             vocab: "えき",
             kanji: "駅",
             meaning:
-              "station\nうちから 駅まで 5ふんぐらいです。It takes about 5 minutes from our house to the station.",
+              "station\nうちから 駅まで 5ふんぐらいです。 It takes about 5 minutes from our house to the station.",
             freq: "8",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -1589,7 +1589,7 @@ const DATA = {
             vocab: "えらびます",
             kanji: "",
             meaning:
-              "choose\nいちばん いいものを えらびます。Choose the best one.",
+              "choose\nいちばん いいものを えらびます。 Choose the best one.",
             freq: "13",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -1601,7 +1601,7 @@ const DATA = {
             vocab: "エレベーター",
             kanji: "",
             meaning:
-              "elevator, lift\nエレベーターは どこに ありますか。Where is the elevator?",
+              "elevator, lift\nエレベーターは どこに ありますか。 Where is the elevator?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -1613,7 +1613,7 @@ const DATA = {
             vocab: "えんぴつ",
             kanji: "",
             meaning:
-              "pencil\nえんぴつで かいても いいですか。Can I write it in pencil?",
+              "pencil\nえんぴつで かいても いいですか。 Can I write it in pencil?",
             freq: "5",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -1625,7 +1625,7 @@ const DATA = {
             vocab: "お～",
             kanji: "",
             meaning:
-              "[polite prefix]\nおくに。おかね。おしごと。おでんわ。Country. Money. Job. Phone.",
+              "[polite prefix]\nおくに。おかね。おしごと。おでんわ。 Country. Money. Job. Phone.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -1637,7 +1637,7 @@ const DATA = {
             vocab: "おいしい",
             kanji: "",
             meaning:
-              "delicious, good, tasty [i-adj.]\nこのみせの ラーメンは おいしいです。The ramen in this shop is delicious.",
+              "delicious, good, tasty [i-adj.]\nこのみせの ラーメンは おいしいです。 The ramen in this shop is delicious.",
             freq: "2",
             category: "い-Adjectives",
             topic: "Food & Drink",
@@ -1649,7 +1649,7 @@ const DATA = {
             vocab: "おいでになります",
             kanji: "",
             meaning:
-              "come, go, be [respect]\nあしたは なんじに おいでになりますか。What time will you come tomorrow?",
+              "come, go, be [respect]\nあしたは なんじに おいでになりますか。 What time will you come tomorrow?",
             freq: "",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -1661,7 +1661,7 @@ const DATA = {
             vocab: "おおい",
             kanji: "多い",
             meaning:
-              "a lot of [i-adj.]\nこのホテルは へやが 多いです。This hotel has many rooms.",
+              "a lot of [i-adj.]\nこのホテルは へやが 多いです。 This hotel has many rooms.",
             freq: "3",
             category: "い-Adjectives",
             topic: "Places & Directions",
@@ -1673,7 +1673,7 @@ const DATA = {
             vocab: "おおきい",
             kanji: "大きい",
             meaning:
-              "big [i-adj.]\n大きい くるまを かいたいです。I want to buy a big car.",
+              "big [i-adj.]\n大きい くるまを かいたいです。 I want to buy a big car.",
             freq: "3",
             category: "い-Adjectives",
             topic: "Transportation",
@@ -1685,7 +1685,7 @@ const DATA = {
             vocab: "おおきな",
             kanji: "大きな",
             meaning:
-              "big 大きな[noun] = 大きい[noun]\n大きな ショッピングモールに いきました。I went to a big shopping mall.",
+              "big 大きな[noun] = 大きい[noun]\n大きな ショッピングモールに いきました。 I went to a big shopping mall.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Shopping & Money",
@@ -1697,7 +1697,7 @@ const DATA = {
             vocab: "おおぜい",
             kanji: "",
             meaning:
-              "many (people), a great number of (people)\nえきの まえに ひとが おおぜい います。There are a lot of people in front of the station.",
+              "many (people), a great number of (people)\nえきの まえに ひとが おおぜい います。 There are a lot of people in front of the station.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1709,7 +1709,7 @@ const DATA = {
             vocab: "おかあさん",
             kanji: "お母さん",
             meaning:
-              "(someone's) mother\nかれの お母さんは にほんじんです。His mom is Japanese.",
+              "(someone's) mother\nかれの お母さんは にほんじんです。 His mom is Japanese.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1721,7 +1721,7 @@ const DATA = {
             vocab: "おかし",
             kanji: "",
             meaning:
-              "confectionery, cake, candy, sweets\nにほんの おかしが すきです。I like Japanese sweets.",
+              "confectionery, cake, candy, sweets\nにほんの おかしが すきです。 I like Japanese sweets.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -1732,7 +1732,7 @@ const DATA = {
             no: 147,
             vocab: "おかね",
             kanji: "お金",
-            meaning: "money\nお金は たいせつです。Money is important.",
+            meaning: "money\nお金は たいせつです。 Money is important.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Shopping & Money",
@@ -1744,7 +1744,7 @@ const DATA = {
             vocab: "おきます",
             kanji: "",
             meaning:
-              "put (Group 1 verb)\nバッグを テーブルの したに おきます。Place the bag under the table.",
+              "put (Group 1 verb)\nバッグを テーブルの したに おきます。 Place the bag under the table.",
             freq: "3",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -1756,7 +1756,7 @@ const DATA = {
             vocab: "おきます",
             kanji: "",
             meaning:
-              "get up (Group 2 verb)\nまいにち 7じに おきます。It wakes up at 7 o'clock every day.",
+              "get up (Group 2 verb)\nまいにち 7じに おきます。 It wakes up at 7 o'clock every day.",
             freq: "",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -1768,7 +1768,7 @@ const DATA = {
             vocab: "おくさん",
             kanji: "",
             meaning:
-              "(someone's) wife\nかれの おくさんは とても きれいです。His wife is very pretty.",
+              "(someone's) wife\nかれの おくさんは とても きれいです。 His wife is very pretty.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1780,7 +1780,7 @@ const DATA = {
             vocab: "おくに",
             kanji: "お国",
             meaning:
-              "country = くに。\nお国は どちらですか。Where is your country?",
+              "country = くに。\nお国は どちらですか。 Where is your country?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -1792,7 +1792,7 @@ const DATA = {
             vocab: "おくります",
             kanji: "",
             meaning:
-              "send\nメールで データを おくります。We will send you the data by email.",
+              "send\nメールで データを おくります。 We will send you the data by email.",
             freq: "",
             category: "Verbs",
             topic: "Technology & Communication",
@@ -1804,7 +1804,7 @@ const DATA = {
             vocab: "おさけ",
             kanji: "",
             meaning:
-              "liquor, (alcoholic) drink, sake\nときどき おさけを のみます。I drink alcohol sometimes.",
+              "liquor, (alcoholic) drink, sake\nときどき おさけを のみます。 I drink alcohol sometimes.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -1816,7 +1816,7 @@ const DATA = {
             vocab: "おさら",
             kanji: "",
             meaning:
-              "plate = さら。\nおおきい おさらを 5まい かいました。I bought 5 large plates.",
+              "plate = さら。\nおおきい おさらを 5まい かいました。 I bought 5 large plates.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -1828,7 +1828,7 @@ const DATA = {
             vocab: "おじさん",
             kanji: "",
             meaning:
-              "uncle\nおじさんは いつ にほんに きますか。When will your uncle come to Japan?",
+              "uncle\nおじさんは いつ にほんに きますか。 When will your uncle come to Japan?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1840,7 +1840,7 @@ const DATA = {
             vocab: "おじいさん",
             kanji: "",
             meaning:
-              "grandfather\nかれの おじいさんは いま カナダに います。His grandfather is now in Canada.",
+              "grandfather\nかれの おじいさんは いま カナダに います。 His grandfather is now in Canada.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1852,7 +1852,7 @@ const DATA = {
             vocab: "おしえます",
             kanji: "",
             meaning:
-              "teach, tell\nともだちに えいごを おしえます。I will teach English to my friends.",
+              "teach, tell\nともだちに えいごを おしえます。 I will teach English to my friends.",
             freq: "",
             category: "Verbs",
             topic: "Family & People",
@@ -1864,7 +1864,7 @@ const DATA = {
             vocab: "おそい",
             kanji: "",
             meaning:
-              "late [i-adj.]\nきょうは おそいですね。You are late today, aren't you?",
+              "late [i-adj.]\nきょうは おそいですね。 You are late today, aren't you?",
             freq: "1",
             category: "い-Adjectives",
             topic: "Time & Calendar",
@@ -1876,7 +1876,7 @@ const DATA = {
             vocab: "おそく",
             kanji: "",
             meaning:
-              "late [noun]\nきのうは おそくまで しごとを しました。I worked late yesterday.",
+              "late [noun]\nきのうは おそくまで しごとを しました。 I worked late yesterday.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -1888,7 +1888,7 @@ const DATA = {
             vocab: "おちゃ",
             kanji: "",
             meaning:
-              "tea\nおちゃを のみませんか。Would you like to have a cup of tea?",
+              "tea\nおちゃを のみませんか。 Would you like to have a cup of tea?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -1900,7 +1900,7 @@ const DATA = {
             vocab: "おてあらい",
             kanji: "",
             meaning:
-              "lavatory, toilet\nおてあらいは どこですか。Where is the restroom?",
+              "lavatory, toilet\nおてあらいは どこですか。 Where is the restroom?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -1912,7 +1912,7 @@ const DATA = {
             vocab: "おとうさん",
             kanji: "お父さん",
             meaning:
-              "(someone's) father\nお父さんは なんさいですか。How old is your father?",
+              "(someone's) father\nお父さんは なんさいですか。 How old is your father?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1924,7 +1924,7 @@ const DATA = {
             vocab: "おとうと",
             kanji: "",
             meaning:
-              "(my) younger brother\nおとうとは がくせいです。My younger brother is a student.",
+              "(my) younger brother\nおとうとは がくせいです。 My younger brother is a student.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1936,7 +1936,7 @@ const DATA = {
             vocab: "おとうとさん",
             kanji: "",
             meaning:
-              "(someone's) younger brother\nおとうとさんは なんさいですか。How old is your younger brother?",
+              "(someone's) younger brother\nおとうとさんは なんさいですか。 How old is your younger brother?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1958,7 +1958,7 @@ const DATA = {
             no: 166,
             vocab: "おとこのこ",
             kanji: "男の子",
-            meaning: "boy\n男の子が 3にん います。There are 3 boys.",
+            meaning: "boy\n男の子が 3にん います。 There are 3 boys.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1970,7 +1970,7 @@ const DATA = {
             vocab: "おととい",
             kanji: "",
             meaning:
-              "the day before yesterday\nおととい ともだちに あいました。I met my friend the day before yesterday.",
+              "the day before yesterday\nおととい ともだちに あいました。 I met my friend the day before yesterday.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -1982,7 +1982,7 @@ const DATA = {
             vocab: "おととし",
             kanji: "",
             meaning:
-              "the year before last\nおととし にほんに きました。I came here two years ago.",
+              "the year before last\nおととし にほんに きました。 I came here two years ago.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -1994,7 +1994,7 @@ const DATA = {
             vocab: "おとな",
             kanji: "大人",
             meaning:
-              "adult\n大人は 1,000えん、こどもは 500えんです。Adults are 1,000 yen and children are 500 yen.",
+              "adult\n大人は 1,000えん、こどもは 500えんです。 Adults are 1,000 yen and children are 500 yen.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2005,7 +2005,7 @@ const DATA = {
             no: 170,
             vocab: "おなか",
             kanji: "",
-            meaning: "stomach\nおなかが すきました。I'm hungry.",
+            meaning: "stomach\nおなかが すきました。 I'm hungry.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -2017,7 +2017,7 @@ const DATA = {
             vocab: "おなじ",
             kanji: "",
             meaning:
-              "same\nおなじ いみの ぶんは どれですか。Which sentences have the same meaning?",
+              "same\nおなじ いみの ぶんは どれですか。 Which sentences have the same meaning?",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -2029,7 +2029,7 @@ const DATA = {
             vocab: "おにいさん",
             kanji: "",
             meaning:
-              "(someone's) older brother\nおにいさんは にほんに いますか。Is your brother in Japan?",
+              "(someone's) older brother\nおにいさんは にほんに いますか。 Is your brother in Japan?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2041,7 +2041,7 @@ const DATA = {
             vocab: "おにぎり",
             kanji: "",
             meaning:
-              "rice ball\nコンビニで おにぎりを ふたつ かいました。I bought two rice balls at a convenience store.",
+              "rice ball\nコンビニで おにぎりを ふたつ かいました。 I bought two rice balls at a convenience store.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -2053,7 +2053,7 @@ const DATA = {
             vocab: "おねえさん",
             kanji: "",
             meaning:
-              "(someone's) older sister\nおねえさんは なにを していますか。What is your sister doing?",
+              "(someone's) older sister\nおねえさんは なにを していますか。 What is your sister doing?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2065,7 +2065,7 @@ const DATA = {
             vocab: "おばさん",
             kanji: "",
             meaning:
-              "aunt\nおばさんは いつ にほんに きますか。When will your aunt come to Japan?",
+              "aunt\nおばさんは いつ にほんに きますか。 When will your aunt come to Japan?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2077,7 +2077,7 @@ const DATA = {
             vocab: "おばあさん",
             kanji: "",
             meaning:
-              "grandmother\nおばあさんは なんさいですか。How old is your grandmother?",
+              "grandmother\nおばあさんは なんさいですか。 How old is your grandmother?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2089,7 +2089,7 @@ const DATA = {
             vocab: "おべんとう",
             kanji: "",
             meaning:
-              "lunch box\nおべんとうを つくります。I will make a lunch box.",
+              "lunch box\nおべんとうを つくります。 I will make a lunch box.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -2101,7 +2101,7 @@ const DATA = {
             vocab: "おぼえます",
             kanji: "",
             meaning:
-              "memorize\nアプリで あたらしい ことばを おぼえます。Learn new words in the app.",
+              "memorize\nアプリで あたらしい ことばを おぼえます。 Learn new words in the app.",
             freq: "",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -2113,7 +2113,7 @@ const DATA = {
             vocab: "おみせ",
             kanji: "お店",
             meaning:
-              "shop = みせ。\nえきの なかの お店で かいました。I bought it at a shop inside the station.",
+              "shop = みせ。\nえきの なかの お店で かいました。 I bought it at a shop inside the station.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2125,7 +2125,7 @@ const DATA = {
             vocab: "おもい",
             kanji: "",
             meaning:
-              "heavy [i-adj.]\nこのノートパソコンは おもいです。This laptop is heavy.",
+              "heavy [i-adj.]\nこのノートパソコンは おもいです。 This laptop is heavy.",
             freq: "2",
             category: "い-Adjectives",
             topic: "Descriptions & Qualities",
@@ -2137,7 +2137,7 @@ const DATA = {
             vocab: "おもしろい",
             kanji: "",
             meaning:
-              "fun, funny, interesting [i-adj.]\nおもしろいえいがを みました。I watched an interesting movie.",
+              "fun, funny, interesting [i-adj.]\nおもしろいえいがを みました。 I watched an interesting movie.",
             freq: "1",
             category: "い-Adjectives",
             topic: "Descriptions & Qualities",
@@ -2149,7 +2149,7 @@ const DATA = {
             vocab: "およぎます",
             kanji: "",
             meaning:
-              "swim\nまいしゅうまつ 500メートル およぎます。I swim 500 meters every weekend.",
+              "swim\nまいしゅうまつ 500メートル およぎます。 I swim 500 meters every weekend.",
             freq: "2",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -2161,7 +2161,7 @@ const DATA = {
             vocab: "おります",
             kanji: "",
             meaning:
-              "get off\nつぎの えきで でんしゃを おります。Get off the train at the next station.",
+              "get off\nつぎの えきで でんしゃを おります。 Get off the train at the next station.",
             freq: "2",
             category: "Verbs",
             topic: "Places & Directions",
@@ -2173,7 +2173,7 @@ const DATA = {
             vocab: "おわります",
             kanji: "",
             meaning:
-              "end, finish\nかいぎは 3じに おわります。The meeting ends at 3 o'clock.",
+              "end, finish\nかいぎは 3じに おわります。 The meeting ends at 3 o'clock.",
             freq: "3",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -2184,7 +2184,7 @@ const DATA = {
             no: 185,
             vocab: "おんがく",
             kanji: "",
-            meaning: "music\nおんがくが だいすきです。I love music.",
+            meaning: "music\nおんがくが だいすきです。 I love music.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -2196,7 +2196,7 @@ const DATA = {
             vocab: "おんな",
             kanji: "女",
             meaning:
-              "female\nわたしのオフィスには 女のひとが 6にん います。There are 6 women in my office.",
+              "female\nわたしのオフィスには 女のひとが 6にん います。 There are 6 women in my office.",
             freq: "12",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2207,7 +2207,7 @@ const DATA = {
             no: 187,
             vocab: "おんなのこ",
             kanji: "女の子",
-            meaning: "girl\n女の子が 3にん います。There are 3 girls.",
+            meaning: "girl\n女の子が 3にん います。 There are 3 girls.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2231,7 +2231,7 @@ const DATA = {
             vocab: "がいこく",
             kanji: "外国",
             meaning:
-              "foreign country\n外国に いきたいです。I want to go abroad.",
+              "foreign country\n外国に いきたいです。 I want to go abroad.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2243,7 +2243,7 @@ const DATA = {
             vocab: "がいこくじん",
             kanji: "外国人",
             meaning:
-              "foreigner\nうちの かいしゃには 外国人が おおぜい います。There are many foreigners in my company.",
+              "foreigner\nうちの かいしゃには 外国人が おおぜい います。 There are many foreigners in my company.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2255,7 +2255,7 @@ const DATA = {
             vocab: "かいしゃ",
             kanji: "会社",
             meaning:
-              "company\nうちから 会社まで 40ぷんぐらいです。It's about 40 from our house to the company.",
+              "company\nうちから 会社まで 40ぷんぐらいです。 It's about 40 from our house to the company.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2266,7 +2266,7 @@ const DATA = {
             no: 192,
             vocab: "かいだん",
             kanji: "",
-            meaning: "stairs\nかいだんで いきましょう。Let's go up the stairs.",
+            meaning: "stairs\nかいだんで いきましょう。 Let's go up the stairs.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -2278,7 +2278,7 @@ const DATA = {
             vocab: "かいとうようし",
             kanji: "",
             meaning:
-              "answer sheet\nこれは テストの かいとうようしです。This is the test answer sheet.",
+              "answer sheet\nこれは テストの かいとうようしです。 This is the test answer sheet.",
             freq: "6",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -2290,7 +2290,7 @@ const DATA = {
             vocab: "かいます",
             kanji: "買います",
             meaning:
-              "buy\nおいしい パンを 買いました。I bought some delicious bread.",
+              "buy\nおいしい パンを 買いました。 I bought some delicious bread.",
             freq: "13",
             category: "Verbs",
             topic: "Food & Drink",
@@ -2302,7 +2302,7 @@ const DATA = {
             vocab: "かいもの",
             kanji: "買いもの",
             meaning:
-              "shopping\nくるまで 買いものに いきます。I'm going shopping by car.",
+              "shopping\nくるまで 買いものに いきます。 I'm going shopping by car.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Transportation",
@@ -2314,7 +2314,7 @@ const DATA = {
             vocab: "かえします",
             kanji: "",
             meaning:
-              "return (object)\nとしょかんに ほんを かえします。Return the book to the library.",
+              "return (object)\nとしょかんに ほんを かえします。 Return the book to the library.",
             freq: "3",
             category: "Verbs",
             topic: "Places & Directions",
@@ -2326,7 +2326,7 @@ const DATA = {
             vocab: "かえります",
             kanji: "",
             meaning:
-              "return, go back\nタクシーで うちに かえります。I'll take a taxi home.",
+              "return, go back\nタクシーで うちに かえります。 I'll take a taxi home.",
             freq: "3",
             category: "Verbs",
             topic: "Places & Directions",
@@ -2338,7 +2338,7 @@ const DATA = {
             vocab: "かお",
             kanji: "",
             meaning:
-              "face\nあのひとの かおを おぼえていますか。Do you remember that person's face?",
+              "face\nあのひとの かおを おぼえていますか。 Do you remember that person's face?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -2350,7 +2350,7 @@ const DATA = {
             vocab: "かかります",
             kanji: "",
             meaning:
-              "take (time, money)\nえきまで あるいて 10ぷん かかります。It takes 10 minutes on foot to the station.",
+              "take (time, money)\nえきまで あるいて 10ぷん かかります。 It takes 10 minutes on foot to the station.",
             freq: "",
             category: "Verbs",
             topic: "Body & Health",
@@ -2362,7 +2362,7 @@ const DATA = {
             vocab: "かぎ",
             kanji: "",
             meaning:
-              "key\nうちに くるまの かぎを わすれました。I forgot my car key at home.",
+              "key\nうちに くるまの かぎを わすれました。 I forgot my car key at home.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2374,7 +2374,7 @@ const DATA = {
             vocab: "かきます",
             kanji: "書きます",
             meaning:
-              "write\nえきまでの ちずを 書きましょうか。Shall I write a map to the station?",
+              "write\nえきまでの ちずを 書きましょうか。 Shall I write a map to the station?",
             freq: "5",
             category: "Verbs",
             topic: "Places & Directions",
@@ -2386,7 +2386,7 @@ const DATA = {
             vocab: "がくせい",
             kanji: "学生",
             meaning:
-              "student\nいもうとは まだ 学生です。My sister is still a student.",
+              "student\nいもうとは まだ 学生です。 My sister is still a student.",
             freq: "9",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2397,7 +2397,7 @@ const DATA = {
             no: 203,
             vocab: "かけます",
             kanji: "",
-            meaning: "wear\nめがねを かけます。I wear glasses.",
+            meaning: "wear\nめがねを かけます。 I wear glasses.",
             freq: "",
             category: "Verbs",
             topic: "Clothing & Accessories",
@@ -2409,7 +2409,7 @@ const DATA = {
             vocab: "かけます",
             kanji: "",
             meaning:
-              "call\nあとで かいしゃに でんわを かけます。I'll call the company later.",
+              "call\nあとで かいしゃに でんわを かけます。 I'll call the company later.",
             freq: "",
             category: "Verbs",
             topic: "School & Work",
@@ -2420,7 +2420,7 @@ const DATA = {
             no: 205,
             vocab: "かさ",
             kanji: "",
-            meaning: "umbrella\nかさが ありますか。Do you have an umbrella?",
+            meaning: "umbrella\nかさが ありますか。 Do you have an umbrella?",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -2431,7 +2431,7 @@ const DATA = {
             no: 206,
             vocab: "かします",
             kanji: "",
-            meaning: "lend\nペンを かしてください。Please lend a pen.",
+            meaning: "lend\nペンを かしてください。 Please lend a pen.",
             freq: "1",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -2443,7 +2443,7 @@ const DATA = {
             vocab: "かぜ",
             kanji: "",
             meaning:
-              "wind\nきょうは とても かぜが つよいです。It's very windy today.",
+              "wind\nきょうは とても かぜが つよいです。 It's very windy today.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -2454,7 +2454,7 @@ const DATA = {
             no: 208,
             vocab: "かぜ",
             kanji: "",
-            meaning: "cold\nかぜを ひきました。I caught a cold.",
+            meaning: "cold\nかぜを ひきました。 I caught a cold.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -2466,7 +2466,7 @@ const DATA = {
             vocab: "かぞく",
             kanji: "",
             meaning:
-              "family\nわたしの かぞくも とうきょうに すんでいます。My family also lives in Tokyo.",
+              "family\nわたしの かぞくも とうきょうに すんでいます。 My family also lives in Tokyo.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2478,7 +2478,7 @@ const DATA = {
             vocab: "かた",
             kanji: "",
             meaning:
-              "person (respect)\nかいしゃの かたと はなしました。I talked to a person from the company.",
+              "person (respect)\nかいしゃの かたと はなしました。 I talked to a person from the company.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2490,7 +2490,7 @@ const DATA = {
             vocab: "カタカナ",
             kanji: "",
             meaning:
-              "katakana\nカタカナは むずかしくないです。Katakana is not difficult.",
+              "katakana\nカタカナは むずかしくないです。 Katakana is not difficult.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -2501,7 +2501,7 @@ const DATA = {
             no: 212,
             vocab: "がっこう",
             kanji: "学校",
-            meaning: "school\nあるいて 学校に いきます。I will walk to school.",
+            meaning: "school\nあるいて 学校に いきます。 I will walk to school.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2513,7 +2513,7 @@ const DATA = {
             vocab: "かど",
             kanji: "",
             meaning:
-              "corner\nつぎの かどを みぎに まがります。Turn right at the next corner.",
+              "corner\nつぎの かどを みぎに まがります。 Turn right at the next corner.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2525,7 +2525,7 @@ const DATA = {
             vocab: "かない",
             kanji: "",
             meaning:
-              "(my) wife\nかないは いま うちに います。My wife is at home now.",
+              "(my) wife\nかないは いま うちに います。 My wife is at home now.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2537,7 +2537,7 @@ const DATA = {
             vocab: "かばん",
             kanji: "",
             meaning:
-              "bag\nかばんの なかに PCが あります。There is a PC in the bag.",
+              "bag\nかばんの なかに PCが あります。 There is a PC in the bag.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2549,7 +2549,7 @@ const DATA = {
             vocab: "かびん",
             kanji: "",
             meaning:
-              "vase\nテーブルの うえに かびんが あります。There is a vase on the table.",
+              "vase\nテーブルの うえに かびんが あります。 There is a vase on the table.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2560,7 +2560,7 @@ const DATA = {
             no: 217,
             vocab: "かぶります",
             kanji: "",
-            meaning: "put on\nぼうしを かぶります。Put on a hat.",
+            meaning: "put on\nぼうしを かぶります。 Put on a hat.",
             freq: "",
             category: "Verbs",
             topic: "Clothing & Accessories",
@@ -2572,7 +2572,7 @@ const DATA = {
             vocab: "かみ",
             kanji: "紙",
             meaning:
-              "paper\n紙を 1まい ください。Please give me a piece of paper.",
+              "paper\n紙を 1まい ください。 Please give me a piece of paper.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -2584,7 +2584,7 @@ const DATA = {
             vocab: "カメラ",
             kanji: "",
             meaning:
-              "camera\nあたらしい カメラを かいたいです。I want to buy a new camera.",
+              "camera\nあたらしい カメラを かいたいです。 I want to buy a new camera.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -2607,7 +2607,7 @@ const DATA = {
             vocab: "からい",
             kanji: "",
             meaning:
-              "hot, spicy [i-adj.]\nからい たべものは だいじょうぶですか。Is spicy food okay?",
+              "hot, spicy [i-adj.]\nからい たべものは だいじょうぶですか。 Is spicy food okay?",
             freq: "",
             category: "い-Adjectives",
             topic: "Food & Drink",
@@ -2619,7 +2619,7 @@ const DATA = {
             vocab: "からだ",
             kanji: "",
             meaning:
-              "body\nスポーツは からだに いいです。Sports are good for you.",
+              "body\nスポーツは からだに いいです。 Sports are good for you.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -2631,7 +2631,7 @@ const DATA = {
             vocab: "かります",
             kanji: "",
             meaning:
-              "borrow\nともだちに かさを かりました。I borrowed an umbrella from my friend.",
+              "borrow\nともだちに かさを かりました。 I borrowed an umbrella from my friend.",
             freq: "4",
             category: "Verbs",
             topic: "Clothing & Accessories",
@@ -2643,7 +2643,7 @@ const DATA = {
             vocab: "かるい",
             kanji: "",
             meaning:
-              "light, not heavy [i-adj.]\nこのバッグは かるいです。This bag is light.",
+              "light, not heavy [i-adj.]\nこのバッグは かるいです。 This bag is light.",
             freq: "1",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -2655,7 +2655,7 @@ const DATA = {
             vocab: "カレンダー",
             kanji: "",
             meaning:
-              "calendar\nこれは きょねんの カレンダーです。This is last year's calendar.",
+              "calendar\nこれは きょねんの カレンダーです。 This is last year's calendar.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -2666,7 +2666,7 @@ const DATA = {
             no: 226,
             vocab: "かわ",
             kanji: "川",
-            meaning: "river\nおおきい川が あります。There is a big river.",
+            meaning: "river\nおおきい川が あります。 There is a big river.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -2678,7 +2678,7 @@ const DATA = {
             vocab: "かわいい",
             kanji: "",
             meaning:
-              "pretty, sweet, cute [i-adj.]\nこどもは かわいいです。Children are cute.",
+              "pretty, sweet, cute [i-adj.]\nこどもは かわいいです。 Children are cute.",
             freq: "",
             category: "い-Adjectives",
             topic: "Food & Drink",
@@ -2690,7 +2690,7 @@ const DATA = {
             vocab: "かんがえます",
             kanji: "",
             meaning:
-              "consider, think\nいいアイデアを かんがえました。I came up with a good idea.",
+              "consider, think\nいいアイデアを かんがえました。 I came up with a good idea.",
             freq: "1",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -2702,7 +2702,7 @@ const DATA = {
             vocab: "かんじ",
             kanji: "",
             meaning:
-              "kanji\nかんじの べんきょうを しています。I'm studying kanji.",
+              "kanji\nかんじの べんきょうを しています。 I'm studying kanji.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -2714,7 +2714,7 @@ const DATA = {
             vocab: "かんたん",
             kanji: "",
             meaning:
-              "easy [na-adj.]\nこのもんだいは かんたんです。This question is easy.",
+              "easy [na-adj.]\nこのもんだいは かんたんです。 This question is easy.",
             freq: "2",
             category: "な-Adjectives",
             topic: "School & Work",
@@ -2726,7 +2726,7 @@ const DATA = {
             vocab: "き",
             kanji: "木",
             meaning:
-              "tree\nにわに おおきい 木が あります。There is a big tree in the garden.",
+              "tree\nにわに おおきい 木が あります。 There is a big tree in the garden.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -2738,7 +2738,7 @@ const DATA = {
             vocab: "きいろい",
             kanji: "",
             meaning:
-              "yellow [i-adj.]\nきいろい マーカーで チェックします。Check with the yellow marker.",
+              "yellow [i-adj.]\nきいろい マーカーで チェックします。 Check with the yellow marker.",
             freq: "",
             category: "い-Adjectives",
             topic: "Colors & Shapes",
@@ -2750,7 +2750,7 @@ const DATA = {
             vocab: "きえます",
             kanji: "",
             meaning:
-              "go out, go off\nでんきが きえました。The electricity has gone out.",
+              "go out, go off\nでんきが きえました。 The electricity has gone out.",
             freq: "",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -2762,7 +2762,7 @@ const DATA = {
             vocab: "ききます",
             kanji: "聞きます",
             meaning:
-              "ask, hear, listen\nイヤホンで おんがくを 聞きます。Listen to music with earphones.",
+              "ask, hear, listen\nイヤホンで おんがくを 聞きます。 Listen to music with earphones.",
             freq: "6",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -2773,7 +2773,7 @@ const DATA = {
             no: 235,
             vocab: "きた",
             kanji: "北",
-            meaning: "north\n北は どちらですか。Which direction is north?",
+            meaning: "north\n北は どちらですか。 Which direction is north?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2785,7 +2785,7 @@ const DATA = {
             vocab: "ギター",
             kanji: "",
             meaning:
-              "guitar\nギターの れんしゅうを しています。I'm practicing the guitar.",
+              "guitar\nギターの れんしゅうを しています。 I'm practicing the guitar.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -2797,7 +2797,7 @@ const DATA = {
             vocab: "きたない",
             kanji: "",
             meaning:
-              "dirty [i-adj.]\nこのビルの トイレは きたないです。The toilet in this building is dirty.",
+              "dirty [i-adj.]\nこのビルの トイレは きたないです。 The toilet in this building is dirty.",
             freq: "1",
             category: "い-Adjectives",
             topic: "Places & Directions",
@@ -2809,7 +2809,7 @@ const DATA = {
             vocab: "きっさてん",
             kanji: "",
             meaning:
-              "coffee shop\nえきのまえに ふるい きっさてんが あります。There is an old coffee shop in front of the station.",
+              "coffee shop\nえきのまえに ふるい きっさてんが あります。 There is an old coffee shop in front of the station.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -2821,7 +2821,7 @@ const DATA = {
             vocab: "きって",
             kanji: "",
             meaning:
-              "stamp\nゆうびんきょくで きってを かいました。I bought a stamp at the post office.",
+              "stamp\nゆうびんきょくで きってを かいました。 I bought a stamp at the post office.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -2833,7 +2833,7 @@ const DATA = {
             vocab: "きっぷ",
             kanji: "",
             meaning:
-              "ticket\nこれは しんかんせんの きっぷです。This is a Shinkansen ticket.",
+              "ticket\nこれは しんかんせんの きっぷです。 This is a Shinkansen ticket.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -2845,7 +2845,7 @@ const DATA = {
             vocab: "きのう",
             kanji: "",
             meaning:
-              "yesterday\nきのう たくさん にほんごの べんきょうをしました。I studied a lot of Japanese yesterday.",
+              "yesterday\nきのう たくさん にほんごの べんきょうをしました。 I studied a lot of Japanese yesterday.",
             freq: "6",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -2857,7 +2857,7 @@ const DATA = {
             vocab: "きます",
             kanji: "来ます",
             meaning:
-              "come\nらいしゅう りょうしんが とうきょうに 来ます。Next week, my parents will come to Tokyo.",
+              "come\nらいしゅう りょうしんが とうきょうに 来ます。 Next week, my parents will come to Tokyo.",
             freq: "4",
             category: "Verbs",
             topic: "Family & People",
@@ -2869,7 +2869,7 @@ const DATA = {
             vocab: "きます",
             kanji: "",
             meaning:
-              "put on, wear\nさむいですから、セーターを きます。It's cold, so I'll wear a sweater.",
+              "put on, wear\nさむいですから、セーターを きます。 It's cold, so I'll wear a sweater.",
             freq: "",
             category: "Verbs",
             topic: "Clothing & Accessories",
@@ -2880,7 +2880,7 @@ const DATA = {
             no: 244,
             vocab: "きゅう",
             kanji: "九",
-            meaning: "nine\nほんを 九さつ かりました。I borrowed nine books.",
+            meaning: "nine\nほんを 九さつ かりました。 I borrowed nine books.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -2892,7 +2892,7 @@ const DATA = {
             vocab: "ぎゅうにく",
             kanji: "",
             meaning:
-              "beef\nにほんで ぎゅうにくは たかいです。Beef is expensive in Japan.",
+              "beef\nにほんで ぎゅうにくは たかいです。 Beef is expensive in Japan.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -2904,7 +2904,7 @@ const DATA = {
             vocab: "ぎゅうにゅう",
             kanji: "",
             meaning:
-              "milk\nまいあさ ぎゅうにゅうを のみます。I drink milk every morning.",
+              "milk\nまいあさ ぎゅうにゅうを のみます。 I drink milk every morning.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -2916,7 +2916,7 @@ const DATA = {
             vocab: "きょう",
             kanji: "今日",
             meaning:
-              "today\n今日は いい てんきですね。It's nice weather today, isn't it?",
+              "today\n今日は いい てんきですね。 It's nice weather today, isn't it?",
             freq: "13",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -2928,7 +2928,7 @@ const DATA = {
             vocab: "きょうしつ",
             kanji: "",
             meaning:
-              "classroom\nせんせいは きょうしつに います。The teacher is in the classroom.",
+              "classroom\nせんせいは きょうしつに います。 The teacher is in the classroom.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -2940,7 +2940,7 @@ const DATA = {
             vocab: "きょうだい",
             kanji: "",
             meaning:
-              "brothers and sisters; siblings\nきょうだいが いますか。Do you have any siblings?",
+              "brothers and sisters; siblings\nきょうだいが いますか。 Do you have any siblings?",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -2952,7 +2952,7 @@ const DATA = {
             vocab: "きょうと",
             kanji: "",
             meaning:
-              "Kyoto [name of city]\nおととし きょうとに いきました。I went to Kyoto two years ago.",
+              "Kyoto [name of city]\nおととし きょうとに いきました。 I went to Kyoto two years ago.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -2964,7 +2964,7 @@ const DATA = {
             vocab: "きょねん",
             kanji: "",
             meaning:
-              "last year\nきょねん にほんごの べんきょうを はじめました。Last year, I started studying Japanese.",
+              "last year\nきょねん にほんごの べんきょうを はじめました。 Last year, I started studying Japanese.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -2976,7 +2976,7 @@ const DATA = {
             vocab: "きらい",
             kanji: "",
             meaning:
-              "hateful, unpleasant, not likable [na-adj.]\nなっとうが きらいです。I hate natto.",
+              "hateful, unpleasant, not likable [na-adj.]\nなっとうが きらいです。 I hate natto.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -2999,7 +2999,7 @@ const DATA = {
             vocab: "きれい",
             kanji: "",
             meaning:
-              "beautiful, clean [na-adj.]\nこのへやは きれいです。This room is clean.",
+              "beautiful, clean [na-adj.]\nこのへやは きれいです。 This room is clean.",
             freq: "1",
             category: "な-Adjectives",
             topic: "House & Everyday Objects",
@@ -3023,7 +3023,7 @@ const DATA = {
             vocab: "ぎんこう",
             kanji: "銀行",
             meaning:
-              "bank\nあとで 銀行に いきます。I will go to the bank later.",
+              "bank\nあとで 銀行に いきます。 I will go to the bank later.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -3034,7 +3034,7 @@ const DATA = {
             no: 257,
             vocab: "きんようび",
             kanji: "金よう日",
-            meaning: "Friday\n金よう日に あいましょう。Let's meet on Friday.",
+            meaning: "Friday\n金よう日に あいましょう。 Let's meet on Friday.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3045,7 +3045,7 @@ const DATA = {
             no: 258,
             vocab: "く",
             kanji: "九",
-            meaning: "nine\nいま 九じです。It's nine o'clock now.",
+            meaning: "nine\nいま 九じです。 It's nine o'clock now.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -3057,7 +3057,7 @@ const DATA = {
             vocab: "くすり",
             kanji: "",
             meaning:
-              "medicine\nしょくじの あとで くすりを のみます。Take medicine after meals.",
+              "medicine\nしょくじの あとで くすりを のみます。 Take medicine after meals.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -3068,7 +3068,7 @@ const DATA = {
             no: 260,
             vocab: "くだもの",
             kanji: "",
-            meaning: "fruit\nよく くだものを たべます。I often eat fruits.",
+            meaning: "fruit\nよく くだものを たべます。 I often eat fruits.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -3079,7 +3079,7 @@ const DATA = {
             no: 261,
             vocab: "くち",
             kanji: "口",
-            meaning: "mouth\nかれは 口が おおきいです。He has a big mouth.",
+            meaning: "mouth\nかれは 口が おおきいです。 He has a big mouth.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -3091,7 +3091,7 @@ const DATA = {
             vocab: "くつ",
             kanji: "",
             meaning:
-              "shoes\nくつの サイズは いくつですか。What is the size of your shoes?",
+              "shoes\nくつの サイズは いくつですか。 What is the size of your shoes?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -3103,7 +3103,7 @@ const DATA = {
             vocab: "くつした",
             kanji: "くつ下",
             meaning:
-              "socks\nしろい くつしたを かいました。I bought white socks.",
+              "socks\nしろい くつしたを かいました。 I bought white socks.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Colors & Shapes",
@@ -3115,7 +3115,7 @@ const DATA = {
             vocab: "くに",
             kanji: "国",
             meaning:
-              "country\nあした 国に かえります。Tomorrow, I will return to my country.",
+              "country\nあした 国に かえります。 Tomorrow, I will return to my country.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3126,7 +3126,7 @@ const DATA = {
             no: 265,
             vocab: "くもり",
             kanji: "",
-            meaning: "cloudy weather\nきょうは くもりです。It's cloudy today.",
+            meaning: "cloudy weather\nきょうは くもりです。 It's cloudy today.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -3137,7 +3137,7 @@ const DATA = {
             no: 266,
             vocab: "くらい",
             kanji: "",
-            meaning: "dark [i-adj.]\nこのへやは くらいです。This room is dark.",
+            meaning: "dark [i-adj.]\nこのへやは くらいです。 This room is dark.",
             freq: "1",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -3149,7 +3149,7 @@ const DATA = {
             vocab: "クラス",
             kanji: "",
             meaning:
-              "class\nしゅうまつは ヨガの クラスに いきます。I go to yoga classes on weekends.",
+              "class\nしゅうまつは ヨガの クラスに いきます。 I go to yoga classes on weekends.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -3161,7 +3161,7 @@ const DATA = {
             vocab: "くるま",
             kanji: "車",
             meaning:
-              "car\nきょうは 車が おおいですね。There are many cars today.",
+              "car\nきょうは 車が おおいですね。 There are many cars today.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3172,7 +3172,7 @@ const DATA = {
             no: 269,
             vocab: "くろ",
             kanji: "",
-            meaning: "black [noun]\nくろで かきます。Write in black.",
+            meaning: "black [noun]\nくろで かきます。 Write in black.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Colors & Shapes",
@@ -3184,7 +3184,7 @@ const DATA = {
             vocab: "くろい",
             kanji: "",
             meaning:
-              "black [i-adj.]\nくろい バッグが 3つ あります。There are three black bags.",
+              "black [i-adj.]\nくろい バッグが 3つ あります。 There are three black bags.",
             freq: "1",
             category: "い-Adjectives",
             topic: "Colors & Shapes",
@@ -3207,7 +3207,7 @@ const DATA = {
             vocab: "ケーキ",
             kanji: "",
             meaning:
-              "cake\nこのケーキを 4つ ください。Please give me four of these cakes.",
+              "cake\nこのケーキを 4つ ください。 Please give me four of these cakes.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -3219,7 +3219,7 @@ const DATA = {
             vocab: "けさ",
             kanji: "今朝",
             meaning:
-              "this morning\n今朝は ６じに おきました。I got up at 6 o'clock this morning.",
+              "this morning\n今朝は ６じに おきました。 I got up at 6 o'clock this morning.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3231,7 +3231,7 @@ const DATA = {
             vocab: "けしゴム",
             kanji: "",
             meaning:
-              "eraser\nけしゴムを かしてください。Please lend me an eraser.",
+              "eraser\nけしゴムを かしてください。 Please lend me an eraser.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -3243,7 +3243,7 @@ const DATA = {
             vocab: "けします",
             kanji: "",
             meaning:
-              "switch off, turn off, erase\nでんきを けします。Turn off the light.",
+              "switch off, turn off, erase\nでんきを けします。 Turn off the light.",
             freq: "1",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -3267,7 +3267,7 @@ const DATA = {
             vocab: "けっこんします",
             kanji: "",
             meaning:
-              "get married\n2がつ15にちに けっこんしました。I got married on February 15th.",
+              "get married\n2がつ15にちに けっこんしました。 I got married on February 15th.",
             freq: "1",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -3279,7 +3279,7 @@ const DATA = {
             vocab: "げつようび",
             kanji: "月よう日",
             meaning:
-              "Monday\n月よう日は いつも いそがしいです。I'm always busy on Mondays.",
+              "Monday\n月よう日は いつも いそがしいです。 I'm always busy on Mondays.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3291,7 +3291,7 @@ const DATA = {
             vocab: "げんかん",
             kanji: "",
             meaning:
-              "front door, front entrance\nげんかんで くつを ぬぎます。Take off your shoes at the entrance.",
+              "front door, front entrance\nげんかんで くつを ぬぎます。 Take off your shoes at the entrance.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -3302,7 +3302,7 @@ const DATA = {
             no: 280,
             vocab: "げんき",
             kanji: "",
-            meaning: "fine [na-adj.]\nおげんきですか。How are you?",
+            meaning: "fine [na-adj.]\nおげんきですか。 How are you?",
             freq: "1",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -3314,7 +3314,7 @@ const DATA = {
             vocab: "ご",
             kanji: "五",
             meaning:
-              "five\nふじさんに 五かい のぼりました。I climbed Mt. Fuji five times.",
+              "five\nふじさんに 五かい のぼりました。 I climbed Mt. Fuji five times.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -3326,7 +3326,7 @@ const DATA = {
             vocab: "こうえん",
             kanji: "",
             meaning:
-              "park\nうちの ちかくに こうえんが あります。There is a park near my house.",
+              "park\nうちの ちかくに こうえんが あります。 There is a park near my house.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -3338,7 +3338,7 @@ const DATA = {
             vocab: "こうばん",
             kanji: "",
             meaning:
-              "police box\nえきの まえに こうばんが あります。There is a police box in front of the station.",
+              "police box\nえきの まえに こうばんが あります。 There is a police box in front of the station.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -3349,7 +3349,7 @@ const DATA = {
             no: 284,
             vocab: "こえ",
             kanji: "",
-            meaning: "voice\nいい こえですね。You have a good voice.",
+            meaning: "voice\nいい こえですね。 You have a good voice.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -3361,7 +3361,7 @@ const DATA = {
             vocab: "コート",
             kanji: "",
             meaning:
-              "coat\nさむいから、コートを きます。It's cold, so I'll wear a coat.",
+              "coat\nさむいから、コートを きます。 It's cold, so I'll wear a coat.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -3373,7 +3373,7 @@ const DATA = {
             vocab: "コーヒー",
             kanji: "",
             meaning:
-              "coffee\nコーヒーを 2はい のみました。I drank two cups of coffee.",
+              "coffee\nコーヒーを 2はい のみました。 I drank two cups of coffee.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -3384,7 +3384,7 @@ const DATA = {
             no: 287,
             vocab: "ここ",
             kanji: "",
-            meaning: "here\nここは あついです。It's hot here.",
+            meaning: "here\nここは あついです。 It's hot here.",
             freq: "3",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -3396,7 +3396,7 @@ const DATA = {
             vocab: "ごご",
             kanji: "午後",
             meaning:
-              "afternoon, p.m.\nあしたの 午後は うちに います。I'll be at home tomorrow afternoon.",
+              "afternoon, p.m.\nあしたの 午後は うちに います。 I'll be at home tomorrow afternoon.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3408,7 +3408,7 @@ const DATA = {
             vocab: "ここのか",
             kanji: "九日",
             meaning:
-              "ninth day of the month, nine days\nきょうは 九日です。Today is the 9th.",
+              "ninth day of the month, nine days\nきょうは 九日です。 Today is the 9th.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3420,7 +3420,7 @@ const DATA = {
             vocab: "ここのつ",
             kanji: "九つ",
             meaning:
-              "nine\nふくろの なかに りんごが 九つ あります。There are nine apples in the bag.",
+              "nine\nふくろの なかに りんごが 九つ あります。 There are nine apples in the bag.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -3432,7 +3432,7 @@ const DATA = {
             vocab: "ごしゅじん",
             kanji: "",
             meaning:
-              "(someone's) husband\nごしゅじんは いま どこに いますか。Where is your husband now?",
+              "(someone's) husband\nごしゅじんは いま どこに いますか。 Where is your husband now?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -3443,7 +3443,7 @@ const DATA = {
             no: 292,
             vocab: "ごぜん",
             kanji: "午前",
-            meaning: "a.m.\nいま 午前 11じです。It's 11am now.",
+            meaning: "a.m.\nいま 午前 11じです。 It's 11am now.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3455,7 +3455,7 @@ const DATA = {
             vocab: "こたえ",
             kanji: "",
             meaning:
-              "answer\nここに こたえを かいてください。Please write your answer here.",
+              "answer\nここに こたえを かいてください。 Please write your answer here.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -3467,7 +3467,7 @@ const DATA = {
             vocab: "こたえかた",
             kanji: "",
             meaning:
-              "how to answer\nこたえかたが わかりません。I don't know how to answer.",
+              "how to answer\nこたえかたが わかりません。 I don't know how to answer.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -3479,7 +3479,7 @@ const DATA = {
             vocab: "こたえます",
             kanji: "",
             meaning:
-              "answer\nもんだいに こたえてください。Please answer the question.",
+              "answer\nもんだいに こたえてください。 Please answer the question.",
             freq: "3",
             category: "Verbs",
             topic: "School & Work",
@@ -3491,7 +3491,7 @@ const DATA = {
             vocab: "こちら",
             kanji: "",
             meaning:
-              "this side, this place, this one\nこちらは どなたですか。Who is this?",
+              "this side, this place, this one\nこちらは どなたですか。 Who is this?",
             freq: "1",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -3503,7 +3503,7 @@ const DATA = {
             vocab: "コップ",
             kanji: "",
             meaning:
-              "glass, drinking cup\nテーブルの うえに コップが たくさん あります。There are many cups on the table.",
+              "glass, drinking cup\nテーブルの うえに コップが たくさん あります。 There are many cups on the table.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -3515,7 +3515,7 @@ const DATA = {
             vocab: "ことし",
             kanji: "今年",
             meaning:
-              "this year\n今年は くにに かえりません。I will not return to the country this year.",
+              "this year\n今年は くにに かえりません。 I will not return to the country this year.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3527,7 +3527,7 @@ const DATA = {
             vocab: "ことば",
             kanji: "",
             meaning:
-              "word, language, phrase\nたくさん ことばを おぼえました。I learned a lot of words.",
+              "word, language, phrase\nたくさん ことばを おぼえました。 I learned a lot of words.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -3539,7 +3539,7 @@ const DATA = {
             vocab: "こども",
             kanji: "子ども",
             meaning:
-              "child\nわたしは 子どもが 3にん います。I have 3 children.",
+              "child\nわたしは 子どもが 3にん います。 I have 3 children.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -3551,7 +3551,7 @@ const DATA = {
             vocab: "この～",
             kanji: "",
             meaning:
-              "this ...\nこのカメラは とても かるいです。This camera is very light.",
+              "this ...\nこのカメラは とても かるいです。 This camera is very light.",
             freq: "12",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -3563,7 +3563,7 @@ const DATA = {
             vocab: "ごはん",
             kanji: "",
             meaning:
-              "rice, meal\nあさ 8じに ごはんを たべました。I ate at 8 am.",
+              "rice, meal\nあさ 8じに ごはんを たべました。 I ate at 8 am.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -3574,7 +3574,7 @@ const DATA = {
             no: 303,
             vocab: "コピー",
             kanji: "",
-            meaning: "copy\nコピーをもらってもいいですか。May I get a copy?",
+            meaning: "copy\nコピーをもらってもいいですか。 May I get a copy?",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -3586,7 +3586,7 @@ const DATA = {
             vocab: "コピーします",
             kanji: "",
             meaning:
-              "make a copy\n5ページから10ページまで コピーしてください。Please copy pages 5 to 10.",
+              "make a copy\n5ページから10ページまで コピーしてください。 Please copy pages 5 to 10.",
             freq: "1",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -3598,7 +3598,7 @@ const DATA = {
             vocab: "こまります",
             kanji: "",
             meaning:
-              "be in trouble\nスマホを わすれましたから、こまりました。I was in trouble because I forgot my smartphone.",
+              "be in trouble\nスマホを わすれましたから、こまりました。 I was in trouble because I forgot my smartphone.",
             freq: "2",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -3610,7 +3610,7 @@ const DATA = {
             vocab: "これ",
             kanji: "",
             meaning:
-              "this (one)\nこれを ２つと、それを ３つ ください。Please give me two of these and three of them.",
+              "this (one)\nこれを ２つと、それを ３つ ください。 Please give me two of these and three of them.",
             freq: "2",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -3622,7 +3622,7 @@ const DATA = {
             vocab: "こんげつ",
             kanji: "今月",
             meaning:
-              "this month\n今月は とても いそがしいです。This month is very busy.",
+              "this month\n今月は とても いそがしいです。 This month is very busy.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3634,7 +3634,7 @@ const DATA = {
             vocab: "こんしゅう",
             kanji: "今週",
             meaning:
-              "this week\n今週は あまり いそがしくないです。I'm not very busy this week.",
+              "this week\n今週は あまり いそがしくないです。 I'm not very busy this week.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3646,7 +3646,7 @@ const DATA = {
             vocab: "こんな",
             kanji: "",
             meaning:
-              "this sort of, like this [na-adj.]\nこんな りょうりが すきです。I like this kind of food.",
+              "this sort of, like this [na-adj.]\nこんな りょうりが すきです。 I like this kind of food.",
             freq: "",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -3670,7 +3670,7 @@ const DATA = {
             vocab: "さいご",
             kanji: "",
             meaning:
-              "end, last time\nレッスンの さいごに しゅくだいを あげます。I will give you homework at the end of the lesson.",
+              "end, last time\nレッスンの さいごに しゅくだいを あげます。 I will give you homework at the end of the lesson.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3682,7 +3682,7 @@ const DATA = {
             vocab: "さかな",
             kanji: "魚",
             meaning:
-              "fish\nにくより 魚のりょうりが すきです。I like fish dishes better than meat.",
+              "fish\nにくより 魚のりょうりが すきです。 I like fish dishes better than meat.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -3693,7 +3693,7 @@ const DATA = {
             no: 313,
             vocab: "さき",
             kanji: "先",
-            meaning: "former, earlier\nお先に どうぞ。After you.",
+            meaning: "former, earlier\nお先に どうぞ。 After you.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -3705,7 +3705,7 @@ const DATA = {
             vocab: "さきます",
             kanji: "",
             meaning:
-              "bloom\nはるには いろいろなはなが さきます。Various flowers bloom in spring.",
+              "bloom\nはるには いろいろなはなが さきます。 Various flowers bloom in spring.",
             freq: "",
             category: "Verbs",
             topic: "Weather & Nature",
@@ -3717,7 +3717,7 @@ const DATA = {
             vocab: "さくぶん",
             kanji: "",
             meaning:
-              "composition\nさくぶんは いい れんしゅうです。Writing is a good practice.",
+              "composition\nさくぶんは いい れんしゅうです。 Writing is a good practice.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -3729,7 +3729,7 @@ const DATA = {
             vocab: "さします",
             kanji: "",
             meaning:
-              "put up (umbrella)\nあめでしたが、かさを さしませんでした。It was raining, but I didn't hold my umbrella.",
+              "put up (umbrella)\nあめでしたが、かさを さしませんでした。 It was raining, but I didn't hold my umbrella.",
             freq: "",
             category: "Verbs",
             topic: "Clothing & Accessories",
@@ -3741,7 +3741,7 @@ const DATA = {
             vocab: "サッカー",
             kanji: "",
             meaning:
-              "soccer, football\nあしたは サッカーの しあいが あります。Tomorrow there is a soccer game.",
+              "soccer, football\nあしたは サッカーの しあいが あります。 Tomorrow there is a soccer game.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3753,7 +3753,7 @@ const DATA = {
             vocab: "ざっし",
             kanji: "",
             meaning:
-              "magazine\nこのざっしの しゃしんは きれいです。The photos in this magazine are beautiful.",
+              "magazine\nこのざっしの しゃしんは きれいです。 The photos in this magazine are beautiful.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -3765,7 +3765,7 @@ const DATA = {
             vocab: "さとう",
             kanji: "",
             meaning:
-              "sugar\nコーヒーに さとうを いれますか。Would you like to add sugar to your coffee?",
+              "sugar\nコーヒーに さとうを いれますか。 Would you like to add sugar to your coffee?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -3777,7 +3777,7 @@ const DATA = {
             vocab: "さむい",
             kanji: "",
             meaning:
-              "cold (weather) [i-adj.]\nきょうは きのうより さむいです。It's colder today than yesterday.",
+              "cold (weather) [i-adj.]\nきょうは きのうより さむいです。 It's colder today than yesterday.",
             freq: "",
             category: "い-Adjectives",
             topic: "Weather & Nature",
@@ -3789,7 +3789,7 @@ const DATA = {
             vocab: "さらいねん",
             kanji: "",
             meaning:
-              "the year after next\nたぶん さらいねん にほに いきます。Maybe I will go to Japan the year after next.",
+              "the year after next\nたぶん さらいねん にほに いきます。 Maybe I will go to Japan the year after next.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3800,7 +3800,7 @@ const DATA = {
             no: 322,
             vocab: "さん",
             kanji: "三",
-            meaning: "three\nでんちを さんこ いれます。Insert three batteries.",
+            meaning: "three\nでんちを さんこ いれます。 Insert three batteries.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -3812,7 +3812,7 @@ const DATA = {
             vocab: "さんぽ",
             kanji: "",
             meaning:
-              "walk\nちちと ははは さんぽが すきです。My father and mother like walking.",
+              "walk\nちちと ははは さんぽが すきです。 My father and mother like walking.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -3824,7 +3824,7 @@ const DATA = {
             vocab: "さんぽ(を)します",
             kanji: "",
             meaning:
-              "take a walk\nけさ ははと さんぽをしました。I took a walk with my mother this morning.",
+              "take a walk\nけさ ははと さんぽをしました。 I took a walk with my mother this morning.",
             freq: "1",
             category: "Verbs",
             topic: "Family & People",
@@ -3848,7 +3848,7 @@ const DATA = {
             vocab: "しお",
             kanji: "",
             meaning:
-              "salt\nしおを すこし いれてください。Please add a little salt.",
+              "salt\nしおを すこし いれてください。 Please add a little salt.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -3860,7 +3860,7 @@ const DATA = {
             vocab: "しかし",
             kanji: "",
             meaning:
-              "but, however (formal, written language)\nべんきょうしました。しかし、わすれました。I studied. But I forgot.",
+              "but, however (formal, written language)\nべんきょうしました。しかし、わすれました。 I studied. But I forgot.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -3871,7 +3871,7 @@ const DATA = {
             no: 328,
             vocab: "じかん",
             kanji: "時間",
-            meaning: "time\nあしたは 時間が あります。I have time tomorrow.",
+            meaning: "time\nあしたは 時間が あります。 I have time tomorrow.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -3883,7 +3883,7 @@ const DATA = {
             vocab: "しごと",
             kanji: "",
             meaning:
-              "work\nどんな しごとを していますか。What kind of work do you do?",
+              "work\nどんな しごとを していますか。 What kind of work do you do?",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -3895,7 +3895,7 @@ const DATA = {
             vocab: "じしょ",
             kanji: "",
             meaning:
-              "dictionary\nじしょで しらべました。I looked it up in the dictionary.",
+              "dictionary\nじしょで しらべました。 I looked it up in the dictionary.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -3907,7 +3907,7 @@ const DATA = {
             vocab: "しずか",
             kanji: "",
             meaning:
-              "quiet [na-adj.]\nこのカフェは しずかです。This cafe is quiet.",
+              "quiet [na-adj.]\nこのカフェは しずかです。 This cafe is quiet.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -3919,7 +3919,7 @@ const DATA = {
             vocab: "した",
             kanji: "下",
             meaning:
-              "under, below\nテーブルの 下に コンセントが あります。There is an outlet under the table.",
+              "under, below\nテーブルの 下に コンセントが あります。 There is an outlet under the table.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -3930,7 +3930,7 @@ const DATA = {
             no: 333,
             vocab: "しつもん",
             kanji: "",
-            meaning: "question\nしつもんが あります。I have a question.",
+            meaning: "question\nしつもんが あります。 I have a question.",
             freq: "6",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -3942,7 +3942,7 @@ const DATA = {
             vocab: "じてんしゃ",
             kanji: "",
             meaning:
-              "bicycle\nじてんしゃで がっこうに いきます。I go to school by bicycle.",
+              "bicycle\nじてんしゃで がっこうに いきます。 I go to school by bicycle.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -3953,7 +3953,7 @@ const DATA = {
             no: 335,
             vocab: "じどうしゃ",
             kanji: "",
-            meaning: "car\nじどうしゃが 5だい あります。There are 5 cars.",
+            meaning: "car\nじどうしゃが 5だい あります。 There are 5 cars.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -3964,7 +3964,7 @@ const DATA = {
             no: 336,
             vocab: "しにます",
             kanji: "",
-            meaning: "die\nペットが しにました。The pet has died.",
+            meaning: "die\nペットが しにました。 The pet has died.",
             freq: "",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -3987,7 +3987,7 @@ const DATA = {
             no: 338,
             vocab: "じぶん",
             kanji: "",
-            meaning: "oneself\nじぶんで つくりました。I made it myself.",
+            meaning: "oneself\nじぶんで つくりました。 I made it myself.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -3999,7 +3999,7 @@ const DATA = {
             vocab: "します",
             kanji: "",
             meaning:
-              "do\nあしたは なにを しますか。What are you going to do tomorrow?",
+              "do\nあしたは なにを しますか。 What are you going to do tomorrow?",
             freq: "14",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -4011,7 +4011,7 @@ const DATA = {
             vocab: "しまります",
             kanji: "",
             meaning:
-              "close (intransitive verb)\nドアが しまります。The door closes.",
+              "close (intransitive verb)\nドアが しまります。 The door closes.",
             freq: "",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -4023,7 +4023,7 @@ const DATA = {
             vocab: "しめます",
             kanji: "",
             meaning:
-              "close (transitive verb)\nわたしは ドアを しめます。I close the door.",
+              "close (transitive verb)\nわたしは ドアを しめます。 I close the door.",
             freq: "1",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -4035,7 +4035,7 @@ const DATA = {
             vocab: "しゃしん",
             kanji: "",
             meaning:
-              "photograph, photo, picture\nいっしょに しゃしんを とりましょう。Let's take a picture together.",
+              "photograph, photo, picture\nいっしょに しゃしんを とりましょう。 Let's take a picture together.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -4047,7 +4047,7 @@ const DATA = {
             vocab: "シャツ",
             kanji: "",
             meaning:
-              "shirt\nしろい シャツを かいました。I bought a white shirt.",
+              "shirt\nしろい シャツを かいました。 I bought a white shirt.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Colors & Shapes",
@@ -4059,7 +4059,7 @@ const DATA = {
             vocab: "シャワー",
             kanji: "",
             meaning:
-              "shower\nまいあさ シャワーを あびます。I take a shower every morning.",
+              "shower\nまいあさ シャワーを あびます。 I take a shower every morning.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4071,7 +4071,7 @@ const DATA = {
             vocab: "しゅう",
             kanji: "週",
             meaning:
-              "week\nこの週とこの週は とうきょうに います。This week and this week I'm in Tokyo.",
+              "week\nこの週とこの週は とうきょうに います。 This week and this week I'm in Tokyo.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4082,7 +4082,7 @@ const DATA = {
             no: 346,
             vocab: "じゅう",
             kanji: "十",
-            meaning: "ten\nおとこの ひとが 十にん います。There are ten men.",
+            meaning: "ten\nおとこの ひとが 十にん います。 There are ten men.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -4094,7 +4094,7 @@ const DATA = {
             vocab: "ジュース",
             kanji: "",
             meaning:
-              "juice\nオレンジジュースを ください。Please give me orange juice.",
+              "juice\nオレンジジュースを ください。 Please give me orange juice.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -4106,7 +4106,7 @@ const DATA = {
             vocab: "じゅぎょう",
             kanji: "",
             meaning:
-              "class, lesson\nきょうは にほんごの じゅぎょうが あります。I have a Japanese class today.",
+              "class, lesson\nきょうは にほんごの じゅぎょうが あります。 I have a Japanese class today.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4118,7 +4118,7 @@ const DATA = {
             vocab: "しゅくだい",
             kanji: "",
             meaning:
-              "homework\nしゅくだいが たくさん あります。I have a lot of homework.",
+              "homework\nしゅくだいが たくさん あります。 I have a lot of homework.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -4130,7 +4130,7 @@ const DATA = {
             vocab: "じょうず",
             kanji: "上手",
             meaning:
-              "good, skillful [na-adj.]\nかのじょは にほんごが じょうずです。She is good at Japanese.",
+              "good, skillful [na-adj.]\nかのじょは にほんごが じょうずです。 She is good at Japanese.",
             freq: "1",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -4142,7 +4142,7 @@ const DATA = {
             vocab: "じょうずに",
             kanji: "上手に",
             meaning:
-              "well [adv.]\nとても 上手に できましたね。You did it very well.",
+              "well [adv.]\nとても 上手に できましたね。 You did it very well.",
             freq: "1",
             category: "Adverbs",
             topic: "Descriptions & Qualities",
@@ -4166,7 +4166,7 @@ const DATA = {
             vocab: "しょうゆ",
             kanji: "",
             meaning:
-              "soy sauce\nしょうゆを すこし いれます。Add a little soy sauce.",
+              "soy sauce\nしょうゆを すこし いれます。 Add a little soy sauce.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -4178,7 +4178,7 @@ const DATA = {
             vocab: "しょくどう",
             kanji: "",
             meaning:
-              "dining room\n10かいに しょくどうが あります。There is a dining room on the 10th floor.",
+              "dining room\n10かいに しょくどうが あります。 There is a dining room on the 10th floor.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -4202,7 +4202,7 @@ const DATA = {
             vocab: "しろい",
             kanji: "白い",
             meaning:
-              "white [i-adj.]\n白い はなを かいました。I bought a white flower.",
+              "white [i-adj.]\n白い はなを かいました。 I bought a white flower.",
             freq: "",
             category: "い-Adjectives",
             topic: "Colors & Shapes",
@@ -4214,7 +4214,7 @@ const DATA = {
             vocab: "しんぶん",
             kanji: "新聞",
             meaning:
-              "newspaper\nうちで 新聞を よみます。I read the newspaper at home.",
+              "newspaper\nうちで 新聞を よみます。 I read the newspaper at home.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -4237,7 +4237,7 @@ const DATA = {
             no: 359,
             vocab: "すいます",
             kanji: "",
-            meaning: "breath in, smoke\nたばこを すいますか。Do you smoke?",
+            meaning: "breath in, smoke\nたばこを すいますか。 Do you smoke?",
             freq: "",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -4249,7 +4249,7 @@ const DATA = {
             vocab: "すいようび",
             kanji: "水よう日",
             meaning:
-              "Wednesday\n水よう日は うちで しごとを します。I work at home on Wednesday.",
+              "Wednesday\n水よう日は うちで しごとを します。 I work at home on Wednesday.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4261,7 +4261,7 @@ const DATA = {
             vocab: "スカート",
             kanji: "",
             meaning:
-              "skirt\nときどき スカートを はきます。I wear a skirt sometimes.",
+              "skirt\nときどき スカートを はきます。 I wear a skirt sometimes.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -4273,7 +4273,7 @@ const DATA = {
             vocab: "すき",
             kanji: "",
             meaning:
-              "like [na-adj.]\nわたしは べんきょうが すきです。I like studying.",
+              "like [na-adj.]\nわたしは べんきょうが すきです。 I like studying.",
             freq: "4",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -4285,7 +4285,7 @@ const DATA = {
             vocab: "すくない",
             kanji: "少ない",
             meaning:
-              "few\nきょうは しゅくだいが すくないです。I have less homework today.",
+              "few\nきょうは しゅくだいが すくないです。 I have less homework today.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4296,7 +4296,7 @@ const DATA = {
             no: 364,
             vocab: "すぐに",
             kanji: "",
-            meaning: "soon, right away\nすぐに おわります。It will end soon.",
+            meaning: "soon, right away\nすぐに おわります。 It will end soon.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4308,7 +4308,7 @@ const DATA = {
             vocab: "すこし",
             kanji: "少し",
             meaning:
-              "a little\n少し じかんを ください。Please give me some time.",
+              "a little\n少し じかんを ください。 Please give me some time.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4319,7 +4319,7 @@ const DATA = {
             no: 366,
             vocab: "すし",
             kanji: "",
-            meaning: "sushi\nきのう すしを たべました。I ate sushi yesterday.",
+            meaning: "sushi\nきのう すしを たべました。 I ate sushi yesterday.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -4331,7 +4331,7 @@ const DATA = {
             vocab: "すしや",
             kanji: "",
             meaning:
-              "sushi restaurant\nきのうは すしやに いきました。Yesterday I went to a sushi restaurant.",
+              "sushi restaurant\nきのうは すしやに いきました。 Yesterday I went to a sushi restaurant.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -4343,7 +4343,7 @@ const DATA = {
             vocab: "すずしい",
             kanji: "",
             meaning:
-              "cool (weather) [i-adj.]\nきょうは きのうより すずしいです。Today is cooler than yesterday.",
+              "cool (weather) [i-adj.]\nきょうは きのうより すずしいです。 Today is cooler than yesterday.",
             freq: "",
             category: "い-Adjectives",
             topic: "Weather & Nature",
@@ -4355,7 +4355,7 @@ const DATA = {
             vocab: "ストーブ",
             kanji: "",
             meaning:
-              "stove, heater\nこれは ふるい ストーブです。This is an old stove.",
+              "stove, heater\nこれは ふるい ストーブです。 This is an old stove.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -4367,7 +4367,7 @@ const DATA = {
             vocab: "スプーン",
             kanji: "",
             meaning:
-              "spoon\nスプーンで カレーを たべます。Eat curry with a spoon.",
+              "spoon\nスプーンで カレーを たべます。 Eat curry with a spoon.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -4379,7 +4379,7 @@ const DATA = {
             vocab: "スポーツ",
             kanji: "",
             meaning:
-              "sports\nなにか スポーツを していますか。Do you play any sports?",
+              "sports\nなにか スポーツを していますか。 Do you play any sports?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -4390,7 +4390,7 @@ const DATA = {
             no: 372,
             vocab: "ズボン",
             kanji: "",
-            meaning: "trousers, pants\nズボンを はきます。I wear pants.",
+            meaning: "trousers, pants\nズボンを はきます。 I wear pants.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -4401,7 +4401,7 @@ const DATA = {
             no: 373,
             vocab: "すみます",
             kanji: "住みます",
-            meaning: "live, inhabit\nめぐろに 住んでいます。I live in Meguro.",
+            meaning: "live, inhabit\nめぐろに 住んでいます。 I live in Meguro.",
             freq: "1",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -4413,7 +4413,7 @@ const DATA = {
             vocab: "スリッパ",
             kanji: "",
             meaning:
-              "slippers\nここで スリッパを はきます。I will put on my slippers here.",
+              "slippers\nここで スリッパを はきます。 I will put on my slippers here.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -4425,7 +4425,7 @@ const DATA = {
             vocab: "すわります",
             kanji: "",
             meaning:
-              "sit down\nどうぞ ここに すわって ください。Please have a seat here.",
+              "sit down\nどうぞ ここに すわって ください。 Please have a seat here.",
             freq: "",
             category: "Verbs",
             topic: "Places & Directions",
@@ -4437,7 +4437,7 @@ const DATA = {
             vocab: "せ",
             kanji: "",
             meaning:
-              "height\nあのひとは とても せが たかいです。That person is very tall.",
+              "height\nあのひとは とても せが たかいです。 That person is very tall.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -4448,7 +4448,7 @@ const DATA = {
             no: 377,
             vocab: "せいと",
             kanji: "",
-            meaning: "student\nわたしは MLCの せいとです。I am a MLC student.",
+            meaning: "student\nわたしは MLCの せいとです。 I am a MLC student.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -4460,7 +4460,7 @@ const DATA = {
             vocab: "セーター",
             kanji: "",
             meaning:
-              "sweater\nこのセーターは とても あたたかいです。This sweater is very warm.",
+              "sweater\nこのセーターは とても あたたかいです。 This sweater is very warm.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -4472,7 +4472,7 @@ const DATA = {
             vocab: "せっけん",
             kanji: "",
             meaning:
-              "soap\nせっけんで よく てを あらいましょう。Wash your hands thoroughly with soap.",
+              "soap\nせっけんで よく てを あらいましょう。 Wash your hands thoroughly with soap.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -4484,7 +4484,7 @@ const DATA = {
             vocab: "せびろ",
             kanji: "",
             meaning:
-              "jacket, suit\nあのひとは いつも せびろを きています。That person is always in a suit.",
+              "jacket, suit\nあのひとは いつも せびろを きています。 That person is always in a suit.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -4496,7 +4496,7 @@ const DATA = {
             vocab: "せまい",
             kanji: "",
             meaning:
-              "narrow, not spacious [i-adj.]\nわたしの へやは せまいです。My room is small.",
+              "narrow, not spacious [i-adj.]\nわたしの へやは せまいです。 My room is small.",
             freq: "1",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -4507,7 +4507,7 @@ const DATA = {
             no: 382,
             vocab: "ゼロ",
             kanji: "",
-            meaning: "zero\nこれは カロリーゼロです。This is zero calories.",
+            meaning: "zero\nこれは カロリーゼロです。 This is zero calories.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -4518,7 +4518,7 @@ const DATA = {
             no: 383,
             vocab: "せん",
             kanji: "千",
-            meaning: "thousand\nこれは 千えんです。This is a thousand yen.",
+            meaning: "thousand\nこれは 千えんです。 This is a thousand yen.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -4530,7 +4530,7 @@ const DATA = {
             vocab: "せんげつ",
             kanji: "先月",
             meaning:
-              "last month\n先月 ハワイに いきました。I went to Hawaii last month.",
+              "last month\n先月 ハワイに いきました。 I went to Hawaii last month.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4542,7 +4542,7 @@ const DATA = {
             vocab: "せんしゅう",
             kanji: "先週",
             meaning:
-              "last week\n先週の きんようびに びょういんに いきました。I went to the hospital last Friday.",
+              "last week\n先週の きんようびに びょういんに いきました。 I went to the hospital last Friday.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -4553,7 +4553,7 @@ const DATA = {
             no: 386,
             vocab: "せんせい",
             kanji: "先生",
-            meaning: "teacher\nこちらは わたしの 先生です。This is my teacher.",
+            meaning: "teacher\nこちらは わたしの 先生です。 This is my teacher.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -4565,7 +4565,7 @@ const DATA = {
             vocab: "せんたく",
             kanji: "",
             meaning:
-              "washing, laundry\nまいにち せんたくを します。I will do the laundry every day.",
+              "washing, laundry\nまいにち せんたくを します。 I will do the laundry every day.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4577,7 +4577,7 @@ const DATA = {
             vocab: "ぜんぶ",
             kanji: "",
             meaning:
-              "all\nしゅくだいは ぜんぶ おわりました。I've done all my homework.",
+              "all\nしゅくだいは ぜんぶ おわりました。 I've done all my homework.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -4588,7 +4588,7 @@ const DATA = {
             no: 389,
             vocab: "そうじ",
             kanji: "",
-            meaning: "cleaning\nわたしは そうじが すきです。I like cleaning.",
+            meaning: "cleaning\nわたしは そうじが すきです。 I like cleaning.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -4600,7 +4600,7 @@ const DATA = {
             vocab: "そうじします",
             kanji: "",
             meaning:
-              "clean\nこれから このへやを そうじします。I'm going to clean this room.",
+              "clean\nこれから このへやを そうじします。 I'm going to clean this room.",
             freq: "",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -4623,7 +4623,7 @@ const DATA = {
             vocab: "そして",
             kanji: "",
             meaning:
-              "and, then\nともだちに あいました。そして、すしやに いきました。I met my friend. Then I went to a sushi restaurant.",
+              "and, then\nともだちに あいました。そして、すしやに いきました。 I met my friend. Then I went to a sushi restaurant.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -4635,7 +4635,7 @@ const DATA = {
             vocab: "そちら",
             kanji: "",
             meaning:
-              "there, your place\nあした そちらに いきます。I will go there tomorrow.",
+              "there, your place\nあした そちらに いきます。 I will go there tomorrow.",
             freq: "",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -4647,7 +4647,7 @@ const DATA = {
             vocab: "そと",
             kanji: "外",
             meaning:
-              "outside\n外は すごい あめです。It's raining a lot outside.",
+              "outside\n外は すごい あめです。 It's raining a lot outside.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -4659,7 +4659,7 @@ const DATA = {
             vocab: "その～",
             kanji: "",
             meaning:
-              "that ...\nそのひとは とても しんせつでした。The person was very kind.",
+              "that ...\nそのひとは とても しんせつでした。 The person was very kind.",
             freq: "4",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -4671,7 +4671,7 @@ const DATA = {
             vocab: "そば",
             kanji: "",
             meaning:
-              "nearby\nオフィスの そばの みせで かいました。I bought it at a store near my office.",
+              "nearby\nオフィスの そばの みせで かいました。 I bought it at a store near my office.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -4683,7 +4683,7 @@ const DATA = {
             vocab: "そら",
             kanji: "空",
             meaning:
-              "sky\nきょうは 空が とても きれいですね。The sky is very beautiful today.",
+              "sky\nきょうは 空が とても きれいですね。 The sky is very beautiful today.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -4718,7 +4718,7 @@ const DATA = {
             vocab: "それでは",
             kanji: "",
             meaning:
-              "then, well\nそれでは つぎの ページに いきましょう。Now let's go to the next page.",
+              "then, well\nそれでは つぎの ページに いきましょう。 Now let's go to the next page.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4730,7 +4730,7 @@ const DATA = {
             vocab: "だいがく",
             kanji: "大学",
             meaning:
-              "university\n大学で にほんごを べんきょうしました。I studied Japanese at university.",
+              "university\n大学で にほんごを べんきょうしました。 I studied Japanese at university.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -4742,7 +4742,7 @@ const DATA = {
             vocab: "たいしかん",
             kanji: "",
             meaning:
-              "embassy\nこれから たいしかんに いきます。I will go to the embassy from now on.",
+              "embassy\nこれから たいしかんに いきます。 I will go to the embassy from now on.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4754,7 +4754,7 @@ const DATA = {
             vocab: "だいじょうぶ",
             kanji: "",
             meaning:
-              "okay, no problem [na-adj.]\nだいじょうぶですか。Are you okay?",
+              "okay, no problem [na-adj.]\nだいじょうぶですか。 Are you okay?",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -4766,7 +4766,7 @@ const DATA = {
             vocab: "だいすき",
             kanji: "",
             meaning:
-              "be very fond of, like very much [na-adj.]\nチーズケーキが だいすきです。I love cheesecake.",
+              "be very fond of, like very much [na-adj.]\nチーズケーキが だいすきです。 I love cheesecake.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -4778,7 +4778,7 @@ const DATA = {
             vocab: "たいせつ",
             kanji: "",
             meaning:
-              "important [na-adj.]\nこれは とても たいせつです。This is very important.",
+              "important [na-adj.]\nこれは とても たいせつです。 This is very important.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -4790,7 +4790,7 @@ const DATA = {
             vocab: "だいたい",
             kanji: "",
             meaning:
-              "almost\nだいたい おなじ いみです。It has almost the same meaning.",
+              "almost\nだいたい おなじ いみです。 It has almost the same meaning.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -4802,7 +4802,7 @@ const DATA = {
             vocab: "たいてい",
             kanji: "",
             meaning:
-              "mostly, usually\nあさごはんは たいてい パンと コーヒーです。Breakfast is usually bread and coffee.",
+              "mostly, usually\nあさごはんは たいてい パンと コーヒーです。 Breakfast is usually bread and coffee.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -4814,7 +4814,7 @@ const DATA = {
             vocab: "だいどころ",
             kanji: "",
             meaning:
-              "kitchen\nかないと むすめは だいどころに います。My wife and daughter are in the kitchen.",
+              "kitchen\nかないと むすめは だいどころに います。 My wife and daughter are in the kitchen.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -4826,7 +4826,7 @@ const DATA = {
             vocab: "たいへん",
             kanji: "",
             meaning:
-              "very [adv.] (formal)\nきのうは たいへん いそがしかったです。It was very busy yesterday.",
+              "very [adv.] (formal)\nきのうは たいへん いそがしかったです。 It was very busy yesterday.",
             freq: "",
             category: "Adverbs",
             topic: "Time & Calendar",
@@ -4838,7 +4838,7 @@ const DATA = {
             vocab: "たいへん",
             kanji: "",
             meaning:
-              "serious, hard, difficult [na-adj.]\nかんじの べんきょうは たいへんです。Studying kanji is hard.",
+              "serious, hard, difficult [na-adj.]\nかんじの べんきょうは たいへんです。 Studying kanji is hard.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -4850,7 +4850,7 @@ const DATA = {
             vocab: "たかい",
             kanji: "高い",
             meaning:
-              "expensive [i-adj.]\nこのカメラは 高いです。This camera is expensive.",
+              "expensive [i-adj.]\nこのカメラは 高いです。 This camera is expensive.",
             freq: "1",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -4862,7 +4862,7 @@ const DATA = {
             vocab: "たかい",
             kanji: "高い",
             meaning:
-              "tall, high [i-adj.]\nあのビルは とても 高いです。That building is very tall.",
+              "tall, high [i-adj.]\nあのビルは とても 高いです。 That building is very tall.",
             freq: "",
             category: "い-Adjectives",
             topic: "Places & Directions",
@@ -4874,7 +4874,7 @@ const DATA = {
             vocab: "だから",
             kanji: "",
             meaning:
-              "so, therefore\nあしたは あめです。だから、うちにいます。It will rain tomorrow. So I will stay home.",
+              "so, therefore\nあしたは あめです。だから、うちにいます。 It will rain tomorrow. So I will stay home.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -4886,7 +4886,7 @@ const DATA = {
             vocab: "たくさん",
             kanji: "",
             meaning:
-              "many, much\nきょうは たくさん しゅくだいが あります。I have a lot of homework today.",
+              "many, much\nきょうは たくさん しゅくだいが あります。 I have a lot of homework today.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -4897,7 +4897,7 @@ const DATA = {
             no: 415,
             vocab: "タクシー",
             kanji: "",
-            meaning: "taxi\nタクシーで 行きましょう。Let's go by taxi.",
+            meaning: "taxi\nタクシーで 行きましょう。 Let's go by taxi.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Transportation",
@@ -4909,7 +4909,7 @@ const DATA = {
             vocab: "だします",
             kanji: "出します",
             meaning:
-              "take out\nバッグの なかから スマホを 出します。Take your smartphone out of the bag.",
+              "take out\nバッグの なかから スマホを 出します。 Take your smartphone out of the bag.",
             freq: "1",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -4921,7 +4921,7 @@ const DATA = {
             vocab: "ただしい",
             kanji: "",
             meaning:
-              "correct [i-adj.]\nただしいぶんは どれですか。Which is the correct sentence?",
+              "correct [i-adj.]\nただしいぶんは どれですか。 Which is the correct sentence?",
             freq: "1",
             category: "い-Adjectives",
             topic: "Descriptions & Qualities",
@@ -4932,7 +4932,7 @@ const DATA = {
             no: 418,
             vocab: "たちます",
             kanji: "立ちます",
-            meaning: "stand up\nここに 立ってください。Please stand here.",
+            meaning: "stand up\nここに 立ってください。 Please stand here.",
             freq: "1",
             category: "Verbs",
             topic: "Places & Directions",
@@ -4944,7 +4944,7 @@ const DATA = {
             vocab: "たてもの",
             kanji: "",
             meaning:
-              "building\nたかい たてものが たくさん あります。There are many tall buildings.",
+              "building\nたかい たてものが たくさん あります。 There are many tall buildings.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -4956,7 +4956,7 @@ const DATA = {
             vocab: "たのしい",
             kanji: "",
             meaning:
-              "enjoyable, pleasant [i-adj.]\nきのうの パーティーは とても たのしかったです。Yesterday's party was a lot of fun.",
+              "enjoyable, pleasant [i-adj.]\nきのうの パーティーは とても たのしかったです。 Yesterday's party was a lot of fun.",
             freq: "1",
             category: "い-Adjectives",
             topic: "Time & Calendar",
@@ -4968,7 +4968,7 @@ const DATA = {
             vocab: "たのみます",
             kanji: "",
             meaning:
-              "ask, request\nたなかさんに このしごとを たのみます。I will ask Mr. Tanaka for this job.",
+              "ask, request\nたなかさんに このしごとを たのみます。 I will ask Mr. Tanaka for this job.",
             freq: "",
             category: "Verbs",
             topic: "School & Work",
@@ -4980,7 +4980,7 @@ const DATA = {
             vocab: "たばこ",
             kanji: "",
             meaning:
-              "cigarette, tobacco\nわたしは たばこを すいません。I don't smoke.",
+              "cigarette, tobacco\nわたしは たばこを すいません。 I don't smoke.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -4992,7 +4992,7 @@ const DATA = {
             vocab: "たぶん",
             kanji: "",
             meaning:
-              "probably, perhaps\nたぶん あしたは じかんが あります。Maybe I have time tomorrow.",
+              "probably, perhaps\nたぶん あしたは じかんが あります。 Maybe I have time tomorrow.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5004,7 +5004,7 @@ const DATA = {
             vocab: "たべもの",
             kanji: "食べもの",
             meaning:
-              "food\nコンビニで 食べものと のみものを かいました。I bought food and drinks at a convenience store.",
+              "food\nコンビニで 食べものと のみものを かいました。 I bought food and drinks at a convenience store.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -5015,7 +5015,7 @@ const DATA = {
             no: 425,
             vocab: "たべます",
             kanji: "食べます",
-            meaning: "eat\nよく おすしを 食べます。I often eat sushi.",
+            meaning: "eat\nよく おすしを 食べます。 I often eat sushi.",
             freq: "8",
             category: "Verbs",
             topic: "Food & Drink",
@@ -5026,7 +5026,7 @@ const DATA = {
             no: 426,
             vocab: "たまご",
             kanji: "",
-            meaning: "egg\nたまごを 10こ かいました。I bought 10 eggs.",
+            meaning: "egg\nたまごを 10こ かいました。 I bought 10 eggs.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -5037,7 +5037,7 @@ const DATA = {
             no: 427,
             vocab: "だれ",
             kanji: "",
-            meaning: "who\nあのひとは だれですか。Who is that person.",
+            meaning: "who\nあのひとは だれですか。 Who is that person.",
             freq: "2",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -5049,7 +5049,7 @@ const DATA = {
             vocab: "たんじょうび",
             kanji: "",
             meaning:
-              "birthday\nたんじょうびは いつですか。When is your birthday.",
+              "birthday\nたんじょうびは いつですか。 When is your birthday.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5061,7 +5061,7 @@ const DATA = {
             vocab: "だんだん",
             kanji: "",
             meaning:
-              "gradually, little by little\nだんだん あたたかくなりました。It's getting warmer and warmer.",
+              "gradually, little by little\nだんだん あたたかくなりました。 It's getting warmer and warmer.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -5072,7 +5072,7 @@ const DATA = {
             no: 430,
             vocab: "ちいさい",
             kanji: "小さい",
-            meaning: "small\n小さい さかなが います。There is a small fish.",
+            meaning: "small\n小さい さかなが います。 There is a small fish.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -5084,7 +5084,7 @@ const DATA = {
             vocab: "ちいさな+[noun]",
             kanji: "小さな",
             meaning:
-              "small 小さな+[noun]\n小さな さかなが います。There is a small fish.",
+              "small 小さな+[noun]\n小さな さかなが います。 There is a small fish.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -5096,7 +5096,7 @@ const DATA = {
             vocab: "ちかい",
             kanji: "近い",
             meaning:
-              "near, close [i-adj.]\nわたしの うちは えきから 近いです。My house is close to the station.",
+              "near, close [i-adj.]\nわたしの うちは えきから 近いです。 My house is close to the station.",
             freq: "",
             category: "い-Adjectives",
             topic: "Places & Directions",
@@ -5108,7 +5108,7 @@ const DATA = {
             vocab: "ちがいます",
             kanji: "",
             meaning:
-              "be different, differ\nN5とN4は レベルが ちがいます。N5 and N4 have different levels.",
+              "be different, differ\nN5とN4は レベルが ちがいます。 N5 and N4 have different levels.",
             freq: "",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -5120,7 +5120,7 @@ const DATA = {
             vocab: "ちかく",
             kanji: "近く",
             meaning:
-              "neighborhood [noun]\n近くの レストランで ばんごはんを たべました。I had dinner at a nearby restaurant",
+              "neighborhood [noun]\n近くの レストランで ばんごはんを たべました。 I had dinner at a nearby restaurant",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -5132,7 +5132,7 @@ const DATA = {
             vocab: "ちかてつ",
             kanji: "",
             meaning:
-              "subway\nちかてつは とても べんりです。The subway is very convenient.",
+              "subway\nちかてつは とても べんりです。 The subway is very convenient.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Transportation",
@@ -5144,7 +5144,7 @@ const DATA = {
             vocab: "ちず",
             kanji: "",
             meaning:
-              "map\nちずを みて チェックしましょう。Let's check by looking at the map.",
+              "map\nちずを みて チェックしましょう。 Let's check by looking at the map.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -5156,7 +5156,7 @@ const DATA = {
             vocab: "ちち",
             kanji: "父",
             meaning:
-              "(my) father\n父は エンジニアです。My father is an engineer.",
+              "(my) father\n父は エンジニアです。 My father is an engineer.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -5168,7 +5168,7 @@ const DATA = {
             vocab: "ちゃいろ",
             kanji: "",
             meaning:
-              "brown\nわたしの さいふは ちゃいろです。My wallet is brown.",
+              "brown\nわたしの さいふは ちゃいろです。 My wallet is brown.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Colors & Shapes",
@@ -5180,7 +5180,7 @@ const DATA = {
             vocab: "ちゃわん",
             kanji: "",
             meaning:
-              "(rice) bowl\nきれいな ちゃわんと おはしを かいました。I bought a beautiful bowl and chopsticks.",
+              "(rice) bowl\nきれいな ちゃわんと おはしを かいました。 I bought a beautiful bowl and chopsticks.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -5191,7 +5191,7 @@ const DATA = {
             no: 440,
             vocab: "ちょうど",
             kanji: "",
-            meaning: "just\nいま 3じ ちょうどです。It's just 3 o'clock now.",
+            meaning: "just\nいま 3じ ちょうどです。 It's just 3 o'clock now.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5203,7 +5203,7 @@ const DATA = {
             vocab: "ちょっと",
             kanji: "",
             meaning:
-              "a little\nすみません。ここで ちょっと まってください。Excuse me. Please wait a moment here.",
+              "a little\nすみません。ここで ちょっと まってください。 Excuse me. Please wait a moment here.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -5215,7 +5215,7 @@ const DATA = {
             vocab: "ついたち",
             kanji: "一日",
             meaning:
-              "the first day of the month\nたんじょうびは ３がつ ついたちです。Birthday is March 1st.",
+              "the first day of the month\nたんじょうびは ３がつ ついたちです。 Birthday is March 1st.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5227,7 +5227,7 @@ const DATA = {
             vocab: "つかいます",
             kanji: "",
             meaning:
-              "use\nしごとで まいにち にほんごを つかいます。I use Japanese every day at work.",
+              "use\nしごとで まいにち にほんごを つかいます。 I use Japanese every day at work.",
             freq: "5",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -5239,7 +5239,7 @@ const DATA = {
             vocab: "つかれます",
             kanji: "",
             meaning:
-              "get tired\nきょうは とても つかれました。I'm very tired today.",
+              "get tired\nきょうは とても つかれました。 I'm very tired today.",
             freq: "2",
             category: "Verbs",
             topic: "Body & Health",
@@ -5251,7 +5251,7 @@ const DATA = {
             vocab: "つぎ",
             kanji: "",
             meaning:
-              "next\nつぎの かどを みぎに まがってください。Turn right at the next corner.",
+              "next\nつぎの かどを みぎに まがってください。 Turn right at the next corner.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -5263,7 +5263,7 @@ const DATA = {
             vocab: "つきます",
             kanji: "",
             meaning:
-              "arrive\n3じはんに なりたくうこうに つきます。I will arrive at Narita Airport at 3:30.",
+              "arrive\n3じはんに なりたくうこうに つきます。 I will arrive at Narita Airport at 3:30.",
             freq: "4",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -5275,7 +5275,7 @@ const DATA = {
             vocab: "つくえ",
             kanji: "",
             meaning:
-              "desk\nつくえの うえに ほんが たくさん あります。There are many books on the desk.",
+              "desk\nつくえの うえに ほんが たくさん あります。 There are many books on the desk.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -5287,7 +5287,7 @@ const DATA = {
             vocab: "つくりかた",
             kanji: "",
             meaning:
-              "how to make\nこのりょうりの つくりかたを しりたいです。I want to know how to make this dish.",
+              "how to make\nこのりょうりの つくりかたを しりたいです。 I want to know how to make this dish.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -5298,7 +5298,7 @@ const DATA = {
             no: 449,
             vocab: "つくります",
             kanji: "",
-            meaning: "make\nあたらしいアプリを つくりました。I made a new app.",
+            meaning: "make\nあたらしいアプリを つくりました。 I made a new app.",
             freq: "2",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -5310,7 +5310,7 @@ const DATA = {
             vocab: "つけます",
             kanji: "",
             meaning:
-              "turn on\nこのリモコンで エアコンを つけます。Turn on the air conditioner with this remote control.",
+              "turn on\nこのリモコンで エアコンを つけます。 Turn on the air conditioner with this remote control.",
             freq: "1",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -5322,7 +5322,7 @@ const DATA = {
             vocab: "つとめます",
             kanji: "",
             meaning:
-              "work for\nちいさい ITの かいしゃに つとめています。I work for a small IT company.",
+              "work for\nちいさい ITの かいしゃに つとめています。 I work for a small IT company.",
             freq: "",
             category: "Verbs",
             topic: "School & Work",
@@ -5334,7 +5334,7 @@ const DATA = {
             vocab: "つまらない",
             kanji: "",
             meaning:
-              "uninteresting, boring [i-adj.]\nこのえいがは つまらないです。This movie is boring.",
+              "uninteresting, boring [i-adj.]\nこのえいがは つまらないです。 This movie is boring.",
             freq: "1",
             category: "い-Adjectives",
             topic: "Descriptions & Qualities",
@@ -5346,7 +5346,7 @@ const DATA = {
             vocab: "つめたい",
             kanji: "",
             meaning:
-              "cold (object) [i-adj.]\nつめたいのみのもは いかがですか。How about a cold drink?",
+              "cold (object) [i-adj.]\nつめたいのみのもは いかがですか。 How about a cold drink?",
             freq: "",
             category: "い-Adjectives",
             topic: "Food & Drink",
@@ -5358,7 +5358,7 @@ const DATA = {
             vocab: "つよい",
             kanji: "",
             meaning:
-              "strong [i-adj.]\nきょうは とても かぜが つよいです。It's very windy today.",
+              "strong [i-adj.]\nきょうは とても かぜが つよいです。 It's very windy today.",
             freq: "",
             category: "い-Adjectives",
             topic: "Time & Calendar",
@@ -5369,7 +5369,7 @@ const DATA = {
             no: 455,
             vocab: "て",
             kanji: "手",
-            meaning: "hand\n手を みせてください。Please show me your hand.",
+            meaning: "hand\n手を みせてください。 Please show me your hand.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -5381,7 +5381,7 @@ const DATA = {
             vocab: "ティッシュペーパー",
             kanji: "",
             meaning:
-              "tissue\nティッシュペーパーを いちまい ください。Please give me a piece of tissue paper.",
+              "tissue\nティッシュペーパーを いちまい ください。 Please give me a piece of tissue paper.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -5393,7 +5393,7 @@ const DATA = {
             vocab: "テープ",
             kanji: "",
             meaning:
-              "tape\nここに テープを はってください。Please stick the tape here.",
+              "tape\nここに テープを はってください。 Please stick the tape here.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -5405,7 +5405,7 @@ const DATA = {
             vocab: "テープレコーダー",
             kanji: "",
             meaning:
-              "tape recorder\nテープレコーダーは いまは ありません。There is no tape recorder now.",
+              "tape recorder\nテープレコーダーは いまは ありません。 There is no tape recorder now.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5417,7 +5417,7 @@ const DATA = {
             vocab: "テーブル",
             kanji: "",
             meaning:
-              "table\nこのテーブルを つかってもいいですか。Can I use this table?",
+              "table\nこのテーブルを つかってもいいですか。 Can I use this table?",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -5429,7 +5429,7 @@ const DATA = {
             vocab: "でかけます",
             kanji: "出かけます",
             meaning:
-              "go out\nきのうは どこにも でかけませんでした。I didn't go anywhere yesterday.",
+              "go out\nきのうは どこにも でかけませんでした。 I didn't go anywhere yesterday.",
             freq: "1",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -5441,7 +5441,7 @@ const DATA = {
             vocab: "てがみ",
             kanji: "手紙",
             meaning:
-              "letter\nよくメールは しますが、手紙は かきません。I often email, but I don't write letters.",
+              "letter\nよくメールは しますが、手紙は かきません。 I often email, but I don't write letters.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5453,7 +5453,7 @@ const DATA = {
             vocab: "できます",
             kanji: "",
             meaning:
-              "can\nわたしは ちゅうごくごと かんこくごも できます。I can also speak Chinese and Korean.",
+              "can\nわたしは ちゅうごくごと かんこくごも できます。 I can also speak Chinese and Korean.",
             freq: "",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -5464,7 +5464,7 @@ const DATA = {
             no: 463,
             vocab: "でぐち",
             kanji: "出口",
-            meaning: "exit\n出口は あちらのドアです。The exit is that door.",
+            meaning: "exit\n出口は あちらのドアです。 The exit is that door.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -5476,7 +5476,7 @@ const DATA = {
             vocab: "テスト",
             kanji: "",
             meaning:
-              "test\nあしたは かんじのテストが あります。Tomorrow I have a kanji test.",
+              "test\nあしたは かんじのテストが あります。 Tomorrow I have a kanji test.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5488,7 +5488,7 @@ const DATA = {
             vocab: "では",
             kanji: "",
             meaning:
-              "then, well then = じゃ。\nでは、きょうの レッスンを おわりましょう。So let's finish today's lesson.",
+              "then, well then = じゃ。\nでは、きょうの レッスンを おわりましょう。 So let's finish today's lesson.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5500,7 +5500,7 @@ const DATA = {
             vocab: "デパート",
             kanji: "",
             meaning:
-              "department store\nデパートに かいものに いきました。I went shopping at a department store.",
+              "department store\nデパートに かいものに いきました。 I went shopping at a department store.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Shopping & Money",
@@ -5512,7 +5512,7 @@ const DATA = {
             vocab: "でます",
             kanji: "出ます",
             meaning:
-              "leave\nあしたは あさ 7じに うちを 出ます。I will leave home at 7 am tomorrow.",
+              "leave\nあしたは あさ 7じに うちを 出ます。 I will leave home at 7 am tomorrow.",
             freq: "1",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -5524,7 +5524,7 @@ const DATA = {
             vocab: "でも",
             kanji: "",
             meaning:
-              "but\nにちようびです。でも、うちで しごとを します。It's Sunday. But I do work at home.",
+              "but\nにちようびです。でも、うちで しごとを します。 It's Sunday. But I do work at home.",
             freq: "5",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5536,7 +5536,7 @@ const DATA = {
             vocab: "テレビ",
             kanji: "",
             meaning:
-              "TV\nテレビで そのニュースを みました。I saw the news on TV.",
+              "TV\nテレビで そのニュースを みました。 I saw the news on TV.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -5548,7 +5548,7 @@ const DATA = {
             vocab: "てんき",
             kanji: "天気",
             meaning:
-              "weather\nきょうは とても いい天気ですね。It's a very nice weather today.",
+              "weather\nきょうは とても いい天気ですね。 It's a very nice weather today.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -5560,7 +5560,7 @@ const DATA = {
             vocab: "でんき",
             kanji: "電気",
             meaning:
-              "electricity\n電気を つけても いいですか。Can I turn on the light?",
+              "electricity\n電気を つけても いいですか。 Can I turn on the light?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -5572,7 +5572,7 @@ const DATA = {
             vocab: "でんしゃ",
             kanji: "電車",
             meaning:
-              "train\n電車は すこし こんでいました。The train was a little crowded.",
+              "train\n電車は すこし こんでいました。 The train was a little crowded.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Transportation",
@@ -5584,7 +5584,7 @@ const DATA = {
             vocab: "でんわ",
             kanji: "電話",
             meaning:
-              "telephone\nきのう ははから 電話が ありました。I got a call from my mother yesterday.",
+              "telephone\nきのう ははから 電話が ありました。 I got a call from my mother yesterday.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -5596,7 +5596,7 @@ const DATA = {
             vocab: "でんわします",
             kanji: "電話します",
             meaning:
-              "call, ring\nたまに かぞくに 電話します。I call my family once in a while.",
+              "call, ring\nたまに かぞくに 電話します。 I call my family once in a while.",
             freq: "1",
             category: "Verbs",
             topic: "Family & People",
@@ -5608,7 +5608,7 @@ const DATA = {
             vocab: "でんわばんごう",
             kanji: "電話ばんごう",
             meaning:
-              "telephone number\nここに 電話ばんごうを かいてください。Please write your phone number here.",
+              "telephone number\nここに 電話ばんごうを かいてください。 Please write your phone number here.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -5619,7 +5619,7 @@ const DATA = {
             no: 476,
             vocab: "と",
             kanji: "",
-            meaning: "door\nとが あいています。The door is open.",
+            meaning: "door\nとが あいています。 The door is open.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -5631,7 +5631,7 @@ const DATA = {
             vocab: "ど",
             kanji: "",
             meaning:
-              "Saturday = どようび。\n5がつ16にち（ど）に にほんに いきます。I will go to Japan on Saturday, May 16th.",
+              "Saturday = どようび。\n5がつ16にち（ど）に にほんに いきます。 I will go to Japan on Saturday, May 16th.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5643,7 +5643,7 @@ const DATA = {
             vocab: "ドア",
             kanji: "",
             meaning:
-              "door\nみぎがわのドアが あきます。The door on the right opens.",
+              "door\nみぎがわのドアが あきます。 The door on the right opens.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -5655,7 +5655,7 @@ const DATA = {
             vocab: "トイレ",
             kanji: "",
             meaning:
-              "toilet, lavatory\nトイレを かりても いいですか。Can I use the toilet?",
+              "toilet, lavatory\nトイレを かりても いいですか。 Can I use the toilet?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -5679,7 +5679,7 @@ const DATA = {
             vocab: "どう",
             kanji: "",
             meaning:
-              "how\nきのうの テストは どうでしたか。How was your test yesterday?",
+              "how\nきのうの テストは どうでしたか。 How was your test yesterday?",
             freq: "6",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -5691,7 +5691,7 @@ const DATA = {
             vocab: "とうきょう",
             kanji: "",
             meaning:
-              "Tokyo\nとうきょうは おもしろい ところですね。Tokyo is an interesting place, isn't it?",
+              "Tokyo\nとうきょうは おもしろい ところですね。 Tokyo is an interesting place, isn't it?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -5703,7 +5703,7 @@ const DATA = {
             vocab: "どうして",
             kanji: "",
             meaning:
-              "why\nどうして きのう やすみましたか。Why did you take a day off yesterday?",
+              "why\nどうして きのう やすみましたか。 Why did you take a day off yesterday?",
             freq: "1",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -5715,7 +5715,7 @@ const DATA = {
             vocab: "とうふ",
             kanji: "",
             meaning:
-              "tofu\nとうふ を たべたことが ありますか。Have you ever eaten tofu?",
+              "tofu\nとうふ を たべたことが ありますか。 Have you ever eaten tofu?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -5727,7 +5727,7 @@ const DATA = {
             vocab: "どうぶつ",
             kanji: "",
             meaning:
-              "animal\nどうぶつえんに いろいろな どうぶつが います。There are various animals in the zoo.",
+              "animal\nどうぶつえんに いろいろな どうぶつが います。 There are various animals in the zoo.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -5751,7 +5751,7 @@ const DATA = {
             vocab: "とおい",
             kanji: "",
             meaning:
-              "far [i-adj.]\nえきは ここから すこし とおいです。The station is a little far from here.",
+              "far [i-adj.]\nえきは ここから すこし とおいです。 The station is a little far from here.",
             freq: "",
             category: "い-Adjectives",
             topic: "Places & Directions",
@@ -5763,7 +5763,7 @@ const DATA = {
             vocab: "とおく",
             kanji: "",
             meaning:
-              "distantly, far [noun]\nりょうしんは とおくに すんでいます。My parents live far away.",
+              "distantly, far [noun]\nりょうしんは とおくに すんでいます。 My parents live far away.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -5775,7 +5775,7 @@ const DATA = {
             vocab: "とおか",
             kanji: "十日",
             meaning:
-              "the tenth day of the month, ten days\nきょうは 十日です。Today is the 10th.",
+              "the tenth day of the month, ten days\nきょうは 十日です。 Today is the 10th.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5787,7 +5787,7 @@ const DATA = {
             vocab: "ときどき",
             kanji: "",
             meaning:
-              "sometimes\nときどき じぶんで りょうりを つくります。Sometimes I cook myself.",
+              "sometimes\nときどき じぶんで りょうりを つくります。 Sometimes I cook myself.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -5799,7 +5799,7 @@ const DATA = {
             vocab: "とけい",
             kanji: "",
             meaning:
-              "clock, watch\nともだちに かわいい とけいを プレゼントしました。I gave my friend a cute clock as a gift.",
+              "clock, watch\nともだちに かわいい とけいを プレゼントしました。 I gave my friend a cute clock as a gift.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -5810,7 +5810,7 @@ const DATA = {
             no: 492,
             vocab: "どこ",
             kanji: "",
-            meaning: "where\nおてあらいは どこですか。Where is the restroom?",
+            meaning: "where\nおてあらいは どこですか。 Where is the restroom?",
             freq: "7",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -5822,7 +5822,7 @@ const DATA = {
             vocab: "どこか",
             kanji: "",
             meaning:
-              "somewhere\nどこかで ランチを たべませんか。Would you like to have lunch somewhere?",
+              "somewhere\nどこかで ランチを たべませんか。 Would you like to have lunch somewhere?",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -5834,7 +5834,7 @@ const DATA = {
             vocab: "ところ",
             kanji: "",
             meaning:
-              "place\nどんな ところに すみたいですか。What kind of place do you want to live in?",
+              "place\nどんな ところに すみたいですか。 What kind of place do you want to live in?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -5846,7 +5846,7 @@ const DATA = {
             vocab: "としょかん",
             kanji: "",
             meaning:
-              "library\nわたしは ほとんど としょかんに いきません。I rarely go to the library.",
+              "library\nわたしは ほとんど としょかんに いきません。 I rarely go to the library.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -5858,7 +5858,7 @@ const DATA = {
             vocab: "どちら",
             kanji: "",
             meaning:
-              "「どっち which」「どこ where」「どれ which one」のpolite\nコーヒーとこうちゃ、どちが いいですか。Which would you like, coffee or tea?\nどちらからですか。Where are you from?\nどちらが いいですか。Which one would you like to choose?",
+              "「どっち which」「どこ where」「どれ which one」のpolite\nコーヒーとこうちゃ、どちが いいですか。 Which would you like, coffee or tea?\nどちらからですか。 Where are you from?\nどちらが いいですか。 Which one would you like to choose?",
             freq: "3",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -5870,7 +5870,7 @@ const DATA = {
             vocab: "とても",
             kanji: "",
             meaning:
-              "very\nきょうは とても たのしかったです。I had a lot of fun today.",
+              "very\nきょうは とても たのしかったです。 I had a lot of fun today.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5882,7 +5882,7 @@ const DATA = {
             vocab: "どなた",
             kanji: "",
             meaning:
-              "だれ。who のpolite\nこの しゃしんの ひとは どなた ですか。Who is the person in this photo?",
+              "だれ。who のpolite\nこの しゃしんの ひとは どなた ですか。 Who is the person in this photo?",
             freq: "",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -5894,7 +5894,7 @@ const DATA = {
             vocab: "となり",
             kanji: "",
             meaning:
-              "next to\nとなりに すわってもいいですか。Can I sit next to you?",
+              "next to\nとなりに すわってもいいですか。 Can I sit next to you?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -5906,7 +5906,7 @@ const DATA = {
             vocab: "どの～",
             kanji: "",
             meaning:
-              "which ...\nどのアプリを いちばん よく つかいますか。Which app do you use the most?",
+              "which ...\nどのアプリを いちばん よく つかいますか。 Which app do you use the most?",
             freq: "2",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -5918,7 +5918,7 @@ const DATA = {
             vocab: "とびます",
             kanji: "",
             meaning:
-              "fly\nとりが たくさん とんでいます。A lot of birds are flying.",
+              "fly\nとりが たくさん とんでいます。 A lot of birds are flying.",
             freq: "",
             category: "Verbs",
             topic: "Weather & Nature",
@@ -5930,7 +5930,7 @@ const DATA = {
             vocab: "とまります",
             kanji: "",
             meaning:
-              "stop\nこのでんしゃは しぶやえきに とまりますか。Does this train stop at Shibuya Station?",
+              "stop\nこのでんしゃは しぶやえきに とまりますか。 Does this train stop at Shibuya Station?",
             freq: "",
             category: "Verbs",
             topic: "Places & Directions",
@@ -5942,7 +5942,7 @@ const DATA = {
             vocab: "ともだち",
             kanji: "友だち",
             meaning:
-              "friend\nきのうは 友だちと オンラインで はなしました。I talked online with my friends yesterday.",
+              "friend\nきのうは 友だちと オンラインで はなしました。 I talked online with my friends yesterday.",
             freq: "5",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -5954,7 +5954,7 @@ const DATA = {
             vocab: "どようび",
             kanji: "土よう日",
             meaning:
-              "Saturday\nこんしゅうの 土よう日は やすみです。This Saturday is closed.",
+              "Saturday\nこんしゅうの 土よう日は やすみです。 This Saturday is closed.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -5966,7 +5966,7 @@ const DATA = {
             vocab: "とり",
             kanji: "",
             meaning:
-              "bird\nきの うえに ちいさいとりが たくさん います。There are many small birds on the tree.",
+              "bird\nきの うえに ちいさいとりが たくさん います。 There are many small birds on the tree.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -5977,7 +5977,7 @@ const DATA = {
             no: 506,
             vocab: "とりにく",
             kanji: "",
-            meaning: "chicken\nとりにくを よく たべます。I often eat chicken.",
+            meaning: "chicken\nとりにくを よく たべます。 I often eat chicken.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -5989,7 +5989,7 @@ const DATA = {
             vocab: "とります",
             kanji: "",
             meaning:
-              "take\nすみません。こしょうを とってください。Excuse me. Could you pass the pepper?",
+              "take\nすみません。こしょうを とってください。 Excuse me. Could you pass the pepper?",
             freq: "2",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -6001,7 +6001,7 @@ const DATA = {
             vocab: "とります",
             kanji: "",
             meaning:
-              "take (photographs)\nきょうとで たくさん きれいな しゃしんを とりました。I took a lot of beautiful pictures in Kyoto.",
+              "take (photographs)\nきょうとで たくさん きれいな しゃしんを とりました。 I took a lot of beautiful pictures in Kyoto.",
             freq: "",
             category: "Verbs",
             topic: "Places & Directions",
@@ -6013,7 +6013,7 @@ const DATA = {
             vocab: "どれ",
             kanji: "",
             meaning:
-              "which one\nおすすめは どれですか。Which is your recommendation?",
+              "which one\nおすすめは どれですか。 Which is your recommendation?",
             freq: "2",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -6025,7 +6025,7 @@ const DATA = {
             vocab: "どんな",
             kanji: "",
             meaning:
-              "what kind of ...\nどんな ものを たべたいですか。What kind of food do you want to eat?",
+              "what kind of ...\nどんな ものを たべたいですか。 What kind of food do you want to eat?",
             freq: "1",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -6037,7 +6037,7 @@ const DATA = {
             vocab: "ナイフ",
             kanji: "",
             meaning:
-              "knife\nフォークと ナイフで ステーキを たべます。I eat steak with a fork and knife.",
+              "knife\nフォークと ナイフで ステーキを たべます。 I eat steak with a fork and knife.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -6049,7 +6049,7 @@ const DATA = {
             vocab: "なか",
             kanji: "中",
             meaning:
-              "inside\nポケットの 中に ティッシュが あります。There is tissue in my pocket.",
+              "inside\nポケットの 中に ティッシュが あります。 There is tissue in my pocket.",
             freq: "9",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -6061,7 +6061,7 @@ const DATA = {
             vocab: "ながい",
             kanji: "長い",
             meaning:
-              "long [i-adj.]\nこのえいがは とても 長いです。This movie is very long.",
+              "long [i-adj.]\nこのえいがは とても 長いです。 This movie is very long.",
             freq: "2",
             category: "い-Adjectives",
             topic: "Descriptions & Qualities",
@@ -6073,7 +6073,7 @@ const DATA = {
             vocab: "なきます",
             kanji: "",
             meaning:
-              "sing, mew, moo, etc.\nたくさんの とりが ないています。Many birds are singing.",
+              "sing, mew, moo, etc.\nたくさんの とりが ないています。 Many birds are singing.",
             freq: "",
             category: "Verbs",
             topic: "Weather & Nature",
@@ -6085,7 +6085,7 @@ const DATA = {
             vocab: "なつ",
             kanji: "",
             meaning:
-              "summer\nいちねんの なかで なつが いちばん すきです。I like summer the best of the year.",
+              "summer\nいちねんの なかで なつが いちばん すきです。 I like summer the best of the year.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -6097,7 +6097,7 @@ const DATA = {
             vocab: "など",
             kanji: "",
             meaning:
-              "and so on, etc.\nバッグの なかに スマホや サイフなどが あります。There are smartphones, wallets and other things in the bag.",
+              "and so on, etc.\nバッグの なかに スマホや サイフなどが あります。 There are smartphones, wallets and other things in the bag.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -6121,7 +6121,7 @@ const DATA = {
             vocab: "なに",
             kanji: "何",
             meaning:
-              "what\nしゅうまつは 何を しましたか。What did you do on the weekend?",
+              "what\nしゅうまつは 何を しましたか。 What did you do on the weekend?",
             freq: "10",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -6133,7 +6133,7 @@ const DATA = {
             vocab: "なにか",
             kanji: "何か",
             meaning:
-              "something\n何か つめたい のみものは いかがですか。How about some cold drink?",
+              "something\n何か つめたい のみものは いかがですか。 How about some cold drink?",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -6145,7 +6145,7 @@ const DATA = {
             vocab: "なのか",
             kanji: "七日",
             meaning:
-              "the seventh day of the month\nきょうは 七日です。Today is the 7th.",
+              "the seventh day of the month\nきょうは 七日です。 Today is the 7th.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6157,7 +6157,7 @@ const DATA = {
             vocab: "なまえ",
             kanji: "名前",
             meaning:
-              "name\nこちらに 名前と じゅうしょを かいてください。Please write your name and address here.",
+              "name\nこちらに 名前と じゅうしょを かいてください。 Please write your name and address here.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -6169,7 +6169,7 @@ const DATA = {
             vocab: "ならいます",
             kanji: "",
             meaning:
-              "learn (from somebody)\nははに りょうりを ならいました。I learned cooking from my mother.",
+              "learn (from somebody)\nははに りょうりを ならいました。 I learned cooking from my mother.",
             freq: "",
             category: "Verbs",
             topic: "Food & Drink",
@@ -6181,7 +6181,7 @@ const DATA = {
             vocab: "ならびます",
             kanji: "",
             meaning:
-              "(someone) line up\nみせの そとで 30ぷん ならびました。I lined up outside the store for 30 minutes.",
+              "(someone) line up\nみせの そとで 30ぷん ならびました。 I lined up outside the store for 30 minutes.",
             freq: "",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -6193,7 +6193,7 @@ const DATA = {
             vocab: "ならべます",
             kanji: "",
             meaning:
-              "line up (something)\nテーブルの うえに おさらを ５まい ならべます。I line up five dishes on the table.",
+              "line up (something)\nテーブルの うえに おさらを ５まい ならべます。 I line up five dishes on the table.",
             freq: "1",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -6205,7 +6205,7 @@ const DATA = {
             vocab: "なります",
             kanji: "",
             meaning:
-              "become\nこどもは らいげつ 5さいに なります。My child will be 5 years old next month.",
+              "become\nこどもは らいげつ 5さいに なります。 My child will be 5 years old next month.",
             freq: "",
             category: "Verbs",
             topic: "Family & People",
@@ -6216,7 +6216,7 @@ const DATA = {
             no: 526,
             vocab: "なん",
             kanji: "何",
-            meaning: "what\nこのスイッチは 何ですか。What is this switch?",
+            meaning: "what\nこのスイッチは 何ですか。 What is this switch?",
             freq: "14",
             category: "Pronouns, Question Words & Demonstratives",
             topic: "Question Words & Pronouns",
@@ -6228,7 +6228,7 @@ const DATA = {
             vocab: "なんじ",
             kanji: "何時",
             meaning:
-              "what time\nあしたは 何時にどこであいましょうか。What time and where will we meet tomorrow?",
+              "what time\nあしたは 何時にどこであいましょうか。 What time and where will we meet tomorrow?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6240,7 +6240,7 @@ const DATA = {
             vocab: "なんにち",
             kanji: "何日",
             meaning:
-              "which day of the month\nきょうは 何日ですか。What day is it today?",
+              "which day of the month\nきょうは 何日ですか。 What day is it today?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6263,7 +6263,7 @@ const DATA = {
             vocab: "にぎやか",
             kanji: "",
             meaning:
-              "lively [na-adj.]\nここは にぎやなかな レストランですね。This is a lively restaurant, isn't it?",
+              "lively [na-adj.]\nここは にぎやなかな レストランですね。 This is a lively restaurant, isn't it?",
             freq: "",
             category: "な-Adjectives",
             topic: "Food & Drink",
@@ -6275,7 +6275,7 @@ const DATA = {
             vocab: "にく",
             kanji: "",
             meaning:
-              "meat\nさかなと にく、どちらがいいですか。Which do you prefer, fish or meat?",
+              "meat\nさかなと にく、どちらがいいですか。 Which do you prefer, fish or meat?",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -6286,7 +6286,7 @@ const DATA = {
             no: 532,
             vocab: "にし",
             kanji: "西",
-            meaning: "west\n西は こっちです。West is this direction.",
+            meaning: "west\n西は こっちです。 West is this direction.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -6298,7 +6298,7 @@ const DATA = {
             vocab: "にち",
             kanji: "日",
             meaning:
-              "Sunday = にちようび。\nたんじょうびは 5がつ 17にちです。My birthday is May 17th.",
+              "Sunday = にちようび。\nたんじょうびは 5がつ 17にちです。 My birthday is May 17th.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6310,7 +6310,7 @@ const DATA = {
             vocab: "にちようび",
             kanji: "日よう日",
             meaning:
-              "Sunday\nこんどの 日よう日の おひるごろに あいましょうか。Shall we meet next Sunday around noon?",
+              "Sunday\nこんどの 日よう日の おひるごろに あいましょうか。 Shall we meet next Sunday around noon?",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6322,7 +6322,7 @@ const DATA = {
             vocab: "にねん",
             kanji: "二年",
             meaning:
-              "two years\nわたしは にほんに きて もう 二年です。I have been in Japan for two years now.",
+              "two years\nわたしは にほんに きて もう 二年です。 I have been in Japan for two years now.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -6334,7 +6334,7 @@ const DATA = {
             vocab: "にほん",
             kanji: "日本",
             meaning:
-              "Japan\n１ねんまえから 日本で しごとを しています。I have been working in Japan for a year.",
+              "Japan\n１ねんまえから 日本で しごとを しています。 I have been working in Japan for a year.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6346,7 +6346,7 @@ const DATA = {
             vocab: "にほんご",
             kanji: "日本語",
             meaning:
-              "Japanese language\nはんとしまえから 日本語を べんきょうしています。I have been studying Japanese for half a year.",
+              "Japanese language\nはんとしまえから 日本語を べんきょうしています。 I have been studying Japanese for half a year.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6358,7 +6358,7 @@ const DATA = {
             vocab: "にもつ",
             kanji: "",
             meaning:
-              "baggage\nここに にもつを おいても いいですか。Can I put my luggage here?",
+              "baggage\nここに にもつを おいても いいですか。 Can I put my luggage here?",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -6370,7 +6370,7 @@ const DATA = {
             vocab: "ニュース",
             kanji: "",
             meaning:
-              "news\nよく インターネットで ニュースを みます。I often watch the news on the internet.",
+              "news\nよく インターネットで ニュースを みます。 I often watch the news on the internet.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6382,7 +6382,7 @@ const DATA = {
             vocab: "にわ",
             kanji: "",
             meaning:
-              "garden\nにわに いぬが 2ひき います。There are two dogs in the yard.",
+              "garden\nにわに いぬが 2ひき います。 There are two dogs in the yard.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -6394,7 +6394,7 @@ const DATA = {
             vocab: "ぬぎます",
             kanji: "",
             meaning:
-              "take off\nいつも ここで くつを ぬぎます。I always take off my shoes here.",
+              "take off\nいつも ここで くつを ぬぎます。 I always take off my shoes here.",
             freq: "",
             category: "Verbs",
             topic: "Clothing & Accessories",
@@ -6406,7 +6406,7 @@ const DATA = {
             vocab: "ぬります",
             kanji: "",
             meaning:
-              "paint\nテーブルを しろく ぬります。I paint the table white.",
+              "paint\nテーブルを しろく ぬります。 I paint the table white.",
             freq: "1",
             category: "Verbs",
             topic: "Colors & Shapes",
@@ -6418,7 +6418,7 @@ const DATA = {
             vocab: "ネクタイ",
             kanji: "",
             meaning:
-              "necktie\nわたしは ネクタイが 30ぽんぐらい あります。I have about 30 ties.",
+              "necktie\nわたしは ネクタイが 30ぽんぐらい あります。 I have about 30 ties.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -6430,7 +6430,7 @@ const DATA = {
             vocab: "ねます",
             kanji: "",
             meaning:
-              "go to bed, sleep\nいつも 12じごろに ねます。I always go to bed around 12 o'clock.",
+              "go to bed, sleep\nいつも 12じごろに ねます。 I always go to bed around 12 o'clock.",
             freq: "",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -6442,7 +6442,7 @@ const DATA = {
             vocab: "ノート",
             kanji: "",
             meaning:
-              "notebook\nじぶんの ノートに かいてください。Write it in your notebook.",
+              "notebook\nじぶんの ノートに かいてください。 Write it in your notebook.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -6454,7 +6454,7 @@ const DATA = {
             vocab: "のぼります",
             kanji: "",
             meaning:
-              "go up, climb\nなつに ともだちと ふじさんに のぼります。I will climb Mt. Fuji with my friends this summer.",
+              "go up, climb\nなつに ともだちと ふじさんに のぼります。 I will climb Mt. Fuji with my friends this summer.",
             freq: "",
             category: "Verbs",
             topic: "Family & People",
@@ -6466,7 +6466,7 @@ const DATA = {
             vocab: "のみます",
             kanji: "飲みます",
             meaning:
-              "drink\nまいにち コーヒーを ３ばいぐらい 飲みます。I drink about 3 cups of coffee every day.",
+              "drink\nまいにち コーヒーを ３ばいぐらい 飲みます。 I drink about 3 cups of coffee every day.",
             freq: "2",
             category: "Verbs",
             topic: "Food & Drink",
@@ -6478,7 +6478,7 @@ const DATA = {
             vocab: "のみもの",
             kanji: "飲みもの",
             meaning:
-              "drinks\n飲みものは なにが いいですか。What do you like for a drink?",
+              "drinks\n飲みものは なにが いいですか。 What do you like for a drink?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -6490,7 +6490,7 @@ const DATA = {
             vocab: "のります",
             kanji: "",
             meaning:
-              "get on, ride, take\nうちの ちかくから えきまで バスに のります。I take a bus from near my house to the station.",
+              "get on, ride, take\nうちの ちかくから えきまで バスに のります。 I take a bus from near my house to the station.",
             freq: "2",
             category: "Verbs",
             topic: "Places & Directions",
@@ -6502,7 +6502,7 @@ const DATA = {
             vocab: "は",
             kanji: "",
             meaning:
-              "teeth\nきょうは すこし はが いたいです。I have a slight toothache today.",
+              "teeth\nきょうは すこし はが いたいです。 I have a slight toothache today.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -6514,7 +6514,7 @@ const DATA = {
             vocab: "パーティー",
             kanji: "",
             meaning:
-              "party\nこんばん ともだちのうちで パーティーが あります。I have a party at my friend's house tonight.",
+              "party\nこんばん ともだちのうちで パーティーが あります。 I have a party at my friend's house tonight.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -6526,7 +6526,7 @@ const DATA = {
             vocab: "はいざら",
             kanji: "",
             meaning:
-              "ashtray\nすみません。はいざらが ありますか。Excuse me. Do you have an ashtray?",
+              "ashtray\nすみません。はいざらが ありますか。 Excuse me. Do you have an ashtray?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -6538,7 +6538,7 @@ const DATA = {
             vocab: "はいります",
             kanji: "入ります",
             meaning:
-              "enter\nいつも このいりぐちから なかに 入ります。I always enter through this entrance.",
+              "enter\nいつも このいりぐちから なかに 入ります。 I always enter through this entrance.",
             freq: "4",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -6550,7 +6550,7 @@ const DATA = {
             vocab: "はがき",
             kanji: "",
             meaning:
-              "postcard\nゆびんきょくで はがきを 10まい かいました。I bought 10 postcards at the post office.",
+              "postcard\nゆびんきょくで はがきを 10まい かいました。 I bought 10 postcards at the post office.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -6562,7 +6562,7 @@ const DATA = {
             vocab: "はきます",
             kanji: "",
             meaning:
-              "put on\nいつも ここで くつを はきます。I always put on shoes here.",
+              "put on\nいつも ここで くつを はきます。 I always put on shoes here.",
             freq: "",
             category: "Verbs",
             topic: "Clothing & Accessories",
@@ -6574,7 +6574,7 @@ const DATA = {
             vocab: "はこ",
             kanji: "",
             meaning:
-              "box\nはこの なかに くるまの かぎが あります。There is a car key in the box.",
+              "box\nはこの なかに くるまの かぎが あります。 There is a car key in the box.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -6586,7 +6586,7 @@ const DATA = {
             vocab: "はし/おはし",
             kanji: "",
             meaning:
-              "chopsticks\nおはしで おすしを たべます。I eat sushi with chopsticks.",
+              "chopsticks\nおはしで おすしを たべます。 I eat sushi with chopsticks.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -6598,7 +6598,7 @@ const DATA = {
             vocab: "はし",
             kanji: "",
             meaning:
-              "bridge\nあの おおきい はしを あるいて わたります。I walk across a large bridge.",
+              "bridge\nあの おおきい はしを あるいて わたります。 I walk across a large bridge.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -6610,7 +6610,7 @@ const DATA = {
             vocab: "はじまります",
             kanji: "",
             meaning:
-              "begin, start\nらいしゅうから にほんごのレッスンが はじまります。Japanese lessons will start next week.",
+              "begin, start\nらいしゅうから にほんごのレッスンが はじまります。 Japanese lessons will start next week.",
             freq: "1",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -6622,7 +6622,7 @@ const DATA = {
             vocab: "はじめに",
             kanji: "",
             meaning:
-              "at the beginning\nはじめに ひらがなと カタカナを べんきょうしました。First, I studied hiragana and katakana.",
+              "at the beginning\nはじめに ひらがなと カタカナを べんきょうしました。 First, I studied hiragana and katakana.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -6634,7 +6634,7 @@ const DATA = {
             vocab: "はじめて",
             kanji: "",
             meaning:
-              "for the first time\nきょねん はじめて ふじさんを みました。I saw Mt. Fuji for the first time last year.",
+              "for the first time\nきょねん はじめて ふじさんを みました。 I saw Mt. Fuji for the first time last year.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6658,7 +6658,7 @@ const DATA = {
             vocab: "バスがいしゃ",
             kanji: "バス会社",
             meaning:
-              "bus agency, bus company\nいもうとは バス会社に つとめています。My sister works for a bus company.",
+              "bus agency, bus company\nいもうとは バス会社に つとめています。 My sister works for a bus company.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -6670,7 +6670,7 @@ const DATA = {
             vocab: "バスてい",
             kanji: "",
             meaning:
-              "bus stop\nこのちかくに バスていが ありますか。Is there a bus stop near here?",
+              "bus stop\nこのちかくに バスていが ありますか。 Is there a bus stop near here?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -6682,7 +6682,7 @@ const DATA = {
             vocab: "バスりょこう",
             kanji: "",
             meaning:
-              "bus tour, bus trip\nわたしの ちちと ははは バスりょこうが すきです。My dad and mom love bus trips.",
+              "bus tour, bus trip\nわたしの ちちと ははは バスりょこうが すきです。 My dad and mom love bus trips.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Transportation",
@@ -6694,7 +6694,7 @@ const DATA = {
             vocab: "バター",
             kanji: "",
             meaning:
-              "butter\nパンに バターを ぬります。I spread butter on bread.",
+              "butter\nパンに バターを ぬります。 I spread butter on bread.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -6706,7 +6706,7 @@ const DATA = {
             vocab: "はたち",
             kanji: "",
             meaning:
-              "twenty years old\nおとうとは らいげつ はたちに なります。My brother will be 20 next month.",
+              "twenty years old\nおとうとは らいげつ はたちに なります。 My brother will be 20 next month.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -6718,7 +6718,7 @@ const DATA = {
             vocab: "はたらきます",
             kanji: "",
             meaning:
-              "work\nこんしゅうは しゅうまつも はたらきます。This week I also work on weekends.",
+              "work\nこんしゅうは しゅうまつも はたらきます。 This week I also work on weekends.",
             freq: "",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -6730,7 +6730,7 @@ const DATA = {
             vocab: "はち",
             kanji: "八",
             meaning:
-              "eight\n八人で りょこうに いきました。I went on a trip with 8 people.",
+              "eight\n八人で りょこうに いきました。 I went on a trip with 8 people.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -6742,7 +6742,7 @@ const DATA = {
             vocab: "はつか",
             kanji: "二十日",
             meaning:
-              "the twentieth day of the month, twenty days\nきょうは 二十日です。Today is the 20th.",
+              "the twentieth day of the month, twenty days\nきょうは 二十日です。 Today is the 20th.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6753,7 +6753,7 @@ const DATA = {
             no: 571,
             vocab: "はな",
             kanji: "",
-            meaning: "nose\nわたしは はなが ひくいです。I have a low nose.",
+            meaning: "nose\nわたしは はなが ひくいです。 I have a low nose.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -6765,7 +6765,7 @@ const DATA = {
             vocab: "はな",
             kanji: "花",
             meaning:
-              "flower\nきれいな 花を たくさん かいました。I bought a lot of beautiful flowers.",
+              "flower\nきれいな 花を たくさん かいました。 I bought a lot of beautiful flowers.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -6777,7 +6777,7 @@ const DATA = {
             vocab: "はなし",
             kanji: "話",
             meaning:
-              "story\nせんせいから おもしろい話を ききました。I heard an interesting story from the teacher.",
+              "story\nせんせいから おもしろい話を ききました。 I heard an interesting story from the teacher.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -6789,7 +6789,7 @@ const DATA = {
             vocab: "はなします",
             kanji: "話します",
             meaning:
-              "speak, talk, tell\nよく ともだちと にほんごを 話します。I often speak Japanese with my friends.",
+              "speak, talk, tell\nよく ともだちと にほんごを 話します。 I often speak Japanese with my friends.",
             freq: "16",
             category: "Verbs",
             topic: "Family & People",
@@ -6801,7 +6801,7 @@ const DATA = {
             vocab: "はは",
             kanji: "母",
             meaning:
-              "(my) mother\nときどき 母に メールします。I email my mother sometimes.",
+              "(my) mother\nときどき 母に メールします。 I email my mother sometimes.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -6825,7 +6825,7 @@ const DATA = {
             vocab: "はやい",
             kanji: "",
             meaning:
-              "quick, fast [i-adj.]\nこのコンピュータは はやいです。This computer is fast.",
+              "quick, fast [i-adj.]\nこのコンピュータは はやいです。 This computer is fast.",
             freq: "",
             category: "い-Adjectives",
             topic: "Technology & Communication",
@@ -6837,7 +6837,7 @@ const DATA = {
             vocab: "はる",
             kanji: "",
             meaning:
-              "spring\nはなが すきですから、はるが すきです。I like spring because I like flowers.",
+              "spring\nはなが すきですから、はるが すきです。 I like spring because I like flowers.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -6849,7 +6849,7 @@ const DATA = {
             vocab: "はります",
             kanji: "",
             meaning:
-              "stick, put something on\nふうとうに きってを はります。I put a stamp on the envelope.",
+              "stick, put something on\nふうとうに きってを はります。 I put a stamp on the envelope.",
             freq: "",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -6861,7 +6861,7 @@ const DATA = {
             vocab: "はれ",
             kanji: "",
             meaning:
-              "fair weather\nあしたは たぶん はれです。It will probably be sunny tomorrow.",
+              "fair weather\nあしたは たぶん はれです。 It will probably be sunny tomorrow.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -6873,7 +6873,7 @@ const DATA = {
             vocab: "はれます",
             kanji: "",
             meaning:
-              "clear up\nごごは たぶん はれます。It will probably be sunny in the afternoon.",
+              "clear up\nごごは たぶん はれます。 It will probably be sunny in the afternoon.",
             freq: "",
             category: "Verbs",
             topic: "Weather & Nature",
@@ -6885,7 +6885,7 @@ const DATA = {
             vocab: "ばん",
             kanji: "",
             meaning:
-              "evening, night\nあしたのばん ともだちに あいます。I'll see my friends tomorrow night.",
+              "evening, night\nあしたのばん ともだちに あいます。 I'll see my friends tomorrow night.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -6897,7 +6897,7 @@ const DATA = {
             vocab: "パン",
             kanji: "",
             meaning:
-              "bread\nあさは ふつう パンを たべます。I usually eat bread in the morning.",
+              "bread\nあさは ふつう パンを たべます。 I usually eat bread in the morning.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -6909,7 +6909,7 @@ const DATA = {
             vocab: "ハンカチ",
             kanji: "",
             meaning:
-              "handkerchief\nポケットの なかに ハンカチが あります。There is a handkerchief in my pocket.",
+              "handkerchief\nポケットの なかに ハンカチが あります。 There is a handkerchief in my pocket.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -6921,7 +6921,7 @@ const DATA = {
             vocab: "ばんごう",
             kanji: "",
             meaning:
-              "number\nでんわばんごうは なんばんですか。What is your phone number?",
+              "number\nでんわばんごうは なんばんですか。 What is your phone number?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Technology & Communication",
@@ -6933,7 +6933,7 @@ const DATA = {
             vocab: "ばんごはん",
             kanji: "",
             meaning:
-              "dinner\nこんばんは うちで ばんごはんを たべます。I'll have dinner at home tonight.",
+              "dinner\nこんばんは うちで ばんごはんを たべます。 I'll have dinner at home tonight.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -6945,7 +6945,7 @@ const DATA = {
             vocab: "はんぶん",
             kanji: "半分",
             meaning:
-              "half\nきのうのよる 半分だけ しゅくだいを しました。I did my homework only half last night.",
+              "half\nきのうのよる 半分だけ しゅくだいを しました。 I did my homework only half last night.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6957,7 +6957,7 @@ const DATA = {
             vocab: "パンや",
             kanji: "",
             meaning:
-              "bakery\nえきの なかに おいしい パンやが あります。There is a delicious bakery inside the station.",
+              "bakery\nえきの なかに おいしい パンやが あります。 There is a delicious bakery inside the station.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -6969,7 +6969,7 @@ const DATA = {
             vocab: "ひ",
             kanji: "日",
             meaning:
-              "day\nきょうは とても いい日でした。Today was a very good day.",
+              "day\nきょうは とても いい日でした。 Today was a very good day.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -6980,7 +6980,7 @@ const DATA = {
             no: 590,
             vocab: "ひがし",
             kanji: "東",
-            meaning: "east\n東は あっちです。East is that direction.",
+            meaning: "east\n東は あっちです。 East is that direction.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -6992,7 +6992,7 @@ const DATA = {
             vocab: "ひきます",
             kanji: "",
             meaning:
-              "pull\nおかねを いれて、レバーを ひきます。Put some money and pull the lever.",
+              "pull\nおかねを いれて、レバーを ひきます。 Put some money and pull the lever.",
             freq: "",
             category: "Verbs",
             topic: "Shopping & Money",
@@ -7004,7 +7004,7 @@ const DATA = {
             vocab: "ひきます",
             kanji: "",
             meaning:
-              "play (music instrument)\nときどき ギターを ひきます。I play the guitar sometimes.",
+              "play (music instrument)\nときどき ギターを ひきます。 I play the guitar sometimes.",
             freq: "1",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -7016,7 +7016,7 @@ const DATA = {
             vocab: "ひくい",
             kanji: "",
             meaning:
-              "low [i-adj.]\nいもうとは せが ひくいです。My sister is short.",
+              "low [i-adj.]\nいもうとは せが ひくいです。 My sister is short.",
             freq: "",
             category: "い-Adjectives",
             topic: "Family & People",
@@ -7028,7 +7028,7 @@ const DATA = {
             vocab: "ひこうき",
             kanji: "",
             meaning:
-              "airplane\nひこうきの よやくを しました。I made a reservation for an airplane.",
+              "airplane\nひこうきの よやくを しました。 I made a reservation for an airplane.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Transportation",
@@ -7040,7 +7040,7 @@ const DATA = {
             vocab: "ひだり",
             kanji: "左",
             meaning:
-              "left\nつぎの しんごうを 左に まがってください。Turn left at the next traffic light.",
+              "left\nつぎの しんごうを 左に まがってください。 Turn left at the next traffic light.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -7052,7 +7052,7 @@ const DATA = {
             vocab: "ひと",
             kanji: "人",
             meaning:
-              "human, person\nこうえんに 人が たくさん います。There are many people in the park.",
+              "human, person\nこうえんに 人が たくさん います。 There are many people in the park.",
             freq: "18",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -7064,7 +7064,7 @@ const DATA = {
             vocab: "ひとつ",
             kanji: "一つ",
             meaning:
-              "one\nすみません。これを 一つ ください。Excuse me. Please give me this one.",
+              "one\nすみません。これを 一つ ください。 Excuse me. Please give me this one.",
             freq: "14",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -7076,7 +7076,7 @@ const DATA = {
             vocab: "ひとつき",
             kanji: "一月",
             meaning:
-              "one month = いっかげつ。\nにほんに きて 一月です。It's been a month since I came to Japan.",
+              "one month = いっかげつ。\nにほんに きて 一月です。 It's been a month since I came to Japan.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -7088,7 +7088,7 @@ const DATA = {
             vocab: "ひとり",
             kanji: "一人",
             meaning:
-              "one person\nことしの なつは 一人で りょこうに いきます。I'm going on a trip alone this summer.",
+              "one person\nことしの なつは 一人で りょこうに いきます。 I'm going on a trip alone this summer.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -7100,7 +7100,7 @@ const DATA = {
             vocab: "ひま",
             kanji: "",
             meaning:
-              "free (time), not busy, spare time [na-adj.]\nこんしゅうまつは ひまです。I'm free this weekend.",
+              "free (time), not busy, spare time [na-adj.]\nこんしゅうまつは ひまです。 I'm free this weekend.",
             freq: "",
             category: "な-Adjectives",
             topic: "Time & Calendar",
@@ -7112,7 +7112,7 @@ const DATA = {
             vocab: "ひゃく",
             kanji: "百",
             meaning:
-              "hundred\nこれは どれでも ひとつ 百えんです。Each one costs 100 yen.",
+              "hundred\nこれは どれでも ひとつ 百えんです。 Each one costs 100 yen.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -7124,7 +7124,7 @@ const DATA = {
             vocab: "びょういん",
             kanji: "",
             meaning:
-              "hospital\nつきに １かい びょういんに いきます。I go to the hospital once a month.",
+              "hospital\nつきに １かい びょういんに いきます。 I go to the hospital once a month.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -7136,7 +7136,7 @@ const DATA = {
             vocab: "びょうき",
             kanji: "",
             meaning:
-              "illness, disease\nははは いま びょうきです。My mother is sick now.",
+              "illness, disease\nははは いま びょうきです。 My mother is sick now.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -7147,7 +7147,7 @@ const DATA = {
             no: 604,
             vocab: "ひらがな",
             kanji: "",
-            meaning: "Hiragana\nひらがなで かきます。I write in hiragana.",
+            meaning: "Hiragana\nひらがなで かきます。 I write in hiragana.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -7159,7 +7159,7 @@ const DATA = {
             vocab: "ひる",
             kanji: "昼",
             meaning:
-              "daytime, noon\nあしたの 昼は うちに います。I'll be at home tomorrow noon.",
+              "daytime, noon\nあしたの 昼は うちに います。 I'll be at home tomorrow noon.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7171,7 +7171,7 @@ const DATA = {
             vocab: "ビル",
             kanji: "",
             meaning:
-              "building\nたかい ビルが たくさん あります。There are many tall buildings.",
+              "building\nたかい ビルが たくさん あります。 There are many tall buildings.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -7183,7 +7183,7 @@ const DATA = {
             vocab: "ひるごはん",
             kanji: "昼ごはん",
             meaning:
-              "lunch\nともだちと 昼ごはんを たべました。I ate lunch with my friends.",
+              "lunch\nともだちと 昼ごはんを たべました。 I ate lunch with my friends.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -7195,7 +7195,7 @@ const DATA = {
             vocab: "ひろい",
             kanji: "広い",
             meaning:
-              "spacious, wide [i-adj.]\nこのへやは とても 広いです。This room is very large.",
+              "spacious, wide [i-adj.]\nこのへやは とても 広いです。 This room is very large.",
             freq: "1",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -7207,7 +7207,7 @@ const DATA = {
             vocab: "フィルム",
             kanji: "",
             meaning:
-              "film\nカメラに フィルムを いれます。I put the film in the camera.",
+              "film\nカメラに フィルムを いれます。 I put the film in the camera.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -7219,7 +7219,7 @@ const DATA = {
             vocab: "ふうとう",
             kanji: "",
             meaning:
-              "envelope\nふうとうの なかに チケットを いれます。I put the ticket in the envelope.",
+              "envelope\nふうとうの なかに チケットを いれます。 I put the ticket in the envelope.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -7231,7 +7231,7 @@ const DATA = {
             vocab: "プール",
             kanji: "",
             meaning:
-              "swimming pool\nきのう プールで 1,000メートル およぎました。I swam 1,000 meters in the pool yesterday.",
+              "swimming pool\nきのう プールで 1,000メートル およぎました。 I swam 1,000 meters in the pool yesterday.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7243,7 +7243,7 @@ const DATA = {
             vocab: "フォーク",
             kanji: "",
             meaning:
-              "fork\nフォークとナイフで ステーキを たべます。I eat steak with a fork and knife.",
+              "fork\nフォークとナイフで ステーキを たべます。 I eat steak with a fork and knife.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -7255,7 +7255,7 @@ const DATA = {
             vocab: "ふきます",
             kanji: "",
             meaning:
-              "blow\nそとは すごい かぜが ふいています。There is a terrible wind outside.",
+              "blow\nそとは すごい かぜが ふいています。 There is a terrible wind outside.",
             freq: "",
             category: "Verbs",
             topic: "Weather & Nature",
@@ -7267,7 +7267,7 @@ const DATA = {
             vocab: "ふく",
             kanji: "",
             meaning:
-              "clothes\nあたらしい ふくを たくさん かいました。I bought a lot of new clothes.",
+              "clothes\nあたらしい ふくを たくさん かいました。 I bought a lot of new clothes.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Shopping & Money",
@@ -7279,7 +7279,7 @@ const DATA = {
             vocab: "ふたつ",
             kanji: "二つ",
             meaning:
-              "two\nこのパンを 二つ ください。Please give me two of these breads.",
+              "two\nこのパンを 二つ ください。 Please give me two of these breads.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -7290,7 +7290,7 @@ const DATA = {
             no: 616,
             vocab: "ぶたにく",
             kanji: "",
-            meaning: "pork\nわたしは ぶたにくを たべません。I don't eat pork.",
+            meaning: "pork\nわたしは ぶたにくを たべません。 I don't eat pork.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -7302,7 +7302,7 @@ const DATA = {
             vocab: "ふたり",
             kanji: "二人",
             meaning:
-              "two people\nわたしは こどもが 二人 います。I have two children.",
+              "two people\nわたしは こどもが 二人 います。 I have two children.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -7314,7 +7314,7 @@ const DATA = {
             vocab: "ふつか",
             kanji: "二日",
             meaning:
-              "the second day of the month, two days\nきょうは 二日です。Today is 2nd.",
+              "the second day of the month, two days\nきょうは 二日です。 Today is 2nd.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7326,7 +7326,7 @@ const DATA = {
             vocab: "ふとい",
             kanji: "",
             meaning:
-              "thick, fat [i-adj.]\nふといペンで じゅうしょを かきます。I write my address with a thick pen.",
+              "thick, fat [i-adj.]\nふといペンで じゅうしょを かきます。 I write my address with a thick pen.",
             freq: "",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -7338,7 +7338,7 @@ const DATA = {
             vocab: "ふゆ",
             kanji: "",
             meaning:
-              "winter\nまいとし ふゆに スキーに いきます。I go skiing every winter.",
+              "winter\nまいとし ふゆに スキーに いきます。 I go skiing every winter.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -7350,7 +7350,7 @@ const DATA = {
             vocab: "ふります",
             kanji: "",
             meaning:
-              "fall, come down\nたぶん こんばんは あめが ふります。Maybe it will rain tonight.",
+              "fall, come down\nたぶん こんばんは あめが ふります。 Maybe it will rain tonight.",
             freq: "2",
             category: "Verbs",
             topic: "Weather & Nature",
@@ -7362,7 +7362,7 @@ const DATA = {
             vocab: "ふるい",
             kanji: "古い",
             meaning:
-              "old [i-adj.]\nこれは 古いカメラです。This is an old camera.",
+              "old [i-adj.]\nこれは 古いカメラです。 This is an old camera.",
             freq: "",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -7374,7 +7374,7 @@ const DATA = {
             vocab: "ふろ",
             kanji: "",
             meaning:
-              "bath 「おふろ」more polite\nまいにち おふろに はいります。I take a bath every day.",
+              "bath 「おふろ」more polite\nまいにち おふろに はいります。 I take a bath every day.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7386,7 +7386,7 @@ const DATA = {
             vocab: "ぶん",
             kanji: "文",
             meaning:
-              "sentence\nながい 文を かいてください。Please write a long sentence.",
+              "sentence\nながい 文を かいてください。 Please write a long sentence.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -7398,7 +7398,7 @@ const DATA = {
             vocab: "ぶんしょう",
             kanji: "",
             meaning:
-              "text\nつぎの ぶんしょうを よんで、しつもんに こたえてください。Please read the following sentences and answer the\nquestions.",
+              "text\nつぎの ぶんしょうを よんで、しつもんに こたえてください。 Please read the following sentences and answer the\nquestions.",
             freq: "6",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -7409,7 +7409,7 @@ const DATA = {
             no: 626,
             vocab: "ページ",
             kanji: "",
-            meaning: "page\n53ページを よんでください。Please read page 53.",
+            meaning: "page\n53ページを よんでください。 Please read page 53.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -7421,7 +7421,7 @@ const DATA = {
             vocab: "へた",
             kanji: "",
             meaning:
-              "poor, unskillful [na-adj.]\nわたしは うたが へたです。I'm not good at singing.",
+              "poor, unskillful [na-adj.]\nわたしは うたが へたです。 I'm not good at singing.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -7433,7 +7433,7 @@ const DATA = {
             vocab: "ベッド",
             kanji: "",
             meaning:
-              "bed\nベッドの したに ねこが います。There is a cat under the bed.",
+              "bed\nベッドの したに ねこが います。 There is a cat under the bed.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -7444,7 +7444,7 @@ const DATA = {
             no: 629,
             vocab: "へや",
             kanji: "",
-            meaning: "room\nこの へやは ひろいですね。This room is large.",
+            meaning: "room\nこの へやは ひろいですね。 This room is large.",
             freq: "8",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -7456,7 +7456,7 @@ const DATA = {
             vocab: "へん",
             kanji: "",
             meaning:
-              "side, part このへん。 = near here\nこのへんに ATMが ありますか。Is there an ATM near here?",
+              "side, part このへん。 = near here\nこのへんに ATMが ありますか。 Is there an ATM near here?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -7468,7 +7468,7 @@ const DATA = {
             vocab: "ペン",
             kanji: "",
             meaning:
-              "pen\nここに なまえを ペンで かいてください。Please write your name here with a pen.",
+              "pen\nここに なまえを ペンで かいてください。 Please write your name here with a pen.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -7480,7 +7480,7 @@ const DATA = {
             vocab: "べんきょうします",
             kanji: "",
             meaning:
-              "study\nまいにち うちで にほんごを べんきょうします。I will study Japanese at home every day.",
+              "study\nまいにち うちで にほんごを べんきょうします。 I will study Japanese at home every day.",
             freq: "3",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -7492,7 +7492,7 @@ const DATA = {
             vocab: "べんり",
             kanji: "",
             meaning:
-              "convenience [na-adj.]\nこのアプリは とても べんりです。This app is very useful.",
+              "convenience [na-adj.]\nこのアプリは とても べんりです。 This app is very useful.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -7504,7 +7504,7 @@ const DATA = {
             vocab: "ほう",
             kanji: "",
             meaning:
-              "ＡよりＢのほうが～。B is ... than A.\nふゆより なつのほうが すきです。I like summer better than winter.",
+              "ＡよりＢのほうが～。 B is ... than A.\nふゆより なつのほうが すきです。 I like summer better than winter.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -7516,7 +7516,7 @@ const DATA = {
             vocab: "ぼうし",
             kanji: "",
             meaning:
-              "hat, cap\nさむいひは ぼうしを かぶります。I wear a hat on cold days.",
+              "hat, cap\nさむいひは ぼうしを かぶります。 I wear a hat on cold days.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -7528,7 +7528,7 @@ const DATA = {
             vocab: "ボールペン",
             kanji: "",
             meaning:
-              "ballpoint pen\nボールペンを もっていますか。Do you have a ballpoint pen?",
+              "ballpoint pen\nボールペンを もっていますか。 Do you have a ballpoint pen?",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -7540,7 +7540,7 @@ const DATA = {
             vocab: "ほか",
             kanji: "",
             meaning:
-              "another, other\nほかの ひは どうですか。How about the other day?",
+              "another, other\nほかの ひは どうですか。 How about the other day?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7552,7 +7552,7 @@ const DATA = {
             vocab: "ぼく",
             kanji: "",
             meaning:
-              "I (generally young boys, but some adult use as a style)\nぼくは 13さいです。I am 13 years old.",
+              "I (generally young boys, but some adult use as a style)\nぼくは 13さいです。 I am 13 years old.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -7564,7 +7564,7 @@ const DATA = {
             vocab: "ポケット",
             kanji: "",
             meaning:
-              "pocket\nポケットの なかに けいたいでんわが あります。I have a mobile phone in my pocket.",
+              "pocket\nポケットの なかに けいたいでんわが あります。 I have a mobile phone in my pocket.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Technology & Communication",
@@ -7588,7 +7588,7 @@ const DATA = {
             vocab: "ほそい",
             kanji: "",
             meaning:
-              "thin, fine [i-adj.]\nほそいペンで イラストを かきます。Draw an illustration with a thin pen.",
+              "thin, fine [i-adj.]\nほそいペンで イラストを かきます。 Draw an illustration with a thin pen.",
             freq: "",
             category: "い-Adjectives",
             topic: "House & Everyday Objects",
@@ -7600,7 +7600,7 @@ const DATA = {
             vocab: "ボタン",
             kanji: "",
             meaning:
-              "button\nこのシャツは ボタンが ひとつ ありません。This shirt doesn't have one button.",
+              "button\nこのシャツは ボタンが ひとつ ありません。 This shirt doesn't have one button.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -7612,7 +7612,7 @@ const DATA = {
             vocab: "ホテル",
             kanji: "",
             meaning:
-              "hotel\nホテルで おいしい ひるごはんを たべました。I had a delicious lunch at the hotel.",
+              "hotel\nホテルで おいしい ひるごはんを たべました。 I had a delicious lunch at the hotel.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -7624,7 +7624,7 @@ const DATA = {
             vocab: "ほん",
             kanji: "本",
             meaning:
-              "book\nしゅうに ３さつぐらい 本を よみます。I read about 3 books a week.",
+              "book\nしゅうに ３さつぐらい 本を よみます。 I read about 3 books a week.",
             freq: "9",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7636,7 +7636,7 @@ const DATA = {
             vocab: "ほんだな",
             kanji: "本だな",
             meaning:
-              "bookshelf\nほんだなに 本が 200さつぐらい あります。There are about 200 books on the bookshelf.",
+              "bookshelf\nほんだなに 本が 200さつぐらい あります。 There are about 200 books on the bookshelf.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -7648,7 +7648,7 @@ const DATA = {
             vocab: "ほんとう",
             kanji: "",
             meaning:
-              "really, truth\nほんとうですか。しりませんでした。Is it true? I did not know that.",
+              "really, truth\nほんとうですか。しりませんでした。 Is it true? I did not know that.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -7660,7 +7660,7 @@ const DATA = {
             vocab: "ほんや",
             kanji: "",
             meaning:
-              "bookshop\n５かいに おおきい ほんやが あります。There is a large bookstore on the 5th floor.",
+              "bookshop\n５かいに おおきい ほんやが あります。 There is a large bookstore on the 5th floor.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -7672,7 +7672,7 @@ const DATA = {
             vocab: "まいあさ",
             kanji: "毎朝",
             meaning:
-              "every morning\n毎朝 コーヒーを ２はい のみます。I drink two cups of coffee every morning.",
+              "every morning\n毎朝 コーヒーを ２はい のみます。 I drink two cups of coffee every morning.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -7684,7 +7684,7 @@ const DATA = {
             vocab: "まいげつ/まいつき",
             kanji: "毎月",
             meaning:
-              "every month\n毎月 ホンコンに しゅっちょうします。I go on a business trip to Hong Kong every month.",
+              "every month\n毎月 ホンコンに しゅっちょうします。 I go on a business trip to Hong Kong every month.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7696,7 +7696,7 @@ const DATA = {
             vocab: "まいしゅう",
             kanji: "毎週",
             meaning:
-              "every week\n毎週 げつようびに ジムに いきます。I I go to the gym in my neighborhood every week.",
+              "every week\n毎週 げつようびに ジムに いきます。 I I go to the gym in my neighborhood every week.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7708,7 +7708,7 @@ const DATA = {
             vocab: "まいにち",
             kanji: "毎日",
             meaning:
-              "every day\nへいじつは 毎日 7じはんに おきます。I wake up at 7:30am every weekday.",
+              "every day\nへいじつは 毎日 7じはんに おきます。 I wake up at 7:30am every weekday.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7720,7 +7720,7 @@ const DATA = {
             vocab: "まいねん/まいとし",
             kanji: "毎年",
             meaning:
-              "every year\n毎年 ８がつと 12がつに りょこうを します。I travel every August and December.",
+              "every year\n毎年 ８がつと 12がつに りょこうを します。 I travel every August and December.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7732,7 +7732,7 @@ const DATA = {
             vocab: "まいばん",
             kanji: "毎ばん",
             meaning:
-              "every night\n毎ばん １じかんぐらい ゲームをします。I play games for about an hour every night.",
+              "every night\n毎ばん １じかんぐらい ゲームをします。 I play games for about an hour every night.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7744,7 +7744,7 @@ const DATA = {
             vocab: "まえ",
             kanji: "前",
             meaning:
-              "front\n駅の前の コンビニで かいました。I bought it at a convenience store in front of the station.\nbefore\nいつも しごとの前に コーヒーを のみます。I always drink coffee before work.",
+              "front\n駅の前の コンビニで かいました。 I bought it at a convenience store in front of the station.\nbefore\nいつも しごとの前に コーヒーを のみます。 I always drink coffee before work.",
             freq: "5",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -7756,7 +7756,7 @@ const DATA = {
             vocab: "まがります",
             kanji: "",
             meaning:
-              "turn\n２つめの かどを みぎに まがります。Turn right at the second corner.",
+              "turn\n２つめの かどを みぎに まがります。 Turn right at the second corner.",
             freq: "1",
             category: "Verbs",
             topic: "Places & Directions",
@@ -7768,7 +7768,7 @@ const DATA = {
             vocab: "まずい",
             kanji: "",
             meaning:
-              "nasty, bad-tasting\nこのりょうりは ほんとうに まずいです。This dish is really bad.",
+              "nasty, bad-tasting\nこのりょうりは ほんとうに まずいです。 This dish is really bad.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -7803,7 +7803,7 @@ const DATA = {
             vocab: "まち",
             kanji: "",
             meaning:
-              "town\nわたしたちは このまちが すきです。We like this town.",
+              "town\nわたしたちは このまちが すきです。 We like this town.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -7815,7 +7815,7 @@ const DATA = {
             vocab: "まちます",
             kanji: "",
             meaning:
-              "wait\nここで タクシーを まちます。I'll wait for a taxi here.",
+              "wait\nここで タクシーを まちます。 I'll wait for a taxi here.",
             freq: "3",
             category: "Verbs",
             topic: "Places & Directions",
@@ -7827,7 +7827,7 @@ const DATA = {
             vocab: "まっすぐ",
             kanji: "",
             meaning:
-              "straight [na-adj.]\nこのみちを 100mぐらい まっすぐ いきます。Go straight on this road for about 100m.",
+              "straight [na-adj.]\nこのみちを 100mぐらい まっすぐ いきます。 Go straight on this road for about 100m.",
             freq: "",
             category: "な-Adjectives",
             topic: "Places & Directions",
@@ -7839,7 +7839,7 @@ const DATA = {
             vocab: "マッチ",
             kanji: "",
             meaning:
-              "match\nたぶん うちに マッチは ありません。There is probably no match at home.",
+              "match\nたぶん うちに マッチは ありません。 There is probably no match at home.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -7851,7 +7851,7 @@ const DATA = {
             vocab: "まど",
             kanji: "",
             meaning:
-              "window\nこのまどを あけても いいですか。Is it okay to open this window?",
+              "window\nこのまどを あけても いいですか。 Is it okay to open this window?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -7863,7 +7863,7 @@ const DATA = {
             vocab: "まるい",
             kanji: "",
             meaning:
-              "round [i-adj.]\nまるいテーブルを かいたいです。I want to buy a round table.",
+              "round [i-adj.]\nまるいテーブルを かいたいです。 I want to buy a round table.",
             freq: "",
             category: "い-Adjectives",
             topic: "Colors & Shapes",
@@ -7875,7 +7875,7 @@ const DATA = {
             vocab: "まん",
             kanji: "万",
             meaning:
-              "ten thousand\nこのタブレットは 5万えんで かいました。I bought this tablet for 50,000 yen.",
+              "ten thousand\nこのタブレットは 5万えんで かいました。 I bought this tablet for 50,000 yen.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -7887,7 +7887,7 @@ const DATA = {
             vocab: "まんねんひつ",
             kanji: "",
             meaning:
-              "fountain pen\nたかい まんねんひつを ３ぼん もっています。I have three expensive fountain pens.",
+              "fountain pen\nたかい まんねんひつを ３ぼん もっています。 I have three expensive fountain pens.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -7899,7 +7899,7 @@ const DATA = {
             vocab: "みがきます",
             kanji: "",
             meaning:
-              "polish, brush\nしょくじのあとで はを みがきます。I will brush after the meal.",
+              "polish, brush\nしょくじのあとで はを みがきます。 I will brush after the meal.",
             freq: "",
             category: "Verbs",
             topic: "Food & Drink",
@@ -7911,7 +7911,7 @@ const DATA = {
             vocab: "みぎ",
             kanji: "右",
             meaning:
-              "right\nつぎの かどを 右に まがります。Turn right at the next corner.",
+              "right\nつぎの かどを 右に まがります。 Turn right at the next corner.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -7923,7 +7923,7 @@ const DATA = {
             vocab: "みじかい",
             kanji: "",
             meaning:
-              "short [i-adj.]\nみじかいえいがを ３ぼん みました。I watched 3 short movies.",
+              "short [i-adj.]\nみじかいえいがを ３ぼん みました。 I watched 3 short movies.",
             freq: "2",
             category: "い-Adjectives",
             topic: "Descriptions & Qualities",
@@ -7934,7 +7934,7 @@ const DATA = {
             no: 670,
             vocab: "みず",
             kanji: "水",
-            meaning: "water\nつめたい水を ください。Please give me cold water.",
+            meaning: "water\nつめたい水を ください。 Please give me cold water.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -7946,7 +7946,7 @@ const DATA = {
             vocab: "みせ",
             kanji: "店",
             meaning:
-              "store\nこの店の やきとりは さいこうです。The yakitori in this shop is the best.",
+              "store\nこの店の やきとりは さいこうです。 The yakitori in this shop is the best.",
             freq: "5",
             category: "Nouns & Other Expressions",
             topic: "Shopping & Money",
@@ -7958,7 +7958,7 @@ const DATA = {
             vocab: "みせます",
             kanji: "見せます",
             meaning:
-              "show\nいりぐちで チケットを 見せます。I will show them the ticket at the entrance.",
+              "show\nいりぐちで チケットを 見せます。 I will show them the ticket at the entrance.",
             freq: "",
             category: "Verbs",
             topic: "Places & Directions",
@@ -7970,7 +7970,7 @@ const DATA = {
             vocab: "みち",
             kanji: "道",
             meaning:
-              "way\nこの道を まっすぐ いってください。Please go straight on this road.",
+              "way\nこの道を まっすぐ いってください。 Please go straight on this road.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -7982,7 +7982,7 @@ const DATA = {
             vocab: "みっか",
             kanji: "三日",
             meaning:
-              "the third day of month, three days\nきょうは 三日です。Today is the 3rd.",
+              "the third day of month, three days\nきょうは 三日です。 Today is the 3rd.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -7994,7 +7994,7 @@ const DATA = {
             vocab: "みっつ",
             kanji: "三つ",
             meaning:
-              "three\nこのふくは ポケットが 三つ あります。This cloth has three pockets.",
+              "three\nこのふくは ポケットが 三つ あります。 This cloth has three pockets.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -8005,7 +8005,7 @@ const DATA = {
             no: 676,
             vocab: "みなさん",
             kanji: "",
-            meaning: "everyone\nみなさん、こんにちは。Hello everyone.",
+            meaning: "everyone\nみなさん、こんにちは。 Hello everyone.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8016,7 +8016,7 @@ const DATA = {
             no: 677,
             vocab: "みなみ",
             kanji: "南",
-            meaning: "south\n南は こっちです。South is this direction.",
+            meaning: "south\n南は こっちです。 South is this direction.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -8028,7 +8028,7 @@ const DATA = {
             vocab: "みます",
             kanji: "見ます",
             meaning:
-              "look, see, watch\nよく ネットで えいがを 見ます。I often watch movies online.",
+              "look, see, watch\nよく ネットで えいがを 見ます。 I often watch movies online.",
             freq: "9",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -8039,7 +8039,7 @@ const DATA = {
             no: 679,
             vocab: "みみ",
             kanji: "耳",
-            meaning: "ear\nわたしは 耳が ちいさいです。I have small ears.",
+            meaning: "ear\nわたしは 耳が ちいさいです。 I have small ears.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -8051,7 +8051,7 @@ const DATA = {
             vocab: "みんな",
             kanji: "",
             meaning:
-              "everyone, everything\nこれは みんな 100えんです。This is all 100 yen.",
+              "everyone, everything\nこれは みんな 100えんです。 This is all 100 yen.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Shopping & Money",
@@ -8063,7 +8063,7 @@ const DATA = {
             vocab: "むいか",
             kanji: "六日",
             meaning:
-              "the sixth day of the month\nきょうは 六日です。Today is the 6th.",
+              "the sixth day of the month\nきょうは 六日です。 Today is the 6th.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -8075,7 +8075,7 @@ const DATA = {
             vocab: "むこう",
             kanji: "",
             meaning:
-              "over there\nだんせいの おてあらいは むこうです。Men's restrooms are over there.",
+              "over there\nだんせいの おてあらいは むこうです。 Men's restrooms are over there.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -8087,7 +8087,7 @@ const DATA = {
             vocab: "むずかしい",
             kanji: "",
             meaning:
-              "difficult [i-adj.]\nこのもんだいは とても むずかしいです。This question is very difficult.",
+              "difficult [i-adj.]\nこのもんだいは とても むずかしいです。 This question is very difficult.",
             freq: "1",
             category: "い-Adjectives",
             topic: "School & Work",
@@ -8099,7 +8099,7 @@ const DATA = {
             vocab: "むっつ",
             kanji: "六つ",
             meaning:
-              "six\nその ちいさい パンを 六つ ください。Please give me six of those little breads.",
+              "six\nその ちいさい パンを 六つ ください。 Please give me six of those little breads.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -8111,7 +8111,7 @@ const DATA = {
             vocab: "め",
             kanji: "目",
             meaning:
-              "eye\nわたしは 目が あまり よくないです。My eyes are not very good.",
+              "eye\nわたしは 目が あまり よくないです。 My eyes are not very good.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Body & Health",
@@ -8123,7 +8123,7 @@ const DATA = {
             vocab: "メートル",
             kanji: "",
             meaning:
-              "meter\nここから えきまで 100メートルぐらいです。It is about 100 meters from here to Eki.",
+              "meter\nここから えきまで 100メートルぐらいです。 It is about 100 meters from here to Eki.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -8135,7 +8135,7 @@ const DATA = {
             vocab: "めがね",
             kanji: "",
             meaning:
-              "glasses\nポケットの なかに めがねが あります。I have glasses in my pocket.",
+              "glasses\nポケットの なかに めがねが あります。 I have glasses in my pocket.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Clothing & Accessories",
@@ -8147,7 +8147,7 @@ const DATA = {
             vocab: "メモ",
             kanji: "",
             meaning:
-              "memo\nバッグの なかに メモが あります。There is a note in my bag.",
+              "memo\nバッグの なかに メモが あります。 There is a note in my bag.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -8158,7 +8158,7 @@ const DATA = {
             no: 689,
             vocab: "メモします",
             kanji: "",
-            meaning: "make a note\nメモしてもいいですか。Can I make a note?",
+            meaning: "make a note\nメモしてもいいですか。 Can I make a note?",
             freq: "1",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -8169,7 +8169,7 @@ const DATA = {
             no: 690,
             vocab: "もう",
             kanji: "",
-            meaning: "already, yet\nもう おわりました。It's already over.",
+            meaning: "already, yet\nもう おわりました。 It's already over.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8181,7 +8181,7 @@ const DATA = {
             vocab: "もう～",
             kanji: "",
             meaning:
-              "... more\nもういちど ゆっくり いってください。Please say slowly again.",
+              "... more\nもういちど ゆっくり いってください。 Please say slowly again.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8205,7 +8205,7 @@ const DATA = {
             vocab: "もくようび",
             kanji: "木よう日",
             meaning:
-              "Thursday\n木よう日に どこかで あいませんか。Would you like to meet somewhere on Thursday?",
+              "Thursday\n木よう日に どこかで あいませんか。 Would you like to meet somewhere on Thursday?",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -8217,7 +8217,7 @@ const DATA = {
             vocab: "もしもし",
             kanji: "",
             meaning:
-              "hello (telephone)\nもしもし、さとうですが、…。Hello, this is Sato ....",
+              "hello (telephone)\nもしもし、さとうですが、…。 Hello, this is Sato ....",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Technology & Communication",
@@ -8228,7 +8228,7 @@ const DATA = {
             no: 695,
             vocab: "もちろん",
             kanji: "",
-            meaning: "of course\nはい、もちろん。Yes of course.",
+            meaning: "of course\nはい、もちろん。 Yes of course.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8240,7 +8240,7 @@ const DATA = {
             vocab: "もちます",
             kanji: "",
             meaning:
-              "have, hold, carry\nバッグを もちましょうか。Shall I carry your bag?",
+              "have, hold, carry\nバッグを もちましょうか。 Shall I carry your bag?",
             freq: "1",
             category: "Verbs",
             topic: "House & Everyday Objects",
@@ -8252,7 +8252,7 @@ const DATA = {
             vocab: "もっていきます",
             kanji: "",
             meaning:
-              "take (something) （もってきます。= bring (something)）\nパーティーに なにを もっていきますか。What are you going to take to the party?",
+              "take (something) （もってきます。= bring (something)）\nパーティーに なにを もっていきますか。 What are you going to take to the party?",
             freq: "2",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -8264,7 +8264,7 @@ const DATA = {
             vocab: "もっと",
             kanji: "",
             meaning:
-              "more\nもっと おおきい こえで はなしてください。Please speak louder.",
+              "more\nもっと おおきい こえで はなしてください。 Please speak louder.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8276,7 +8276,7 @@ const DATA = {
             vocab: "もの",
             kanji: "",
             meaning:
-              "object, thing\nいちばん いいものを えらんでください。Please choose the best one.",
+              "object, thing\nいちばん いいものを えらんでください。 Please choose the best one.",
             freq: "13",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8288,7 +8288,7 @@ const DATA = {
             vocab: "もらいます",
             kanji: "",
             meaning:
-              "receive\nともだちに プレゼントを もらいました。I got a present from my friend.",
+              "receive\nともだちに プレゼントを もらいました。 I got a present from my friend.",
             freq: "1",
             category: "Verbs",
             topic: "Family & People",
@@ -8300,7 +8300,7 @@ const DATA = {
             vocab: "もん",
             kanji: "",
             meaning:
-              "gate\nあそこの もんから はいってください。Please enter from the gate over there.",
+              "gate\nあそこの もんから はいってください。 Please enter from the gate over there.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -8312,7 +8312,7 @@ const DATA = {
             vocab: "もんだい",
             kanji: "",
             meaning:
-              "question\nこれは むずかしいもんだい です。This is a difficult question.",
+              "question\nこれは むずかしいもんだい です。 This is a difficult question.",
             freq: "15",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -8324,7 +8324,7 @@ const DATA = {
             vocab: "もんだいようし",
             kanji: "",
             meaning:
-              "question sheet\nまだ もんだいようしを みないでください。Don't look at the question paper yet.",
+              "question sheet\nまだ もんだいようしを みないでください。 Don't look at the question paper yet.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "House & Everyday Objects",
@@ -8336,7 +8336,7 @@ const DATA = {
             vocab: "もんだいれい",
             kanji: "",
             meaning:
-              "sample question\nこれは N5のもんだいれいです。This is an example of an N5 question.",
+              "sample question\nこれは N5のもんだいれいです。 This is an example of an N5 question.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -8348,7 +8348,7 @@ const DATA = {
             vocab: "やおや",
             kanji: "",
             meaning:
-              "vegetable store\nちかくの やおやで くだものを かいました。I bought some fruits at a nearby greengrocer.",
+              "vegetable store\nちかくの やおやで くだものを かいました。 I bought some fruits at a nearby greengrocer.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -8360,7 +8360,7 @@ const DATA = {
             vocab: "やさい",
             kanji: "",
             meaning:
-              "vegetable\nまいにち やさいを たべます。I eat vegetables every day.",
+              "vegetable\nまいにち やさいを たべます。 I eat vegetables every day.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -8372,7 +8372,7 @@ const DATA = {
             vocab: "やさしい",
             kanji: "",
             meaning:
-              "easy, kind/nice/sweet/gentle [i-adj.]\nこのテストは やさしいです。This test is easy.\nかれは とても やさしいです。He is very kind.",
+              "easy, kind/nice/sweet/gentle [i-adj.]\nこのテストは やさしいです。 This test is easy.\nかれは とても やさしいです。 He is very kind.",
             freq: "",
             category: "い-Adjectives",
             topic: "Food & Drink",
@@ -8384,7 +8384,7 @@ const DATA = {
             vocab: "やじるし",
             kanji: "",
             meaning:
-              "arrow\nあそこに あかい やじるしが あります。There is a red arrow over there.",
+              "arrow\nあそこに あかい やじるしが あります。 There is a red arrow over there.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Colors & Shapes",
@@ -8396,7 +8396,7 @@ const DATA = {
             vocab: "やすい",
             kanji: "安い",
             meaning:
-              "cheap, inexpensive\nこのみせの ランチは 安いですが、おいしいです。Lunch at this shop is cheap but delicious.",
+              "cheap, inexpensive\nこのみせの ランチは 安いですが、おいしいです。 Lunch at this shop is cheap but delicious.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -8408,7 +8408,7 @@ const DATA = {
             vocab: "やすみ",
             kanji: "休み",
             meaning:
-              "holiday, vacation\nあしたは 休みですから、かいものに いきます。I'm off tomorrow, so I'm going shopping.",
+              "holiday, vacation\nあしたは 休みですから、かいものに いきます。 I'm off tomorrow, so I'm going shopping.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -8420,7 +8420,7 @@ const DATA = {
             vocab: "やすみます",
             kanji: "休みます",
             meaning:
-              "have a day off, rest, be absent\nあしたから １しゅうかん 休みます。I will take a week off from tomorrow.\nつかれましたから、すこし やすみます。I'm tired, so I'll take a break.",
+              "have a day off, rest, be absent\nあしたから １しゅうかん 休みます。 I will take a week off from tomorrow.\nつかれましたから、すこし やすみます。 I'm tired, so I'll take a break.",
             freq: "1",
             category: "Verbs",
             topic: "Body & Health",
@@ -8432,7 +8432,7 @@ const DATA = {
             vocab: "やっつ",
             kanji: "八つ",
             meaning:
-              "eight\nこのドーナツを 八つ ください。Please give me eight of these donuts.",
+              "eight\nこのドーナツを 八つ ください。 Please give me eight of these donuts.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -8444,7 +8444,7 @@ const DATA = {
             vocab: "やま",
             kanji: "山",
             meaning:
-              "mountain\nしゅうまつに たかい やまに のぼりました。I climbed a high mountain on the weekend.",
+              "mountain\nしゅうまつに たかい やまに のぼりました。 I climbed a high mountain on the weekend.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -8456,7 +8456,7 @@ const DATA = {
             vocab: "やります",
             kanji: "",
             meaning:
-              "do\nそのしごとは あとで わたしが やります。I will do the work later.",
+              "do\nそのしごとは あとで わたしが やります。 I will do the work later.",
             freq: "",
             category: "Verbs",
             topic: "School & Work",
@@ -8468,7 +8468,7 @@ const DATA = {
             vocab: "ゆうがた",
             kanji: "",
             meaning:
-              "early evening\nなつでも ゆうがたは すずしいです。Even in the summer, it is cool in the evening.",
+              "early evening\nなつでも ゆうがたは すずしいです。 Even in the summer, it is cool in the evening.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -8480,7 +8480,7 @@ const DATA = {
             vocab: "ゆうびんきょく",
             kanji: "",
             meaning:
-              "post office\nゆうびんきょくには あまり いきません。I don't go to the post office very often.",
+              "post office\nゆうびんきょくには あまり いきません。 I don't go to the post office very often.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -8492,7 +8492,7 @@ const DATA = {
             vocab: "ゆうめい",
             kanji: "有名",
             meaning:
-              "famous [na-adj.]\nこれは すごく有名なアニメです。This is a very famous anime.",
+              "famous [na-adj.]\nこれは すごく有名なアニメです。 This is a very famous anime.",
             freq: "1",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -8504,7 +8504,7 @@ const DATA = {
             vocab: "ゆき",
             kanji: "",
             meaning:
-              "snow\nふゆは たくさん ゆきが ふります。In winter, there are many snowfalls.",
+              "snow\nふゆは たくさん ゆきが ふります。 In winter, there are many snowfalls.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Weather & Nature",
@@ -8516,7 +8516,7 @@ const DATA = {
             vocab: "ゆっくり(と)",
             kanji: "",
             meaning:
-              "slowly\nもうすこし ゆっくり はなしてください。Please speak a little more slowly.",
+              "slowly\nもうすこし ゆっくり はなしてください。 Please speak a little more slowly.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8528,7 +8528,7 @@ const DATA = {
             vocab: "ようか",
             kanji: "八日",
             meaning:
-              "the eight day of the month, eight days\nきょうは 八日、きんようびです。Today is the 8th, Friday.",
+              "the eight day of the month, eight days\nきょうは 八日、きんようびです。 Today is the 8th, Friday.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -8540,7 +8540,7 @@ const DATA = {
             vocab: "ようふく",
             kanji: "",
             meaning:
-              "(western) clothes\nともだちのたんじょうびに ようふくを あげました。I gave clothes to my friend's birthday.",
+              "(western) clothes\nともだちのたんじょうびに ようふくを あげました。 I gave clothes to my friend's birthday.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -8552,7 +8552,7 @@ const DATA = {
             vocab: "よく",
             kanji: "",
             meaning:
-              "often\nよく カフェで しごとを します。I often work at a nearby cafe.",
+              "often\nよく カフェで しごとを します。 I often work at a nearby cafe.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -8564,7 +8564,7 @@ const DATA = {
             vocab: "よこ",
             kanji: "",
             meaning:
-              "the side\nテレビの よこに スイッチが あります。There is a switch next to the TV.",
+              "the side\nテレビの よこに スイッチが あります。 There is a switch next to the TV.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -8576,7 +8576,7 @@ const DATA = {
             vocab: "よっつ",
             kanji: "四つ",
             meaning:
-              "four\nアイスコーヒーを 四つ ください。Please give me four iced coffees.",
+              "four\nアイスコーヒーを 四つ ください。 Please give me four iced coffees.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -8588,7 +8588,7 @@ const DATA = {
             vocab: "よびます",
             kanji: "",
             meaning:
-              "call, invite\nおみせの ひとを よびましょう。Let's call the shop staff.",
+              "call, invite\nおみせの ひとを よびましょう。 Let's call the shop staff.",
             freq: "1",
             category: "Verbs",
             topic: "Shopping & Money",
@@ -8600,7 +8600,7 @@ const DATA = {
             vocab: "よみます",
             kanji: "読みます",
             meaning:
-              "read\nむすめは よく ほんを 読みます。My daughter often reads books.",
+              "read\nむすめは よく ほんを 読みます。 My daughter often reads books.",
             freq: "5",
             category: "Verbs",
             topic: "Time & Calendar",
@@ -8612,7 +8612,7 @@ const DATA = {
             vocab: "よる",
             kanji: "夜",
             meaning:
-              "night\nあしたの夜 カフェで ともだちに あいます。I'll see my friends at the cafe tomorrow night.",
+              "night\nあしたの夜 カフェで ともだちに あいます。 I'll see my friends at the cafe tomorrow night.",
             freq: "6",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -8624,7 +8624,7 @@ const DATA = {
             vocab: "ラーメン",
             kanji: "",
             meaning:
-              "ramen, noodle\nときどき ラーメンを たべます。I eat ramen sometimes.",
+              "ramen, noodle\nときどき ラーメンを たべます。 I eat ramen sometimes.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -8636,7 +8636,7 @@ const DATA = {
             vocab: "らいげつ",
             kanji: "来月",
             meaning:
-              "next month\nたぶん 来月 シンガポールに いきます。Maybe I'm going to Singapore next month.",
+              "next month\nたぶん 来月 シンガポールに いきます。 Maybe I'm going to Singapore next month.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -8648,7 +8648,7 @@ const DATA = {
             vocab: "らいしゅう",
             kanji: "来週",
             meaning:
-              "next week\n来週は とても いそがしいです。I will be very busy next week.",
+              "next week\n来週は とても いそがしいです。 I will be very busy next week.",
             freq: "2",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -8660,7 +8660,7 @@ const DATA = {
             vocab: "らいねん",
             kanji: "来年",
             meaning:
-              "next year\n来年 けっこんします。I'm getting married next year.",
+              "next year\n来年 けっこんします。 I'm getting married next year.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -8672,7 +8672,7 @@ const DATA = {
             vocab: "ラジオ",
             kanji: "",
             meaning:
-              "radio\nいまは ほとんど ラジオを ききません。I rarely listen to the radio now.",
+              "radio\nいまは ほとんど ラジオを ききません。 I rarely listen to the radio now.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Time & Calendar",
@@ -8684,7 +8684,7 @@ const DATA = {
             vocab: "りっぱ",
             kanji: "",
             meaning:
-              "good, fine, fine-looking, splendid, magnificent [na-adj.]\nあのひとは とても りっぱなひとです。That person is a very good person.",
+              "good, fine, fine-looking, splendid, magnificent [na-adj.]\nあのひとは とても りっぱなひとです。 That person is a very good person.",
             freq: "",
             category: "な-Adjectives",
             topic: "Family & People",
@@ -8696,7 +8696,7 @@ const DATA = {
             vocab: "りゅうがくせい",
             kanji: "",
             meaning:
-              "student studying abroad\nリンダさんは りゅうがくせいです。Linda is an international student.",
+              "student studying abroad\nリンダさんは りゅうがくせいです。 Linda is an international student.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -8708,7 +8708,7 @@ const DATA = {
             vocab: "りょうしん",
             kanji: "",
             meaning:
-              "parents\nりょうしんは ハワイに すんでいます。My parents live in Hawaii.",
+              "parents\nりょうしんは ハワイに すんでいます。 My parents live in Hawaii.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Family & People",
@@ -8719,7 +8719,7 @@ const DATA = {
             no: 736,
             vocab: "りょうり",
             kanji: "",
-            meaning: "cooking\nよく りょうりを します。I cook often.",
+            meaning: "cooking\nよく りょうりを します。 I cook often.",
             freq: "3",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -8731,7 +8731,7 @@ const DATA = {
             vocab: "りょこうがいしゃ",
             kanji: "",
             meaning:
-              "travel agency\nかれは りょこうがいしゃに つとめています。He works for a travel agency.",
+              "travel agency\nかれは りょこうがいしゃに つとめています。 He works for a travel agency.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8743,7 +8743,7 @@ const DATA = {
             vocab: "りょこうします",
             kanji: "",
             meaning:
-              "travel\nなつやすみに ともだちと りょこうします。I travel with friends for summer vacation.",
+              "travel\nなつやすみに ともだちと りょこうします。 I travel with friends for summer vacation.",
             freq: "",
             category: "Verbs",
             topic: "Family & People",
@@ -8755,7 +8755,7 @@ const DATA = {
             vocab: "りんご",
             kanji: "",
             meaning:
-              "apple\nネットで りんごを たくさん かいました。I bought a lot of apples online.",
+              "apple\nネットで りんごを たくさん かいました。 I bought a lot of apples online.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -8767,7 +8767,7 @@ const DATA = {
             vocab: "れい",
             kanji: "",
             meaning:
-              "example\nもうすこし れいを おしえてください。Please give me a few more examples.",
+              "example\nもうすこし れいを おしえてください。 Please give me a few more examples.",
             freq: "6",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8779,7 +8779,7 @@ const DATA = {
             vocab: "れいぞうこ",
             kanji: "",
             meaning:
-              "refrigerator\nれいぞうこの なかに ビールが たくさん あります。There is a lot of beer in the fridge.",
+              "refrigerator\nれいぞうこの なかに ビールが たくさん あります。 There is a lot of beer in the fridge.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -8791,7 +8791,7 @@ const DATA = {
             vocab: "レコード",
             kanji: "",
             meaning:
-              "record\nわたしの うちに レコードは ありません。There are no records in my house.",
+              "record\nわたしの うちに レコードは ありません。 There are no records in my house.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Places & Directions",
@@ -8803,7 +8803,7 @@ const DATA = {
             vocab: "レストラン",
             kanji: "",
             meaning:
-              "restaurant\nこのレストランは とても おいしいです。This restaurant has really good food.",
+              "restaurant\nこのレストランは とても おいしいです。 This restaurant has really good food.",
             freq: "4",
             category: "Nouns & Other Expressions",
             topic: "Food & Drink",
@@ -8815,7 +8815,7 @@ const DATA = {
             vocab: "れんしゅう",
             kanji: "",
             meaning:
-              "practice\nれんしゅうは とても たいせつです。Practice is very important.",
+              "practice\nれんしゅうは とても たいせつです。 Practice is very important.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8827,7 +8827,7 @@ const DATA = {
             vocab: "れんしゅうします",
             kanji: "",
             meaning:
-              "practice\nうちで もっと れんしゅうしてください。Please practice more at home.",
+              "practice\nうちで もっと れんしゅうしてください。 Please practice more at home.",
             freq: "",
             category: "Verbs",
             topic: "Places & Directions",
@@ -8839,7 +8839,7 @@ const DATA = {
             vocab: "ろく",
             kanji: "六",
             meaning:
-              "six\nこのタブレットは 六まんえんぐらいでした。This tablet cost about 60,000 yen.",
+              "six\nこのタブレットは 六まんえんぐらいでした。 This tablet cost about 60,000 yen.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -8851,7 +8851,7 @@ const DATA = {
             vocab: "ろっぽん",
             kanji: "六本",
             meaning:
-              "six (long objects)\nコーラを 六本 ください。Please give me six colas.",
+              "six (long objects)\nコーラを 六本 ください。 Please give me six colas.",
             freq: "1",
             category: "Nouns & Other Expressions",
             topic: "Numbers & Counters",
@@ -8863,7 +8863,7 @@ const DATA = {
             vocab: "ワイシャツ\n(Yシャツ)",
             kanji: "",
             meaning:
-              "business shirt (white shirt)\nワイシャツは あまり きません。I don't wear shirts very often.",
+              "business shirt (white shirt)\nワイシャツは あまり きません。 I don't wear shirts very often.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "Colors & Shapes",
@@ -8875,7 +8875,7 @@ const DATA = {
             vocab: "わかい",
             kanji: "",
             meaning:
-              "young [i-adj.]\nははは ちちより ５さい わかいです。My mother is 5 years younger than my father.",
+              "young [i-adj.]\nははは ちちより ５さい わかいです。 My mother is 5 years younger than my father.",
             freq: "1",
             category: "い-Adjectives",
             topic: "Family & People",
@@ -8887,7 +8887,7 @@ const DATA = {
             vocab: "わかります",
             kanji: "",
             meaning:
-              "understand, know\nにほんごが わかりますか。Do you understand Japanese?",
+              "understand, know\nにほんごが わかりますか。 Do you understand Japanese?",
             freq: "4",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -8899,7 +8899,7 @@ const DATA = {
             vocab: "わすれます",
             kanji: "",
             meaning:
-              "forget\nまた パスワードを わすれました。I forgot my password again.",
+              "forget\nまた パスワードを わすれました。 I forgot my password again.",
             freq: "",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -8911,7 +8911,7 @@ const DATA = {
             vocab: "わたくし\n(very formal)",
             kanji: "私",
             meaning:
-              "I\n私は ABC Company の さとうです。I'm Sato from ABC Company.",
+              "I\n私は ABC Company の さとうです。 I'm Sato from ABC Company.",
             freq: "",
             category: "Nouns & Other Expressions",
             topic: "School & Work",
@@ -8923,7 +8923,7 @@ const DATA = {
             vocab: "わたし",
             kanji: "私",
             meaning:
-              "I\n私は にほんごを べんきょうしています。I'm studying Japanese.",
+              "I\n私は にほんごを べんきょうしています。 I'm studying Japanese.",
             freq: "20",
             category: "Nouns & Other Expressions",
             topic: "Other / General",
@@ -8935,7 +8935,7 @@ const DATA = {
             vocab: "わたします",
             kanji: "",
             meaning:
-              "hand over\nこれから しゅくだいを わたします。I will give you homework from now on.",
+              "hand over\nこれから しゅくだいを わたします。 I will give you homework from now on.",
             freq: "4",
             category: "Verbs",
             topic: "Body & Health",
@@ -8947,7 +8947,7 @@ const DATA = {
             vocab: "わたります",
             kanji: "",
             meaning:
-              "cross\nおうだんほどうを わたりましょう。Let's cross the pedestrian crossing.",
+              "cross\nおうだんほどうを わたりましょう。 Let's cross the pedestrian crossing.",
             freq: "",
             category: "Verbs",
             topic: "Daily Actions & Verbs",
@@ -8959,7 +8959,7 @@ const DATA = {
             vocab: "わるい",
             kanji: "",
             meaning:
-              "bad [i-adj.]\nわたしは めが わるいです。I have bad eyesight.",
+              "bad [i-adj.]\nわたしは めが わるいです。 I have bad eyesight.",
             freq: "",
             category: "い-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9478,7 +9478,7 @@ const DATA = {
             vocab: "けっこう",
             kanji: "結構",
             meaning:
-              "fine, sufficient, no thank you [na-adj.]\nもう けっこうです。That's enough, thank you.",
+              "fine, sufficient, no thank you [na-adj.]\nもう けっこうです。 That's enough, thank you.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9490,7 +9490,7 @@ const DATA = {
             vocab: "ていねい",
             kanji: "丁寧",
             meaning:
-              "polite, careful [na-adj.]\nかれは いつも ていねいです。He is always polite and careful.",
+              "polite, careful [na-adj.]\nかれは いつも ていねいです。 He is always polite and careful.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9502,7 +9502,7 @@ const DATA = {
             vocab: "らく",
             kanji: "楽",
             meaning:
-              "comfortable, easy, relaxed [na-adj.]\nこの いすは らくです。This chair is comfortable.",
+              "comfortable, easy, relaxed [na-adj.]\nこの いすは らくです。 This chair is comfortable.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9514,7 +9514,7 @@ const DATA = {
             vocab: "いっしょうけんめい",
             kanji: "一生懸命",
             meaning:
-              "with all one's effort, as hard as one can [na-adj.]\nいっしょうけんめい にほんごを べんきょうします。I study Japanese as hard as I can.",
+              "with all one's effort, as hard as one can [na-adj.]\nいっしょうけんめい にほんごを べんきょうします。 I study Japanese as hard as I can.",
             freq: "",
             category: "な-Adjectives",
             topic: "School & Work",
@@ -9526,7 +9526,7 @@ const DATA = {
             vocab: "きけん",
             kanji: "危険",
             meaning:
-              "dangerous [na-adj.]\nこの みちは きけんです。This road is dangerous.",
+              "dangerous [na-adj.]\nこの みちは きけんです。 This road is dangerous.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9538,7 +9538,7 @@ const DATA = {
             vocab: "ざんねん",
             kanji: "残念",
             meaning:
-              "regrettable, a pity, disappointing [na-adj.]\nそれは ざんねんですね。That's a shame, isn't it.",
+              "regrettable, a pity, disappointing [na-adj.]\nそれは ざんねんですね。 That's a shame, isn't it.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9550,7 +9550,7 @@ const DATA = {
             vocab: "しんぱい",
             kanji: "心配",
             meaning:
-              "worried, anxious [na-adj.]\nかぞくの ことが しんぱいです。I'm worried about my family.",
+              "worried, anxious [na-adj.]\nかぞくの ことが しんぱいです。 I'm worried about my family.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9562,7 +9562,7 @@ const DATA = {
             vocab: "じゆう",
             kanji: "自由",
             meaning:
-              "free, unrestrained [na-adj.]\nにちようびは じゆうな じかんが あります。I have free time on Sundays.",
+              "free, unrestrained [na-adj.]\nにちようびは じゆうな じかんが あります。 I have free time on Sundays.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9574,7 +9574,7 @@ const DATA = {
             vocab: "じゅうぶん",
             kanji: "十分",
             meaning:
-              "enough, sufficient [na-adj.]\nじかんは じゅうぶんです。There is enough time.",
+              "enough, sufficient [na-adj.]\nじかんは じゅうぶんです。 There is enough time.",
             freq: "",
             category: "な-Adjectives",
             topic: "Other / General",
@@ -9586,7 +9586,7 @@ const DATA = {
             vocab: "てきとう",
             kanji: "適当",
             meaning:
-              "suitable, appropriate [na-adj.]\nてきとうな ばしょを えらびました。I chose a suitable place.",
+              "suitable, appropriate [na-adj.]\nてきとうな ばしょを えらびました。 I chose a suitable place.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9598,7 +9598,7 @@ const DATA = {
             vocab: "とくべつ",
             kanji: "特別",
             meaning:
-              "special [na-adj.]\nきょうは とくべつな 日です。Today is a special day.",
+              "special [na-adj.]\nきょうは とくべつな 日です。 Today is a special day.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9610,7 +9610,7 @@ const DATA = {
             vocab: "ねっしん",
             kanji: "熱心",
             meaning:
-              "eager, enthusiastic [na-adj.]\nかれは べんきょうに ねっしんです。He is enthusiastic about studying.",
+              "eager, enthusiastic [na-adj.]\nかれは べんきょうに ねっしんです。 He is enthusiastic about studying.",
             freq: "",
             category: "な-Adjectives",
             topic: "School & Work",
@@ -9622,7 +9622,7 @@ const DATA = {
             vocab: "ひつよう",
             kanji: "必要",
             meaning:
-              "necessary [na-adj.]\nパスポートが ひつようです。A passport is necessary.",
+              "necessary [na-adj.]\nパスポートが ひつようです。 A passport is necessary.",
             freq: "",
             category: "な-Adjectives",
             topic: "Other / General",
@@ -9634,7 +9634,7 @@ const DATA = {
             vocab: "まじめ",
             kanji: "真面目",
             meaning:
-              "serious, earnest, diligent [na-adj.]\nかのじょは とても まじめです。She is very serious and diligent.",
+              "serious, earnest, diligent [na-adj.]\nかのじょは とても まじめです。 She is very serious and diligent.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9646,7 +9646,7 @@ const DATA = {
             vocab: "むり",
             kanji: "無理",
             meaning:
-              "unreasonable, impossible [na-adj.]\nきょう いくのは むりです。Going today is impossible.",
+              "unreasonable, impossible [na-adj.]\nきょう いくのは むりです。 Going today is impossible.",
             freq: "",
             category: "な-Adjectives",
             topic: "Descriptions & Qualities",
@@ -9658,7 +9658,7 @@ const DATA = {
             vocab: "よい",
             kanji: "良い",
             meaning:
-              "good [i-adj.] (written/formal form of いい)\nてんきが よい日です。It's a day with good weather.",
+              "good [i-adj.] (written/formal form of いい)\nてんきが よい日です。 It's a day with good weather.",
             freq: "",
             category: "い-Adjectives",
             topic: "Descriptions & Qualities",
