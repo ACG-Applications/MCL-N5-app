@@ -1,64 +1,58 @@
 // Service Worker for MCL-N5-app
-const CACHE_NAME = "mcl-n5-v1";
+// Relative paths so the app works at a domain root or in a subdirectory.
+const CACHE_NAME = "mcl-n5-v2";
 const ASSETS = [
-  "/MCL-N5-app/",
-  "/MCL-N5-app/index.html",
-  // Add other assets as needed
+  "./",
+  "./index.html",
+  "./manifest.json",
+  "./images/icons/Antonio.png",
+  "./images/icons/icon-192.png",
+  "./images/icons/icon-512.png",
 ];
 
-// Install event - cache assets
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches
       .open(CACHE_NAME)
-      .then((cache) => {
-        console.log("Caching assets...");
-        return cache.addAll(ASSETS);
-      })
+      .then((cache) => cache.addAll(ASSETS))
       .then(() => self.skipWaiting()),
   );
 });
 
-// Activate event - clean old caches
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches
       .keys()
-      .then((cacheNames) => {
-        return Promise.all(
-          cacheNames.map((cache) => {
-            if (cache !== CACHE_NAME) {
-              console.log("Cleaning old cache:", cache);
-              return caches.delete(cache);
-            }
-          }),
-        );
-      })
+      .then((names) =>
+        Promise.all(
+          names.filter((n) => n !== CACHE_NAME).map((n) => caches.delete(n)),
+        ),
+      )
       .then(() => self.clients.claim()),
   );
 });
 
-// Fetch event - serve from cache or network
 self.addEventListener("fetch", (event) => {
+  if (event.request.method !== "GET") return;
   event.respondWith(
-    caches
-      .match(event.request)
-      .then((cached) => {
-        if (cached) {
-          return cached;
-        }
-        return fetch(event.request).then((response) => {
-          // Cache the fetched response for future
-          const responseClone = response.clone();
-          caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseClone);
-          });
+    caches.match(event.request).then((cached) => {
+      if (cached) return cached;
+      return fetch(event.request)
+        .then((response) => {
+          if (!response || response.status !== 200 || response.type !== "basic") {
+            return response;
+          }
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
           return response;
+        })
+        .catch(() => {
+          // no offline.html exists; fall back to the cached shell
+          if (event.request.mode === "navigate") {
+            return caches.match("./index.html");
+          }
+          return new Response("Offline", { status: 503 });
         });
-      })
-      .catch(() => {
-        // Optional: Return offline fallback page
-        return caches.match("/MCL-N5-app/offline.html");
-      }),
+    }),
   );
 });

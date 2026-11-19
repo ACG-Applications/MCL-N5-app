@@ -279,10 +279,25 @@
       }
 
       /* ===== Theme Toggle ===== */
-      .theme-toggle {
+      /* Brand mark (top right) */
+      .antonio-signature {
         position: absolute;
         top: 20px;
         right: 20px;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid var(--line);
+        background: var(--card);
+        box-shadow: var(--shadow);
+        z-index: 6;
+      }
+
+      .theme-toggle {
+        position: absolute;
+        top: 20px;
+        right: 84px;
         z-index: 5;
         display: flex;
         align-items: center;
@@ -333,6 +348,13 @@
         padding-right: 6px;
       }
       @media (max-width: 520px) {
+        .antonio-signature {
+          top: 10px;
+          right: 12px;
+          width: 32px;
+          height: 32px;
+        }
+
         .theme-toggle {
           position: static;
           margin: 0 auto 14px;
@@ -1660,10 +1682,68 @@
         opacity: 0.6;
         pointer-events: none;
       }
-    </style>
+          /* Short landscape (phone on its side): the header alone filled the viewport, so
+         the tabs and every section started below the fold. Compact it there. */
+      @media (orientation: landscape) and (max-height: 560px) {
+        .top {
+          padding: 10px 16px 8px;
+        }
+
+        .stamp {
+          display: none;
+        }
+
+        .title {
+          font-size: 1.35rem;
+        }
+
+        .title .en {
+          font-size: 0.6rem;
+          letter-spacing: 0.18em;
+        }
+
+        .subtitle {
+          display: none;
+        }
+
+        .stats-row {
+          margin-top: 6px;
+          gap: 6px;
+        }
+
+        .stat-chip {
+          padding: 3px 10px;
+          font-size: 0.68rem;
+        }
+
+        .theme-toggle {
+          top: 12px;
+          right: 74px;
+          padding: 4px;
+        }
+
+        .antonio-signature {
+          top: 12px;
+          right: 12px;
+          width: 34px;
+          height: 34px;
+        }
+
+        main {
+          padding: 10px 14px 40px;
+        }
+      }
+
+
+</style>
   </head>
   <body>
     <header class="top">
+      <img
+        src="images/icons/Antonio.png"
+        alt="ACG Applications"
+        class="antonio-signature"
+      />
       <button
         class="theme-toggle"
         id="themeToggle"
@@ -11521,141 +11601,141 @@
           },
         ],
         kanji: [
-          { char: "駅", itemIdxs: [0, 133], done: true },
-          { char: "円", itemIdxs: [1], done: true },
+          { char: "駅", itemIdxs: [0, 133], done: false },
+          { char: "円", itemIdxs: [1], done: false },
           {
             char: "日",
             itemIdxs: [
               4, 32, 98, 101, 219, 246, 256, 277, 288, 359, 441, 488, 503, 519,
               527, 532, 533, 535, 536, 569, 588, 617, 650, 673, 680, 692, 719,
             ],
-            done: true,
+            done: false,
           },
-          { char: "間", itemIdxs: [4, 21, 22, 327], done: true },
+          { char: "間", itemIdxs: [4, 21, 22, 327], done: false },
           {
             char: "月",
             itemIdxs: [5, 7, 275, 277, 306, 383, 597, 648, 728],
-            done: true,
+            done: false,
           },
-          { char: "語", itemIdxs: [15, 536], done: true },
-          { char: "時", itemIdxs: [20, 21, 327, 526], done: true },
-          { char: "週", itemIdxs: [22, 307, 344, 384, 649, 729], done: true },
+          { char: "語", itemIdxs: [15, 536], done: false },
+          { char: "時", itemIdxs: [20, 21, 327, 526], done: false },
+          { char: "週", itemIdxs: [22, 307, 344, 384, 649, 729], done: false },
           {
             char: "人",
             itemIdxs: [23, 33, 168, 189, 595, 598, 616],
-            done: true,
+            done: false,
           },
-          { char: "先", itemIdxs: [26, 312, 383, 384, 385], done: true },
-          { char: "生", itemIdxs: [26, 122, 201, 385, 805], done: true },
-          { char: "中", itemIdxs: [29, 511], done: true },
-          { char: "年", itemIdxs: [34, 297, 534, 651, 730], done: true },
-          { char: "半", itemIdxs: [36, 586], done: true },
-          { char: "分", itemIdxs: [39, 586, 810], done: true },
-          { char: "本", itemIdxs: [41, 535, 536, 643, 644, 746], done: true },
-          { char: "前", itemIdxs: [43, 291, 520, 653], done: true },
-          { char: "会", itemIdxs: [46, 190, 562], done: true },
+          { char: "先", itemIdxs: [26, 312, 383, 384, 385], done: false },
+          { char: "生", itemIdxs: [26, 122, 201, 385, 805], done: false },
+          { char: "中", itemIdxs: [29, 511], done: false },
+          { char: "年", itemIdxs: [34, 297, 534, 651, 730], done: false },
+          { char: "半", itemIdxs: [36, 586], done: false },
+          { char: "分", itemIdxs: [39, 586, 810], done: false },
+          { char: "本", itemIdxs: [41, 535, 536, 643, 644, 746], done: false },
+          { char: "前", itemIdxs: [43, 291, 520, 653], done: false },
+          { char: "会", itemIdxs: [46, 190, 562], done: false },
           { char: "赤", itemIdxs: [48, 49], done: false },
           { char: "朝", itemIdxs: [56, 57, 272, 647], done: false },
-          { char: "足", itemIdxs: [59], done: true },
-          { char: "新", itemIdxs: [65, 356], done: true },
-          { char: "後", itemIdxs: [69, 117, 287], done: true },
-          { char: "雨", itemIdxs: [78], done: true },
+          { char: "足", itemIdxs: [59], done: false },
+          { char: "新", itemIdxs: [65, 356], done: false },
+          { char: "後", itemIdxs: [69, 117, 287], done: false },
+          { char: "雨", itemIdxs: [78], done: false },
           { char: "歩", itemIdxs: [83], done: false },
-          { char: "言", itemIdxs: [86], done: true },
+          { char: "言", itemIdxs: [86], done: false },
           { char: "家", itemIdxs: [87], done: false },
-          { char: "行", itemIdxs: [88, 255], done: true },
+          { char: "行", itemIdxs: [88, 255], done: false },
           {
             char: "一",
             itemIdxs: [96, 97, 98, 99, 441, 596, 597, 598, 805],
-            done: true,
+            done: false,
           },
-          { char: "五", itemIdxs: [101, 103, 280], done: true },
-          { char: "今", itemIdxs: [105, 246, 272, 297, 306, 307], done: true },
-          { char: "入", itemIdxs: [111, 113, 552], done: true },
-          { char: "口", itemIdxs: [111, 260, 462], done: true },
-          { char: "上", itemIdxs: [116, 349, 350], done: true },
-          { char: "多", itemIdxs: [140], done: true },
-          { char: "大", itemIdxs: [141, 142, 168, 400], done: true },
-          { char: "母", itemIdxs: [144, 574], done: true },
-          { char: "金", itemIdxs: [146, 254, 256], done: true },
-          { char: "国", itemIdxs: [150, 188, 189, 263], done: true },
-          { char: "父", itemIdxs: [161, 436], done: true },
-          { char: "男", itemIdxs: [164, 165], done: true },
-          { char: "子", itemIdxs: [165, 186, 299], done: true },
-          { char: "店", itemIdxs: [178, 670], done: true },
-          { char: "女", itemIdxs: [185, 186], done: true },
-          { char: "火", itemIdxs: [187, 219], done: true },
-          { char: "外", itemIdxs: [188, 189, 393], done: true },
-          { char: "社", itemIdxs: [190, 562], done: true },
-          { char: "買", itemIdxs: [193, 194], done: true },
-          { char: "書", itemIdxs: [200], done: true },
-          { char: "学", itemIdxs: [201, 211, 400], done: true },
-          { char: "校", itemIdxs: [211], done: true },
+          { char: "五", itemIdxs: [101, 103, 280], done: false },
+          { char: "今", itemIdxs: [105, 246, 272, 297, 306, 307], done: false },
+          { char: "入", itemIdxs: [111, 113, 552], done: false },
+          { char: "口", itemIdxs: [111, 260, 462], done: false },
+          { char: "上", itemIdxs: [116, 349, 350], done: false },
+          { char: "多", itemIdxs: [140], done: false },
+          { char: "大", itemIdxs: [141, 142, 168, 400], done: false },
+          { char: "母", itemIdxs: [144, 574], done: false },
+          { char: "金", itemIdxs: [146, 254, 256], done: false },
+          { char: "国", itemIdxs: [150, 188, 189, 263], done: false },
+          { char: "父", itemIdxs: [161, 436], done: false },
+          { char: "男", itemIdxs: [164, 165], done: false },
+          { char: "子", itemIdxs: [165, 186, 299], done: false },
+          { char: "店", itemIdxs: [178, 670], done: false },
+          { char: "女", itemIdxs: [185, 186], done: false },
+          { char: "火", itemIdxs: [187, 219], done: false },
+          { char: "外", itemIdxs: [188, 189, 393], done: false },
+          { char: "社", itemIdxs: [190, 562], done: false },
+          { char: "買", itemIdxs: [193, 194], done: false },
+          { char: "書", itemIdxs: [200], done: false },
+          { char: "学", itemIdxs: [201, 211, 400], done: false },
+          { char: "校", itemIdxs: [211], done: false },
           { char: "紙", itemIdxs: [217, 460], done: false },
-          { char: "川", itemIdxs: [225], done: true },
-          { char: "木", itemIdxs: [230, 691, 692], done: true },
-          { char: "聞", itemIdxs: [233, 356], done: true },
-          { char: "北", itemIdxs: [234], done: true },
-          { char: "来", itemIdxs: [241, 728, 729, 730], done: true },
-          { char: "九", itemIdxs: [243, 257, 288, 289], done: true },
+          { char: "川", itemIdxs: [225], done: false },
+          { char: "木", itemIdxs: [230, 691, 692], done: false },
+          { char: "聞", itemIdxs: [233, 356], done: false },
+          { char: "北", itemIdxs: [234], done: false },
+          { char: "来", itemIdxs: [241, 728, 729, 730], done: false },
+          { char: "九", itemIdxs: [243, 257, 288, 289], done: false },
           { char: "銀", itemIdxs: [255], done: false },
-          { char: "下", itemIdxs: [262, 331], done: true },
-          { char: "車", itemIdxs: [267, 471], done: true },
-          { char: "午", itemIdxs: [287, 291], done: true },
-          { char: "魚", itemIdxs: [311], done: true },
-          { char: "三", itemIdxs: [321, 673, 674], done: true },
-          { char: "四", itemIdxs: [324, 723], done: true },
-          { char: "十", itemIdxs: [345, 485, 488, 569, 810], done: true },
-          { char: "手", itemIdxs: [349, 350, 454, 460], done: true },
+          { char: "下", itemIdxs: [262, 331], done: false },
+          { char: "車", itemIdxs: [267, 471], done: false },
+          { char: "午", itemIdxs: [287, 291], done: false },
+          { char: "魚", itemIdxs: [311], done: false },
+          { char: "三", itemIdxs: [321, 673, 674], done: false },
+          { char: "四", itemIdxs: [324, 723], done: false },
+          { char: "十", itemIdxs: [345, 485, 488, 569, 810], done: false },
+          { char: "手", itemIdxs: [349, 350, 454, 460], done: false },
           { char: "知", itemIdxs: [354], done: false },
-          { char: "白", itemIdxs: [355], done: true },
-          { char: "水", itemIdxs: [357, 359, 669], done: true },
-          { char: "少", itemIdxs: [362, 364], done: true },
+          { char: "白", itemIdxs: [355], done: false },
+          { char: "水", itemIdxs: [357, 359, 669], done: false },
+          { char: "少", itemIdxs: [362, 364], done: false },
           { char: "住", itemIdxs: [372], done: false },
-          { char: "千", itemIdxs: [382], done: true },
-          { char: "空", itemIdxs: [396], done: true },
-          { char: "高", itemIdxs: [410, 411], done: true },
-          { char: "出", itemIdxs: [415, 459, 462, 466], done: true },
-          { char: "立", itemIdxs: [417], done: true },
-          { char: "食", itemIdxs: [423, 424], done: true },
-          { char: "小", itemIdxs: [429, 430], done: true },
+          { char: "千", itemIdxs: [382], done: false },
+          { char: "空", itemIdxs: [396], done: false },
+          { char: "高", itemIdxs: [410, 411], done: false },
+          { char: "出", itemIdxs: [415, 459, 462, 466], done: false },
+          { char: "立", itemIdxs: [417], done: false },
+          { char: "食", itemIdxs: [423, 424], done: false },
+          { char: "小", itemIdxs: [429, 430], done: false },
           { char: "近", itemIdxs: [431, 433], done: false },
-          { char: "天", itemIdxs: [469], done: true },
-          { char: "気", itemIdxs: [469, 470], done: true },
-          { char: "電", itemIdxs: [470, 471, 472, 473, 474], done: true },
-          { char: "話", itemIdxs: [472, 473, 474, 572, 573], done: true },
-          { char: "友", itemIdxs: [502], done: true },
-          { char: "土", itemIdxs: [503], done: true },
-          { char: "長", itemIdxs: [512], done: true },
-          { char: "七", itemIdxs: [516, 519], done: true },
-          { char: "何", itemIdxs: [517, 518, 525, 526, 527], done: true },
-          { char: "名", itemIdxs: [520, 716], done: true },
-          { char: "二", itemIdxs: [528, 534, 569, 614, 616, 617], done: true },
-          { char: "西", itemIdxs: [531], done: true },
-          { char: "飲", itemIdxs: [546, 547], done: true },
-          { char: "八", itemIdxs: [568, 711, 719], done: true },
-          { char: "花", itemIdxs: [571], done: true },
-          { char: "東", itemIdxs: [589], done: true },
-          { char: "左", itemIdxs: [594], done: true },
-          { char: "百", itemIdxs: [600], done: true },
+          { char: "天", itemIdxs: [469], done: false },
+          { char: "気", itemIdxs: [469, 470], done: false },
+          { char: "電", itemIdxs: [470, 471, 472, 473, 474], done: false },
+          { char: "話", itemIdxs: [472, 473, 474, 572, 573], done: false },
+          { char: "友", itemIdxs: [502], done: false },
+          { char: "土", itemIdxs: [503], done: false },
+          { char: "長", itemIdxs: [512], done: false },
+          { char: "七", itemIdxs: [516, 519], done: false },
+          { char: "何", itemIdxs: [517, 518, 525, 526, 527], done: false },
+          { char: "名", itemIdxs: [520, 716], done: false },
+          { char: "二", itemIdxs: [528, 534, 569, 614, 616, 617], done: false },
+          { char: "西", itemIdxs: [531], done: false },
+          { char: "飲", itemIdxs: [546, 547], done: false },
+          { char: "八", itemIdxs: [568, 711, 719], done: false },
+          { char: "花", itemIdxs: [571], done: false },
+          { char: "東", itemIdxs: [589], done: false },
+          { char: "左", itemIdxs: [594], done: false },
+          { char: "百", itemIdxs: [600], done: false },
           { char: "昼", itemIdxs: [604, 606], done: false },
           { char: "広", itemIdxs: [607], done: false },
-          { char: "古", itemIdxs: [621], done: true },
+          { char: "古", itemIdxs: [621], done: false },
           { char: "文", itemIdxs: [623], done: false },
-          { char: "毎", itemIdxs: [647, 648, 649, 650, 651, 652], done: true },
-          { char: "万", itemIdxs: [664], done: true },
-          { char: "右", itemIdxs: [667], done: true },
-          { char: "見", itemIdxs: [671, 677], done: true },
-          { char: "道", itemIdxs: [672], done: true },
-          { char: "南", itemIdxs: [676], done: true },
+          { char: "毎", itemIdxs: [647, 648, 649, 650, 651, 652], done: false },
+          { char: "万", itemIdxs: [664], done: false },
+          { char: "右", itemIdxs: [667], done: false },
+          { char: "見", itemIdxs: [671, 677], done: false },
+          { char: "道", itemIdxs: [672], done: false },
+          { char: "南", itemIdxs: [676], done: false },
           { char: "耳", itemIdxs: [678], done: false },
-          { char: "六", itemIdxs: [680, 683, 745, 746], done: true },
-          { char: "目", itemIdxs: [684, 815], done: true },
-          { char: "安", itemIdxs: [708], done: true },
-          { char: "休", itemIdxs: [709, 710], done: true },
-          { char: "山", itemIdxs: [712], done: true },
+          { char: "六", itemIdxs: [680, 683, 745, 746], done: false },
+          { char: "目", itemIdxs: [684, 815], done: false },
+          { char: "安", itemIdxs: [708], done: false },
+          { char: "休", itemIdxs: [709, 710], done: false },
+          { char: "山", itemIdxs: [712], done: false },
           { char: "有", itemIdxs: [716], done: false },
-          { char: "読", itemIdxs: [725], done: true },
+          { char: "読", itemIdxs: [725], done: false },
           { char: "夜", itemIdxs: [726], done: false },
           { char: "私", itemIdxs: [751, 752], done: false },
           { char: "結", itemIdxs: [802], done: false },
@@ -11671,7 +11751,7 @@
           { char: "念", itemIdxs: [807], done: false },
           { char: "心", itemIdxs: [808, 813], done: false },
           { char: "配", itemIdxs: [808], done: false },
-          { char: "自", itemIdxs: [809], done: true },
+          { char: "自", itemIdxs: [809], done: false },
           { char: "由", itemIdxs: [809], done: false },
           { char: "適", itemIdxs: [811], done: false },
           { char: "当", itemIdxs: [811], done: false },
@@ -16576,84 +16656,7 @@
       // TTS (Text-to-Speech)
       // =========================================================
 
-      function speakText(text, lang = "ja-JP") {
-        if (!window.speechSynthesis) {
-          console.warn("Speech synthesis not supported");
-          return;
-        }
-
-        // Cancel any ongoing speech
-        window.speechSynthesis.cancel();
-
-        // Clean the text (remove extra spaces, newlines)
-        const cleanText = text.replace(/\s+/g, " ").trim();
-        if (!cleanText) return;
-
-        const utterance = new SpeechSynthesisUtterance(cleanText);
-        utterance.lang = lang;
-        utterance.rate = 0.85; // Slightly slower for learners
-        utterance.pitch = 1;
-        utterance.volume = 1;
-
-        // Try to find a Japanese voice
-        const voices = window.speechSynthesis.getVoices();
-        const jpVoice = voices.find((v) => v.lang.startsWith("ja"));
-        if (jpVoice) utterance.voice = jpVoice;
-
-        // Visual feedback: briefly highlight the element
-        const activeEl = document.activeElement;
-        if (
-          activeEl &&
-          activeEl.closest(
-            ".jp, .vcard-reading, .fc-reading, .gram-jp, .modal-vitem-reading, .quiz-q-reading",
-          )
-        ) {
-          const el = activeEl;
-          const origBg = el.style.backgroundColor;
-          el.style.transition = "background-color 0.2s";
-          el.style.backgroundColor = "rgba(193, 64, 31, 0.15)";
-          setTimeout(() => {
-            el.style.backgroundColor = origBg || "transparent";
-          }, 400);
-        }
-
-        window.speechSynthesis.speak(utterance);
-      }
-
-      function setupSpeakableElements() {
-        const selectors = [
-          ".jp",
-          ".vcard-reading",
-          ".fc-reading",
-          ".fc-example",
-          ".gram-jp",
-          ".modal-vitem-reading",
-          ".quiz-q-reading",
-          ".gram-furigana",
-          ".draw-prompt-reading",
-          ".vcard-meaning",
-          ".fc-meaning",
-        ];
-
-        document.querySelectorAll(selectors.join(",")).forEach((el) => {
-          // Skip if already setup
-          if (el.dataset.speakable) return;
-          el.dataset.speakable = "true";
-
-          // Skip if empty
-          if (!el.textContent.trim()) return;
-
-          el.title = "Click to hear pronunciation";
-
-          el.addEventListener("click", function (e) {
-            e.stopPropagation();
-            const text = this.textContent.trim();
-            if (text) speakText(text);
-          });
-        });
-      }
-
-      // Initialize TTS
+                  // Initialize TTS
       if (window.speechSynthesis) {
         // Preload voices
         window.speechSynthesis.getVoices();
