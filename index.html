@@ -647,6 +647,18 @@
         grid-template-columns: repeat(auto-fill, minmax(78px, 1fr));
         gap: 10px;
       }
+      .quiz-best {
+        margin: 2px 0 14px;
+        font-size: 0.82rem;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      .quiz-best b {
+        color: var(--shu);
+        font-size: 0.95rem;
+      }
+
       .modal-learn {
         margin-top: 8px;
         font-size: 0.72rem;
@@ -2013,7 +2025,30 @@
           k.done = done.has(k.char);
         });
       })();
-      
+
+      // ---- personal bests (stored as a percentage so quiz length does not matter) ----
+      function getBest(mode) {
+        const bests = loadProgress().quizBest || {};
+        return typeof bests[mode] === "number" ? bests[mode] : null;
+      }
+
+      function recordBest(mode, pct) {
+        const prev = getBest(mode);
+        const isNew = prev === null || pct > prev;
+        if (isNew) {
+          const bests = Object.assign({}, loadProgress().quizBest);
+          bests[mode] = pct;
+          saveProgress({ quizBest: bests });
+        }
+        return { best: isNew ? pct : prev, isNew };
+      }
+
+      function bestLine(mode) {
+        const best = getBest(mode);
+        return best === null
+          ? "No completed attempts yet — your best score appears here."
+          : `Personal best: <b>${best}%</b>`;
+      }      
 
       const CATEGORY_ORDER = [
         "Verbs",
@@ -2915,6 +2950,7 @@
       <div class="quiz-field-label" style="margin-bottom:10px; margin-top:14px;">Number of questions</div>
       <div class="quiz-len-row" id="quizLenRow"></div>
     </div>
+    <div class="quiz-best">${bestLine("vocab")}</div>
     <button class="quiz-start-btn" id="quizStartBtn">Start quiz — <span id="quizStartCount">0</span> questions</button>
   `;
 
@@ -2971,6 +3007,7 @@
       <div class="quiz-field-label" style="margin-bottom:10px; margin-top:14px;">Number of kanji</div>
       <div class="quiz-len-row" id="kanjiLenRow"></div>
     </div>
+    <div class="quiz-best" id="kanjiBestLine">${bestLine(quizState.kanjiMode === "draw" ? "draw" : "kanji")}</div>
     <button class="quiz-start-btn" id="kanjiStartBtn">Start kanji quiz — <span id="kanjiStartCount">0</span> kanji</button>
   `;
 
@@ -2989,6 +3026,10 @@
               .querySelectorAll(".quiz-len-btn")
               .forEach((x) => x.classList.remove("active"));
             b.classList.add("active");
+            const bestEl = document.getElementById("kanjiBestLine");
+            if (bestEl) {
+              bestEl.innerHTML = bestLine(key === "draw" ? "draw" : "kanji");
+            }
             updateKanjiQuizStartCount();
           });
           modeRow.appendChild(b);
@@ -3160,9 +3201,11 @@
         const root = document.getElementById("quizRoot");
         const total = quizState.questions.length;
         const pct = total ? Math.round((quizState.score / total) * 100) : 0;
+        const best = recordBest("vocab", pct);
         root.innerHTML = `
     <div class="quiz-results">
       <div class="ring" style="--pct:${pct};"><span>${pct}%</span></div>
+      <div class="quiz-best">${best.isNew ? "🎉 New personal best!" : "Personal best:"} <b>${best.best}%</b></div>
       <div class="quiz-results-label">You got <b>${quizState.score}</b> out of <b>${total}</b> correct${quizState.scope !== "All" ? " in <b>" + escapeHtml(quizState.scope) + "</b>" : " across all categories"}.</div>
       ${
         quizState.wrong.length
@@ -3314,9 +3357,11 @@
         const pct = total
           ? Math.round((kanjiQuizState.score / total) * 100)
           : 0;
+        const best = recordBest("kanji", pct);
         root.innerHTML = `
     <div class="quiz-results">
       <div class="ring" style="--pct:${pct};"><span>${pct}%</span></div>
+      <div class="quiz-best">${best.isNew ? "🎉 New personal best!" : "Personal best:"} <b>${best.best}%</b></div>
       <div class="quiz-results-label">You got <b>${kanjiQuizState.score}</b> out of <b>${total}</b> kanji correct.</div>
       ${
         kanjiQuizState.wrong.length
@@ -3529,12 +3574,14 @@
         const total = kanjiQuizState.questions.length;
         const gotCount = kanjiQuizState.drawResults.filter((r) => r).length;
         const pct = total ? Math.round((gotCount / total) * 100) : 0;
+        const best = recordBest("draw", pct);
         const missed = kanjiQuizState.questions.filter(
           (k, i) => !kanjiQuizState.drawResults[i],
         );
         root.innerHTML = `
     <div class="quiz-results">
       <div class="ring" style="--pct:${pct};"><span>${pct}%</span></div>
+      <div class="quiz-best">${best.isNew ? "🎉 New personal best!" : "Personal best:"} <b>${best.best}%</b></div>
       <div class="quiz-results-label">You self-marked <b>${gotCount}</b> out of <b>${total}</b> kanji as correct.</div>
       ${
         missed.length
